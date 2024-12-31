@@ -4,6 +4,8 @@ import { DefaultSeo } from 'next-seo';
 import { MediaContextProvider } from "@/components/media";
 import { ReactLenis } from "lenis/react";
 import { AnimatePresence } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function App({ Component, pageProps, router }) {
 
@@ -38,6 +40,8 @@ export default function App({ Component, pageProps, router }) {
           </AnimatePresence>
         </ReactLenis>
       </MediaContextProvider>
+      <Analytics/>
+      <SpeedInsights/>
     </>
   );
 }
