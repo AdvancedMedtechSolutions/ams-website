@@ -21,6 +21,7 @@ export default function WoundCareMenu({ onBack }) {
           <ul className='space-y-[0.2vw] mobile:space-y-1'>
             <li><NavLink href="/interventional-cardiology" linkText="Interventional Cardiology" /></li>
             <li><NavLink className='uppercase' href="/advaglide" linkText="Adva Glide" /></li>
+            <li><NavLink className='uppercase' href="/nc-advaglide" linkText="NC Adva Glide" /></li>
             <li><NavLink className='uppercase' href="/advapro" linkText="Adva Pro" /></li>
             <li><NavLink href="/accessories" linkText="Coronary Accessories" /></li>
           </ul>
