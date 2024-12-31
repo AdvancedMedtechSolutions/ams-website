@@ -1,0 +1,15 @@
+.swiperSlide{
+    position: static;
+}
+.swiper :global(.swiper-wrapper) {
+    position: static;
+}
+.swiper :global(.swiper-slide-active .leaderSwiperContent) {
+    pointer-events: all;
+    opacity: 1;
+    transform: translateY(-15%) translateX(-50%);
+}
+.swiper :global(.swiper-slide-active .leader-image) {
+    transition: 0.5s;
+    opacity: 0;
+}

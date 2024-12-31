@@ -1,0 +1,15 @@
+.card {
+  position: absolute;
+  width:auto;
+  height: 15vw;
+  border-radius: 8px;
+  display: flex;
+  justify-items:center;
+  align-items: start;
+  transform-origin: left;
+  transition: transform 1s ease;
+}
+
+.card.active {
+  scale: 1.5;
+}

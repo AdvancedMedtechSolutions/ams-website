@@ -1,0 +1,36 @@
+.sliderSection {
+    height: 100vh;
+    top: 65vw;
+    position: absolute;
+    width: 100%;
+}
+  .wheel {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+    max-width: 2000px;
+    max-height: 2000px;
+    left: 49%;
+    transform: translateX(-50%);
+  }
+  .wheelCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23vw;
+    height: 26vw;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 1440px) {
+    .sliderSection {
+      height: 100vh;
+      top: 72vw;
+      position: absolute;
+      width: 100%;
+  }
+ 
+  }

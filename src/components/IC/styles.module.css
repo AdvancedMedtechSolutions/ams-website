@@ -1,0 +1,31 @@
+.icProductSwiper :global(.swiper-slide){
+    /* width: 19vw !important; */
+    /* width: fit-content !important; */
+    height:28vw !important;
+    margin-right: 2vw !important;
+    margin-top: 4vw !important;
+    
+   
+}
+.icProductSwiper :global(.swiper-slide-active){
+    /* width: 47vw !important; */
+    /* height:43vw !important; */
+    margin-top: 0vw !important;
+    margin-left: 1vw !important;
+    margin-right: 8vw !important;
+}
+.icProductSwiper :global(.swiper-slide-next){
+    display: flex ;
+    align-items: center;
+    justify-content: end;
+}
+.icProductSwiper :global(.swiper-slide-prev .icProductCard) {
+    transition: all 0.5s ease-in-out; /* Added delay of 0.2s */
+    border: none !important;
+    
+    opacity: 0;
+    margin-top: 4vw !important;
+    background-color: transparent !important;
+  }
+  
+  

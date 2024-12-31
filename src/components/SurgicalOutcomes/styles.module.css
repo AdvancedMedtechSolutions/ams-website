@@ -1,0 +1,15 @@
+.surgicalSwiper :global(.swiper-scrollbar) {
+    width: 50vw !important;
+    position: relative;
+    background-color: #e2e2e2;
+    height: 3px;
+    border-radius: 5vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .surgicalSwiper :global(.swiper-scrollbar-drag) {
+    height: 3px;
+    margin-top: 3vw;
+    background-color: #405268;
+    border-radius: 5vw;
+  }

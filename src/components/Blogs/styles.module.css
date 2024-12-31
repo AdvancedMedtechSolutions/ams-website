@@ -1,0 +1,33 @@
+.newsSwiper :global(.swiper-wrapper){
+  display: flex;
+  align-items: flex-start !important;
+  height: 100%;
+  justify-content: flex-start;
+  padding-bottom: 5vw;
+}
+.newsSwiper :global(.swiper-scrollbar){
+  width: 50vw !important;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  margin-top: 5vw !important;
+}
+@media screen and (max-width: 541px) {
+.newsSwiper :global(.swiper-slide){
+  height: 80%;
+  width: 80%;
+}
+.newsSwiper :global(.swiper-scrollbar){
+  top:90%;
+}
+}
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+.newsSwiper :global(.swiper-slide){
+  height: 85%;
+}
+.newsSwiper :global(.swiper-wrapper){
+  padding-bottom: 8vw;
+}
+
+}
+

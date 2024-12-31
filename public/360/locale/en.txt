@@ -1,0 +1,235 @@
+#: locale=en
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Advanced Medtech Solutions
+
+## Skin
+
+### Button
+Button_068805C6_1D2B_7E7C_41A2_74A4E1BE4836.label = Board Room
+Button_068805C6_1D2B_7E7C_41A2_74A4E1BE4836.pressedLabel = Board Room
+Button_068805C6_1D2B_7E7C_41A2_74A4E1BE4836_mobile.label = Board Room
+Button_068805C6_1D2B_7E7C_41A2_74A4E1BE4836_mobile.pressedLabel = Board Room
+Button_0688E5C5_1D2B_7E7C_41AF_526C2C63E2F4.label = Lower Level
+Button_0688E5C5_1D2B_7E7C_41AF_526C2C63E2F4.pressedLabel = Lower Level
+Button_0688E5C5_1D2B_7E7C_41AF_526C2C63E2F4_mobile.label = Lower Level
+Button_0688E5C5_1D2B_7E7C_41AF_526C2C63E2F4_mobile.pressedLabel = Lower Level
+Button_068A65C4_1D2B_7E7C_41B2_4A76800900A6.label = Driveway
+Button_068A65C4_1D2B_7E7C_41B2_4A76800900A6.pressedLabel = Driveway
+Button_068A65C4_1D2B_7E7C_41B2_4A76800900A6_mobile.label = Driveway
+Button_068A65C4_1D2B_7E7C_41B2_4A76800900A6_mobile.pressedLabel = Driveway
+Button_068A95C3_1D2B_7E74_41A7_7488275A65DD.label = Entrance
+Button_068A95C3_1D2B_7E74_41A7_7488275A65DD.pressedLabel = Entrance
+Button_068A95C3_1D2B_7E74_41A7_7488275A65DD_mobile.label = Entrance
+Button_068A95C3_1D2B_7E74_41A7_7488275A65DD_mobile.pressedLabel = Entrance
+Button_069715C7_1D2B_7E7C_41B5_A2E7F1C778B5.label = Stairway to Upper Level
+Button_069715C7_1D2B_7E7C_41B5_A2E7F1C778B5.pressedLabel = Stairway to Upper Level
+Button_069715C7_1D2B_7E7C_41B5_A2E7F1C778B5_mobile.label = Stairway to Upper Level
+Button_069715C7_1D2B_7E7C_41B5_A2E7F1C778B5_mobile.pressedLabel = Stairway to Upper Level
+Button_2402B786_2B10_5C56_41B8_F5CB8E0D2D46.label = Auditorium
+Button_2402B786_2B10_5C56_41B8_F5CB8E0D2D46.pressedLabel = Auditorium
+Button_2402B786_2B10_5C56_41B8_F5CB8E0D2D46_mobile.label = Auditorium
+Button_2402B786_2B10_5C56_41B8_F5CB8E0D2D46_mobile.pressedLabel = Auditorium
+Button_24716C76_2AF1_CCB6_41A0_BD7C88176D8A.label = Secondary Packaging
+Button_24716C76_2AF1_CCB6_41A0_BD7C88176D8A.pressedLabel = Secondary Packaging
+Button_24716C76_2AF1_CCB6_41A0_BD7C88176D8A_mobile.label = Secondary Packaging
+Button_24716C76_2AF1_CCB6_41A0_BD7C88176D8A_mobile.pressedLabel = Secondary Packaging
+Button_24AA47C2_2AF3_DBCF_4198_09F18F17197B.label = Passage to Suture Manufacturing
+Button_24AA47C2_2AF3_DBCF_4198_09F18F17197B.pressedLabel = Passage to Suture Manufacturing
+Button_24AA47C2_2AF3_DBCF_4198_09F18F17197B_mobile.label = Passage to Suture Manufacturing
+Button_24AA47C2_2AF3_DBCF_4198_09F18F17197B_mobile.pressedLabel = Passage to Suture Manufacturing
+Button_24C53F8A_2AF0_4C5F_41B2_AC724E9C6A41.label = Passage to Sterilization
+Button_24C53F8A_2AF0_4C5F_41B2_AC724E9C6A41.pressedLabel = Passage to Sterilization
+Button_24C53F8A_2AF0_4C5F_41B2_AC724E9C6A41_mobile.label = Passage to Sterilization
+Button_24C53F8A_2AF0_4C5F_41B2_AC724E9C6A41_mobile.pressedLabel = Passage to Sterilization
+Button_24E23313_2AF0_F44E_4173_3C9F0C92C106.label = Suture Manufacturing
+Button_24E23313_2AF0_F44E_4173_3C9F0C92C106.pressedLabel = Suture Manufacturing
+Button_24E23313_2AF0_F44E_4173_3C9F0C92C106_mobile.label = Suture Manufacturing
+Button_24E23313_2AF0_F44E_4173_3C9F0C92C106_mobile.pressedLabel = Suture Manufacturing
+Button_25A5C771_2AEF_DCCA_41A4_54019343F6A6.label = Library
+Button_25A5C771_2AEF_DCCA_41A4_54019343F6A6.pressedLabel = Library
+Button_25A5C771_2AEF_DCCA_41A4_54019343F6A6_mobile.label = Library
+Button_25A5C771_2AEF_DCCA_41A4_54019343F6A6_mobile.pressedLabel = Library
+Button_2A04F342_259B_EFA2_41AA_6A3E15948478.label = Reception
+Button_2A04F342_259B_EFA2_41AA_6A3E15948478.pressedLabel = Reception
+Button_2A04F342_259B_EFA2_41AA_6A3E15948478_mobile.label = Reception
+Button_2A04F342_259B_EFA2_41AA_6A3E15948478_mobile.pressedLabel = Reception
+Button_2A26E76F_259B_F662_41B3_F3DD2B9F7E5F.label = Video Conferencing Room
+Button_2A26E76F_259B_F662_41B3_F3DD2B9F7E5F.pressedLabel = Video Conferencing Room
+Button_2A26E76F_259B_F662_41B3_F3DD2B9F7E5F_mobile.label = Video Conferencing Room
+Button_2A26E76F_259B_F662_41B3_F3DD2B9F7E5F_mobile.pressedLabel = Video Conferencing Room
+Button_31172DD4_2D30_4FCA_41B1_1C4ED7FB9B90.label = Utilities
+Button_31172DD4_2D30_4FCA_41B1_1C4ED7FB9B90.pressedLabel = Utilities
+Button_31172DD4_2D30_4FCA_41B1_1C4ED7FB9B90_mobile.label = Utilities
+Button_31172DD4_2D30_4FCA_41B1_1C4ED7FB9B90_mobile.pressedLabel = Utilities
+Button_318BD0BB_2D33_D5BD_41BA_B2228B1048F1.label =  Engineering Courtyard
+Button_318BD0BB_2D33_D5BD_41BA_B2228B1048F1.pressedLabel =  Engineering Courtyard
+Button_318BD0BB_2D33_D5BD_41BA_B2228B1048F1_mobile.label =  Engineering Courtyard
+Button_318BD0BB_2D33_D5BD_41BA_B2228B1048F1_mobile.pressedLabel =  Engineering Courtyard
+Button_31E4FAFE_2D30_55B6_419B_EAFD3C8357BB.label = Service Floor
+Button_31E4FAFE_2D30_55B6_419B_EAFD3C8357BB.pressedLabel = Service Floor
+Button_31E4FAFE_2D30_55B6_419B_EAFD3C8357BB_mobile.label = Service Floor
+Button_31E4FAFE_2D30_55B6_419B_EAFD3C8357BB_mobile.pressedLabel = Service Floor
+Button_366EA442_2D10_FCCE_41BF_ACD80A4693E9.label = Physical Testing Laboratory
+Button_366EA442_2D10_FCCE_41BF_ACD80A4693E9.pressedLabel = Physical Testing Laboratory
+Button_366EA442_2D10_FCCE_41BF_ACD80A4693E9_mobile.label = Physical Testing Laboratory
+Button_366EA442_2D10_FCCE_41BF_ACD80A4693E9_mobile.pressedLabel = Physical Testing Laboratory
+Button_373976B1_2D13_DC4D_41C5_1400A2377334.label = Surgical Simulation Center
+Button_373976B1_2D13_DC4D_41C5_1400A2377334.pressedLabel = Surgical Simulation Center
+Button_373976B1_2D13_DC4D_41C5_1400A2377334_mobile.label = Surgical Simulation Center
+Button_373976B1_2D13_DC4D_41C5_1400A2377334_mobile.pressedLabel = Surgical Simulation Center
+Button_373E8669_2D10_5CDA_41C0_99EA0A7326BE.label = Instrumentation Laboratory
+Button_373E8669_2D10_5CDA_41C0_99EA0A7326BE.pressedLabel = Instrumentation Laboratory
+Button_373E8669_2D10_5CDA_41C0_99EA0A7326BE_mobile.label = Instrumentation Laboratory
+Button_373E8669_2D10_5CDA_41C0_99EA0A7326BE_mobile.pressedLabel = Instrumentation Laboratory
+Button_3779106A_2D13_F4DE_41C2_5DAD12E88C1E.label = Stability Chambers
+Button_3779106A_2D13_F4DE_41C2_5DAD12E88C1E.pressedLabel = Stability Chambers
+Button_3779106A_2D13_F4DE_41C2_5DAD12E88C1E_mobile.label = Stability Chambers
+Button_3779106A_2D13_F4DE_41C2_5DAD12E88C1E_mobile.pressedLabel = Stability Chambers
+Button_38F27D5F_2D30_4CF6_41C4_9EBBA4A462E0.label = Admin Courtyard
+Button_38F27D5F_2D30_4CF6_41C4_9EBBA4A462E0.pressedLabel = Admin Courtyard
+Button_38F27D5F_2D30_4CF6_41C4_9EBBA4A462E0_mobile.label = Admin Courtyard
+Button_38F27D5F_2D30_4CF6_41C4_9EBBA4A462E0_mobile.pressedLabel = Admin Courtyard
+Button_3A9F10B4_2DF3_D44B_41C3_47E7D8C819E0.label = Interventional Cardiology Lab
+Button_3A9F10B4_2DF3_D44B_41C3_47E7D8C819E0.pressedLabel = Interventional Cardiology Lab
+Button_3A9F10B4_2DF3_D44B_41C3_47E7D8C819E0_mobile.label = Interventional Cardiology Lab
+Button_3A9F10B4_2DF3_D44B_41C3_47E7D8C819E0_mobile.pressedLabel = Interventional Cardiology Lab
+Button_3AAA1E82_2DF3_CC4F_413A_3861FF2C5FFC.label = Stent Crimping
+Button_3AAA1E82_2DF3_CC4F_413A_3861FF2C5FFC.pressedLabel = Stent Crimping
+Button_3AAA1E82_2DF3_CC4F_413A_3861FF2C5FFC_mobile.label = Stent Crimping
+Button_3AAA1E82_2DF3_CC4F_413A_3861FF2C5FFC_mobile.pressedLabel = Stent Crimping
+Button_3B245D06_2DF0_4C56_41A6_3DFED00F9738.label = Quality Conference Room
+Button_3B245D06_2DF0_4C56_41A6_3DFED00F9738.pressedLabel = Quality Conference Room
+Button_3B245D06_2DF0_4C56_41A6_3DFED00F9738_mobile.label = Quality Conference Room
+Button_3B245D06_2DF0_4C56_41A6_3DFED00F9738_mobile.pressedLabel = Quality Conference Room
+Button_3B36BC7A_2DF0_4CBE_41C6_2F0D43B9D98C.label = Q.A/R.A. Department
+Button_3B36BC7A_2DF0_4CBE_41C6_2F0D43B9D98C.pressedLabel = Q.A/R.A. Department
+Button_3B36BC7A_2DF0_4CBE_41C6_2F0D43B9D98C_mobile.label = Q.A/R.A. Department
+Button_3B36BC7A_2DF0_4CBE_41C6_2F0D43B9D98C_mobile.pressedLabel = Q.A/R.A. Department
+Button_3B4D49D6_2DF0_57F6_41B3_35C0AB4C11F2.label = Entrance to Q.A./R.A. Department
+Button_3B4D49D6_2DF0_57F6_41B3_35C0AB4C11F2.pressedLabel = Entrance to Q.A./R.A. Department
+Button_3B4D49D6_2DF0_57F6_41B3_35C0AB4C11F2_mobile.label = Entrance to Q.A./R.A. Department
+Button_3B4D49D6_2DF0_57F6_41B3_35C0AB4C11F2_mobile.pressedLabel = Entrance to Q.A./R.A. Department
+Button_3B4FDEAC_2DF0_CC5A_41B2_EE7AAFCFC720.label = Finished Goods Warehouse
+Button_3B4FDEAC_2DF0_CC5A_41B2_EE7AAFCFC720.pressedLabel = Finished Goods Warehouse
+Button_3B4FDEAC_2DF0_CC5A_41B2_EE7AAFCFC720_mobile.label = Finished Goods Warehouse
+Button_3B4FDEAC_2DF0_CC5A_41B2_EE7AAFCFC720_mobile.pressedLabel = Finished Goods Warehouse
+Button_3B66C8BB_2DF0_35BE_41B7_19F0E728249C.label = Raw Material Warehouse
+Button_3B66C8BB_2DF0_35BE_41B7_19F0E728249C.pressedLabel = Raw Material Warehouse
+Button_3B66C8BB_2DF0_35BE_41B7_19F0E728249C_mobile.label = Raw Material Warehouse
+Button_3B66C8BB_2DF0_35BE_41B7_19F0E728249C_mobile.pressedLabel = Raw Material Warehouse
+Button_3B6BAA0B_2DF0_D45E_4190_93B9A4412938.label = Cafeteria
+Button_3B6BAA0B_2DF0_D45E_4190_93B9A4412938.pressedLabel = Cafeteria
+Button_3B6BAA0B_2DF0_D45E_4190_93B9A4412938_mobile.label = Cafeteria
+Button_3B6BAA0B_2DF0_D45E_4190_93B9A4412938_mobile.pressedLabel = Cafeteria
+Button_3BB72C0D_2DF3_CC5A_41A3_F2D52D304DEA.label = Stent Drug Coating
+Button_3BB72C0D_2DF3_CC5A_41A3_F2D52D304DEA.pressedLabel = Stent Drug Coating
+Button_3BB72C0D_2DF3_CC5A_41A3_F2D52D304DEA_mobile.label = Stent Drug Coating
+Button_3BB72C0D_2DF3_CC5A_41A3_F2D52D304DEA_mobile.pressedLabel = Stent Drug Coating
+Button_3BC7698C_2DF0_345B_41B0_817C4751BB7D.label = Catheter Manufaturing
+Button_3BC7698C_2DF0_345B_41B0_817C4751BB7D.pressedLabel = Catheter Manufaturing
+Button_3BC7698C_2DF0_345B_41B0_817C4751BB7D_mobile.label = Catheter Manufaturing
+Button_3BC7698C_2DF0_345B_41B0_817C4751BB7D_mobile.pressedLabel = Catheter Manufaturing
+Button_3BE1108C_2DF0_745B_41BB_745D5A7E6952.label = Interventional Cardiology Clean Room Corridor
+Button_3BE1108C_2DF0_745B_41BB_745D5A7E6952.pressedLabel = Interventional Cardiology Clean Room Corridor
+Button_3BE1108C_2DF0_745B_41BB_745D5A7E6952_mobile.label = Interventional Cardiology Clean Room Corridor
+Button_3BE1108C_2DF0_745B_41BB_745D5A7E6952_mobile.pressedLabel = Interventional Cardiology Clean Room Corridor
+Button_3BEEDF26_2DF0_CC57_4196_3A896744AF2B.label = Central Courtyard
+Button_3BEEDF26_2DF0_CC57_4196_3A896744AF2B.pressedLabel = Central Courtyard
+Button_3BEEDF26_2DF0_CC57_4196_3A896744AF2B_mobile.label = Central Courtyard
+Button_3BEEDF26_2DF0_CC57_4196_3A896744AF2B_mobile.pressedLabel = Central Courtyard
+Button_8C40335C_9007_8526_41D0_658E1292D324.label = Sterilization
+Button_8C40335C_9007_8526_41D0_658E1292D324.pressedLabel = Sterilization
+Button_8C40335C_9007_8526_41D0_658E1292D324_mobile.label = Sterilization
+Button_8C40335C_9007_8526_41D0_658E1292D324_mobile.pressedLabel = Sterilization
+Button_8D0F054F_9001_8D22_41CC_8387562E213F.label = Incubators
+Button_8D0F054F_9001_8D22_41CC_8387562E213F.pressedLabel = Incubators
+Button_8D0F054F_9001_8D22_41CC_8387562E213F_mobile.label = Incubators
+Button_8D0F054F_9001_8D22_41CC_8387562E213F_mobile.pressedLabel = Incubators
+
+### Dropdown
+DropDown_2710071E_2AF0_7C76_41BA_F8AC900043F8.prompt = Wound Closure
+DropDown_2710071E_2AF0_7C76_41BA_F8AC900043F8_mobile.prompt = Wound Closure
+DropDown_32DAE0A1_2D33_F44D_4166_6CE58D52C429.prompt = Engineering
+DropDown_32DAE0A1_2D33_F44D_4166_6CE58D52C429_mobile.prompt = Engineering
+DropDown_32F98482_25EF_AAA2_41BD_01F765D5FE02.prompt = Admin Block
+DropDown_32F98482_25EF_AAA2_41BD_01F765D5FE02_mobile.prompt = Admin Block
+DropDown_3B040E5C_2DF3_CCFB_41B2_40EAC0AA2EB5.prompt = Quality Assurance and Regulatory Affairs
+DropDown_3B040E5C_2DF3_CCFB_41B2_40EAC0AA2EB5_mobile.prompt = Quality Assurance and Regulatory Affairs
+DropDown_3B0A26DA_2DF0_3DFF_41B3_C2EF73FB72A1.prompt = Interventional Cardiology
+DropDown_3B0A26DA_2DF0_3DFF_41B3_C2EF73FB72A1_mobile.prompt = Interventional Cardiology
+DropDown_3B4C2F33_2DF0_4C4E_41AF_F0244651618E.prompt = Warehouse
+DropDown_3B4C2F33_2DF0_4C4E_41AF_F0244651618E_mobile.prompt = Warehouse
+
+### Multiline Text
+HTMLText_2681ECD9_310E_C3E2_41B7_AA8342F98837.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:7px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;font-size:12px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;">Disclaimer: This file is confidential and intended solely for the use of the individual or entity to whom it is addressed. It may also be legally privileged. Any unauthorized copying or distribution of the material is strictly prohibited. If you have received this in error, please delete it immediately and don’t disseminate, distribute or copy the file.    <B>                    </B></SPAN></DIV><p STYLE="margin:0; line-height:12px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_2681ECD9_310E_C3E2_41B7_AA8342F98837_mobile.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:3.5px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:6px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:justify;font-size:6px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-size:6px;font-family:Arial, Helvetica, sans-serif;">Disclaimer: This file is confidential and intended solely for the use of the individual or entity to whom it is addressed. It may also be legally privileged. Any unauthorized copying or distribution of the material is strictly prohibited. If you have received this in error, please delete it immediately and don’t disseminate, distribute or copy the file.    <B>                    </B></SPAN></DIV><p STYLE="margin:0; line-height:6px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:6px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_C834360B_E2FA_ED6B_41CC_AC5C1A9544F6.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:right;font-size:28px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:15px;">    </SPAN><SPAN STYLE="font-size:16px;"><B>              </B></SPAN><SPAN STYLE="font-size:28px;"><B>      </B></SPAN><SPAN STYLE="color:#7488a5;font-size:28px;"><B>{{TITLE}}</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:28px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_C834360B_E2FA_ED6B_41CC_AC5C1A9544F6_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:right;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:7.5px;">    </SPAN><SPAN STYLE="font-size:8px;"><B>              </B></SPAN><SPAN STYLE="font-size:14px;"><B>      </B></SPAN><SPAN STYLE="color:#7488a5;font-size:14px;"><B>{{TITLE}}</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:6px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_C8B0BB55_E2F5_3BFF_41C2_DE5F1A5D17B1.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:right;font-size:3.060109289617482vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.06vmin;"><B>                           </B></SPAN></SPAN></DIV></div>
+HTMLText_C8B0BB55_E2F5_3BFF_41C2_DE5F1A5D17B1_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:right;font-size:3.060109289617482vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.06vmin;"><B>                           </B></SPAN></SPAN></DIV></div>
+HTMLText_C92A5623_E2F5_2D5A_41C1_78C49B174093.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:28px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#7488a5;font-size:28px;"><B>{{TITLE}}</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:28px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_C92A5623_E2F5_2D5A_41C1_78C49B174093_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#7488a5;font-size:14px;"><B>{{TITLE}}</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:6px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_F8F83F0F_E2AB_7B6B_41E6_86B853823C82.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:justify;font-size:28px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:15px;">    </SPAN><SPAN STYLE="font-size:16px;"><B>              </B></SPAN><SPAN STYLE="font-size:28px;"><B>      </B></SPAN><SPAN STYLE="color:#7488a5;font-size:28px;"><B>{{subtitle}}</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:28px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_F8F83F0F_E2AB_7B6B_41E6_86B853823C82_mobile.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:justify;font-size:14px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-line;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:7.5px;">    </SPAN><SPAN STYLE="font-size:8px;"><B>              </B></SPAN><SPAN STYLE="font-size:14px;"><B>      </B></SPAN><SPAN STYLE="color:#7488a5;font-size:14px;"><B>{{subtitle}}</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:6px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+
+## Media
+
+### Title
+album_174D9900_C5B3_8719_41D8_319F210611EC.label = Watson
+panorama_7E8AA422_C4AF_8D19_41E2_0215C2534198.label = Central Courtyard
+panorama_85F31597_8BC8_1991_41D6_FFC4B20A0114.label = Raw Material Warehouse
+panorama_85F35462_8BC8_3EB2_41DA_2BF4750B1EAB.label = Finished Goods Warehouse
+panorama_85F46B6F_8BC8_0AB2_41C7_6AFB5773E8E4.label = Stent Crimping
+panorama_85F496EA_8BC8_7BB3_41AB_02966F8C15AC.label = Sterilization
+panorama_85F4A297_8BC8_1B91_41DB_50FBC1C85A28.label = Auditorium
+panorama_85F4DD0E_8BC8_0E72_41D3_63706400E554.label = Stent Drug Coating
+panorama_B724A327_E6B7_EB5A_41EC_4CFF53BFB151.label = Secondary Packaging
+panorama_C654C3C4_C91D_CA85_41C7_6F6D283B4FD9.label = Engineering Courtyard
+panorama_C7CBDEA7_C962_5A83_41E8_D6AEA1E4FD5B.label = Engineering Courtyard 
+panorama_D824B7BA_C450_8B62_41E6_E38CA5F19519.label = Suture Manufacturing
+panorama_D8A4BC5D_C3B0_9D2B_41E4_E73F417ADD93.label = Einstein
+panorama_D8ED1950_C3AF_8738_41D5_EEA3E565053D.label = Secondary Packaging
+panorama_D8F10B7D_C3B0_9BE8_41E5_44CCC7C24264.label = Catheter Manufacturing
+panorama_D8FA8C77_C3B0_BDE7_41DD_A89F6AEC1E2E.label = Library
+panorama_D9080AC2_C3B3_8518_41B5_DF16AA23EB7D.label = Administration Block
+panorama_D99C85A0_C4B0_8F19_41A8_04E26FC583C6.label = Service Floor
+panorama_E990F59A_CB2E_5578_41E7_4155DFD11DE5.label = Q.A./R.A. Department
+panorama_EF23A8B4_CB22_FB48_41E6_BA9886DACE53.label = Utilities
+panorama_F3921999_FD5E_F2E5_4164_55150164F610.label = Interventional Cardiology Lab
+panorama_F3B1ED80_FD59_92E3_41CF_E4DE196B0486.label = Surgical Simulation Center
+photo_0BDDBC64_077D_91F7_4146_FD4D702DB644.label = _SP_3368 copy .jpg3
+photo_0BDDBC64_077D_91F7_4146_FD4D702DB644.label = _SP_3368 copy .jpg3
+photo_0D1B784C_2FCB_C262_41C5_BED71896E70E.label = _DSC6955
+photo_0DF4D763_03B0_6E89_4187_2B9799A15260.label = _SP_3127 copy
+photo_0DF4D763_03B0_6E89_4187_2B9799A15260.label = _SP_3127 copy
+photo_8726569F_E7EB_2D6B_41D7_A9FE7322D7F8.label = Sterilizer-1 copy
+photo_8726569F_E7EB_2D6B_41D7_A9FE7322D7F8.label = Sterilizer-1 copy
+photo_B4E8654D_E6AB_2FEE_41CA_5CB78B28C054.label = _DSC6955
+photo_B4E8654D_E6AB_2FEE_41CA_5CB78B28C054.label = _DSC6955
+photo_F2AC065A_E8AD_8CED_41E0_F475704B834B.label = _SP_3106 copy
+photo_F2AC065A_E8AD_8CED_41E0_F475704B834B.label = _SP_3106 copy
+
+## Hotspot
+
+### Tooltip
+FlatHotspotPanoramaOverlayArea_AC2916BB_BB0E_9273_41E6_8CEED5C45374.toolTip =  \
+
+FlatHotspotPanoramaOverlayArea_ADC43C51_E59D_1DF7_41E6_48C7E8158E88.toolTip =  \
+
+HotspotPanoramaOverlayArea_7C4FB6AE_C4F1_8D69_41E1_68E108C9D69E.toolTip = EXIT
+
+## E-Learning
+
+### Score Name
+score1.label = Score 1
+
+### Question Screen
+
+### Report Screen
+
+### Timeout Screen

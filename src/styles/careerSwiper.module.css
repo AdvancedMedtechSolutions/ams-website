@@ -1,0 +1,72 @@
+.careerSwiper .MySwiper {
+    padding-bottom: 5vw;
+}
+.careerSwiper .swiper-pagination-bullet {
+    border: 1px solid black;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.careerSwiper .swiper-pagination-bullet-active {
+    width: 2vw;
+    border-radius: 10px;
+    background-color: #143CA3;
+    margin-top: 8vw;
+}
+
+/* Hide default navigation buttons */
+.careerSwiper .swiper-button-next,
+.careerSwiper .swiper-button-prev {
+    display: none;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 541px) {
+    .careerSwiper .MySwiper {
+        padding-bottom: 20vw;
+    }
+
+    /* Style active slides on smaller screens */
+    .careerSwiper .swiper-slide-active .career-card {
+        background-color: #D9E2FB80;
+        transition: background-color 0.5s ease;
+    }
+
+    .careerSwiper .swiper-slide-next .career-card .location {
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: background-color 0.5s ease;
+    }
+
+    /* Hide pagination bullets on small screens */
+    .careerSwiper .swiper-pagination {
+        display: block !important;
+    }
+
+    /* Show custom next/prev buttons */
+    .careerSwiper .swiper-button-prev,
+    .careerSwiper .swiper-button-next {
+        display: block;
+        position: relative;
+    }
+
+    .careerSwiper .swiper-button-prev {
+        left: 32%;
+        bottom: -70px;
+    }
+
+    .careerSwiper .swiper-button-next {
+        left: 52%;
+        bottom: -48px;
+    }
+
+    .careerSwiper .swiper-button-prev::after,
+    .careerSwiper .swiper-button-next::after {
+        color: black;
+        border: 2px solid black;
+        font-size: 30px;
+        padding: 3vw 5vw;
+        border-radius: 50%;
+    }
+}

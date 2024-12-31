@@ -1,0 +1,147 @@
+.offeringSwiper {
+    padding-bottom: 2.5vw;
+    padding-left: 5%; padding-right: 5%;
+}
+.offeringSwiper :global(.swiper-scrollbar) {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.cardHead{
+    font-weight: 300;
+    font-family: 'Aeonik';
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.cardHead h4{
+    font-size: 2.5vw;
+}
+.cardHead p{
+    font-size: 1.75vw;
+}
+.cardMain {
+    border-radius: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    height: 36vw;
+    overflow: hidden;
+}
+.bulletPoint {
+    background-color: white;
+    height: 1.25rem;
+    width: 1.25rem;
+    padding: 4px;
+    box-shadow: 0px 0px 8px 4px #4d7ec8;
+    border-radius: 50%;
+}
+.bulletPoint span{
+    background-color: #5885ee;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: blur(2.5px);
+}
+.cardText {
+    font-weight: 300;
+    font-size: 1.25vw;
+    text-align: right;
+    padding-bottom: 3vw;
+    position: relative;
+    z-index: 10;
+    text-wrap: wrap;
+}
+.cardText p{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    justify-content: flex-end;
+    transition: all 0.5s;
+}
+.cardText p:hover{
+    scale: 1.05;
+}
+.bigImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52%;
+}
+.cardTextContainer {
+    width: 50%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+    .offeringSwiper {
+        padding-bottom: 3rem;
+    }
+
+    .cardHead h4{
+        font-size: 3.5vw;
+    }
+    .cardHead p{
+        font-size: 2.4vw;
+    }
+    .cardMain {
+        height: 50vw;
+        padding-left: 2vw;
+    }
+    .bulletPoint {
+        height: 1.1rem;
+        width: 1.1rem;
+    }
+    .cardText {
+        font-size: 2vw;
+    }
+    .cardText p{
+        margin-top: 8%;
+        gap: 1.5rem;
+    }
+    .cardTextContainer {
+        width: 60%;
+    }
+    .bigImage {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 540px) { 
+    .cardHead h4{
+        font-size: 5.8vw;
+    }
+    .cardHead p{
+        font-size: 4.1vw;
+    }
+    .cardMain {
+        height: 90vw;   
+    }
+    .bulletPoint {
+        height: 0.75rem;
+        width: 0.75rem;
+        padding: 2px;
+    }
+    .cardText {
+        font-size: 4vw;
+        text-align: left;
+    }
+    .cardText p{
+        margin-top: 5%;
+        flex-direction: row-reverse;
+    }
+    .cardTextContainer {
+        width: 100%;
+        display: block;
+        padding: 10% 8%;
+    }
+    .bigImage {
+        width: 100%;
+        opacity: 0.25;
+    }
+}

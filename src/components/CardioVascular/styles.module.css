@@ -1,0 +1,13 @@
+.cardiovascularSwiper .swiper-slide-active {
+    scale:0.7;
+   }
+   .cardiovascularSwiper .prev-slide  .cardiovascularSwiper .swiper-slide-next{
+     scale: 0.7;
+   }
+   .cardiovascularSwiper .next-to-next-slide, .cardiovascularSwiper .prev-to-prev-slide {
+     scale:0.7;
+   }
+   .cardiovascularSwiper{
+     overflow: visible !important;
+   }
+   

@@ -1,0 +1,86 @@
+.endoSmallSwiper {
+    /* width: 40%; */
+    position: relative;
+    left: -10%;
+    top: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.endoSwiper {
+    width: 85vw !important;
+}
+.endoSwiper :global(.swiper-slide) {
+    width: 85vw !important;
+}
+
+.endoSwiper :global(.swiper-button-prev),
+.endoSwiper :global(.swiper-button-next) {
+    display: none;
+}
+.endoSwiper :global(.swiper-button-prev::after),
+.endoSwiper :global(.swiper-button-next::after) {
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3vw 5vw;
+    transition: background-color 0.3s ease;
+}
+
+.endoSwiper :global(.swiper-button-prev.clicked::after),
+.endoSwiper :global(.swiper-button-next.clicked::after) {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+}
+
+@media screen and (max-width: 541px) {
+    .endoSwiper {
+        width: 90vw;
+    }
+
+    .endoSwiper :global(.swiper-slide) {
+        width: 90vw !important;
+    }
+
+    .endoSwiper {
+        padding-bottom: 20vw;
+    }
+
+    .endoSwiper :global(.swiper-button-prev),
+    .endoSwiper :global(.swiper-button-next) {
+        display: block;
+        top: 90%;
+    }
+
+    .endoSwiper :global(.swiper-button-prev) {
+        left: 32%;
+        bottom: -50px;
+    }
+
+    .endoSwiper :global(.swiper-button-next) {
+        left: 52%;
+        bottom: -30px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+    .endoSwiper :global(.swiper-slide) {
+        height: 60vw;
+    }
+
+    .endoSmallSwiper {
+        width: 58vw;
+    }
+
+    .endoSmallSwiper img {
+        height: 10vw !important;
+        max-width: 18vw;
+        border-radius: 20px;
+        
+    }
+
+    .endoSmallSwiper :global(.swiper-slide) {
+        margin-right: 10vw !important;
+    }
+}
