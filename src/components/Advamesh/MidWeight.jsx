@@ -5,7 +5,7 @@ const MidWeight = () => {
   return (
     <section
         className="overflow-hidden mobile:py-[15%] relative py-[7%] tablet:py-[10%]"
-        id="mid-weight-mesh"
+        id="medium-weight-mesh"
       >
         <div className="w-screen h-[50vw] container-lg z-[5] mobile:h-full tablet:h-full">
           <div className="w-full h-full flex flex-col items-center justify-center pb-[5vw] tablet:justify-start mobile:justify-start ">

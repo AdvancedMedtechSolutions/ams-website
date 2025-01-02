@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { NavLink } from './NavLink';
@@ -20,10 +21,37 @@ export default function HerniaSolutionsMenu({ onBack }) {
       </button>
       <div className='flex items-start gap-[3vw] pt-1'>
         <ul className='space-y-[0.2vw] mobile:space-y-1'>
-          <li><NavLink href="/hernia" linkText="Hernia Solutions" /></li>
-          <li><NavLink href="/advamesh#polypropylene-mesh" linkText="ADVAMESH" /></li>
-          <li><NavLink href="/advamesh#mid-weight-mesh" linkText="ADVAMESH Medium Weight"/></li>
-          <li><NavLink href="/advamesh#macroporous-mesh" linkText="ADVAMESH Macroporous" /></li>
+          <li><NavLink href="/products/hernia-solutions" linkText="Hernia Solutions" /></li>
+          <li>
+          <a href="/hernia-solutions/advamesh-hernia-mesh#polypropylene-mesh" className={`text-[1.3vw] fade-in-0 leading-tight text-body tablet:text-[2.3vw] mobile:text-[5vw] overflow-hidden block relative group aeonik font-light `}>
+                <span
+                  data-attr="ADVAMESH"
+                  className="inline-block transition-transform duration-500 ease-out after:absolute after:left-0 after:-bottom-0 after:translate-y-full after:content-[attr(data-attr)] group-hover:-translate-y-full"
+                >
+                  ADVAMESH
+                </span>
+              </a>
+            </li>
+          <li>
+          <a href="/hernia-solutions/advamesh-hernia-mesh#medium-weight-mesh" className={`text-[1.3vw] fade-in-0 leading-tight text-body tablet:text-[2.3vw] mobile:text-[5vw] overflow-hidden block relative group aeonik font-light `}>
+                <span
+                  data-attr="ADVAMESH Medium Weight"
+                  className="inline-block transition-transform duration-500 ease-out after:absolute after:left-0 after:-bottom-0 after:translate-y-full after:content-[attr(data-attr)] group-hover:-translate-y-full"
+                >
+                  ADVAMESH Medium Weight
+                </span>
+              </a>
+          </li>
+          <li>
+          <a href="/hernia-solutions/advamesh-hernia-mesh#macroporous-mesh" className={`text-[1.3vw] fade-in-0 leading-tight text-body tablet:text-[2.3vw] mobile:text-[5vw] overflow-hidden block relative group aeonik font-light `}>
+                <span
+                  data-attr="ADVAMESH Macroporous"
+                  className="inline-block transition-transform duration-500 ease-out after:absolute after:left-0 after:-bottom-0 after:translate-y-full after:content-[attr(data-attr)] group-hover:-translate-y-full"
+                >
+                  ADVAMESH Macroporous
+                </span>
+              </a>
+           </li>
         </ul>
       </div>
     </div>

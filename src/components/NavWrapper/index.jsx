@@ -78,7 +78,7 @@ function MainNav({ onSelectMenu }) {
                 <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/"} linkText="Home" />
             </li>
             <li>
-                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/about"} linkText="About" />
+                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/about-us"} linkText="About" prefetch={false} />
             </li>
             <li>
                 <button onClick={() => onSelectMenu('products')} className={`text-[1.5vw] fade-in-0 leading-tight text-body tablet:text-[2.5vw] mobile:text-[5.5vw] overflow-hidden block relative group aeonik font-light`}>
@@ -103,13 +103,13 @@ function MainNav({ onSelectMenu }) {
                 </button>
             </li>
             <li>
-                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/ama"} linkText="Advanced MedTech Academy" />
+                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/advanced-medtech-academy-ama"} linkText="Advanced MedTech Academy" />
             </li>
             <li>
                 <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/career"} linkText="Career" />
             </li>
             <li>
-                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/news"} linkText="Newsroom" />
+                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/newsroom"} linkText="Newsroom" />
             </li>
             <li>
                 <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/contact-us"} linkText="Contact" />

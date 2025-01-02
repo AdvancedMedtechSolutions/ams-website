@@ -55,37 +55,37 @@ const Product = () => {
       imgSrc: "/assets/endo/Product1.png",
       heading: "Advastap POWERED LC",
       text: '3-Row Powered Linear Cutter',
-      link: "/poweredlc"
+      link: "/endo-surgery/advastap-powered-linear-cutter-stapler"
     },
     {
       imgSrc: "/assets/endo/Product3.png",
       heading: "Advastap HD III",
       text: '3-Row Hemorrhoid Stapler',
-      link: "/advastap#advastap-hd3"
+      link: "/endo-surgery/advastap-hemorrhoid-stapler#advastap-hd3"
     },
     {
       imgSrc: "/assets/endo/Product4.png",
       heading: "Advastap Endo lc",
       text: '3-Row Endoscopic Linear Cutter',
-      link: "/endolc"
+      link: "/endo-surgery/advastap-endoscopic-linear-cutter-stapler"
     },
     {
       imgSrc: "/assets/endo/Product5.png",
       heading: "Advastap Reloads",
       text: 'Endoscopic Linear Cutter Reloads',
-      link: "/reloads"
+      link: "/endo-surgery/advastap-endoscopic-reloads"
     },
     {
       imgSrc: "/assets/endo/Product6.png",
       heading: "Advastap LC iii",
       text: '3-Row Linear Cutter',
-      link: "/advastaplc#advastap-lc3"
+      link: "/endo-surgery/advastap-linear-cutter-stapler#advastap-lc3"
     },
     {
       imgSrc: "/assets/endo/Product2.png",
       heading: "ADVASTAP CS",
       text: '3-Row Circular Stapler III',
-      link: "/advastapcs"
+      link: "/endo-surgery/advastap-circular-stapler"
     },
   ];
   if (globalThis.innerWidth < 1024) {

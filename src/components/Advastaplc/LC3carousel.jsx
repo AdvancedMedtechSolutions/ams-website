@@ -59,7 +59,7 @@ const LC3Carousel = () => {
                         className='object-cover mobile:object-contain rounded-[3vw] tablet:rounded-[5vw] mobile:rounded-[9vw] '
                         />
                     </div> 
-                    <p className='text-[1.25vw] leading-[1.3] absolute bottom-[15%] right-[10%] font-light aeonik  text-[#2A2A2A] mobile:text-[5.5vw] mobile:w-[90%] mobile:top-auto mobile:bottom-[10%] mobile:font-light mobile:left-[5%] mobile:text-center  mobile:z-50 tablet:text-[2.5vw] tablet:top-[85%] tablet:font-light tablet:w-[40vw]'><span >Uniform compression ensures consistent perfusion across staple line.</span></p>
+                    <p className='text-[1.25vw] leading-[1.3] absolute bottom-[15%] right-[10%] font-light aeonik  text-[#2A2A2A] mobile:text-[5.5vw] mobile:w-[90%] mobile:top-auto mobile:bottom-[10%] mobile:font-light mobile:left-[5%] mobile:text-center  mobile:z-50 tablet:text-[2.5vw] tablet:top-[80%] tablet:font-light tablet:w-[40vw]'><span >Uniform compression ensures consistent perfusion across staple line.</span></p>
                    
                 </div>
                
@@ -140,7 +140,7 @@ const LC3Carousel = () => {
                         className='object-cover mobile:object-contain  rounded-[3vw] mobile:rounded-[9vw] tablet:rounded-[5vw]'
                         />
                     </div>
-                    <p className=' text-[1.25vw] absolute bottom-[15%] left-[10%] aeonik  text-[#2A2A2A]  leading-[1.3] font-light mobile:text-[5.5vw]  mobile:font-light mobile:w-[90%] mobile:bottom-[10%] mobile:left-[5%] mobile:z-50 mobile:text-center tablet:text-[2.5vw] tablet:bottom-[5%] tablet:w-[40vw] tablet:font-light'><span >Avoids accidental misfiring before clamping.</span></p>
+                    <p className=' text-[1.25vw] absolute bottom-[15%] left-[10%] aeonik  text-[#2A2A2A]  leading-[1.3] font-light mobile:text-[5.5vw]  mobile:font-light mobile:w-[90%] mobile:bottom-[10%] mobile:left-[5%] mobile:z-50 mobile:text-center tablet:text-[2.5vw] tablet:bottom-[10%] tablet:w-[40vw] tablet:font-light'><span >Avoids accidental misfiring before clamping.</span></p>
                   
                 </div>
                

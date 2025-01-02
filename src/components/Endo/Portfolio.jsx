@@ -47,26 +47,26 @@ const content = [
   {
     title: "Advanced Interventional Cardiology",
     image: "/assets/portfolio/Cardiology.png",
-    link: "/interventional-cardiology",
+    link: "/products/interventional-cardiology",
   },
   {
     title: "Advanced Hernia Solutions",
     image: "/assets/portfolio/HerniaSolutions.png",
-    link: "/hernia"
+    link: "/products/hernia-solutions"
   },
   {
     title: "Advanced Cardiac Surgery",
     image: "/assets/portfolio/Cardiovascular.png",
-    link: "/cardiovascular-solutions"
+    link: "/products/cardiac-surgery"
   },
   {
     title: "Advanced Endo Surgery",
     image: "/assets/portfolio/EndoSurgery.png",
-    link: "/endo"
+    link: "/products/endo-surgery"
   },
   {
     title: "Advanced Wound Care",
     image: "/assets/portfolio/WoundCare.png",
-    link: "/wound-care",
+    link: "/products/wound-care",
   },
 ]

@@ -82,7 +82,7 @@ const Hd2Carousel = () => {
                         className='object-cover mobile:object-contain  rounded-[3vw] tablet:rounded-[5vw] mobile:rounded-[9vw]'
                         />
                     </div>
-                    <p className=' text-[1.25vw] text-[#FFFFFF] absolute bottom-[15%] left-[20%] aeonik  leading-[1.3]  font-light mobile:text-[5.5vw] mobile:w-[90%] mobile:font-light mobile:top-auto mobile:bottom-[10%] mobile:left-[5%]  mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[5%] tablet:w-[40vw] tablet:font-light'><span >Designed for secure purse-string suture placement.</span></p>
+                    <p className=' text-[1.25vw] text-[#FFFFFF] absolute bottom-[15%] left-[20%] aeonik  leading-[1.3]  font-light mobile:text-[5.5vw] mobile:w-[90%] mobile:font-light mobile:top-auto mobile:bottom-[10%] mobile:left-[5%]  mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[5%] tablet:left-[8%] tablet:w-[40vw] tablet:font-light'><span >Designed for secure purse-string suture placement.</span></p>
                 </div>
                
             </div>
@@ -142,7 +142,7 @@ const Hd2Carousel = () => {
                         className='object-cover mobile:object-contain  rounded-[3vw] tablet:rounded-[5vw] mobile:rounded-[9vw]'
                         />
                     </div>
-                    <p className=' text-[1.25vw] text-[#FFFFFF] absolute bottom-[15%] left-[20%] aeonik  leading-[1.3]  font-light mobile:text-[5.5vw] mobile:w-[90%] mobile:font-light mobile:top-auto mobile:bottom-[10%] mobile:left-[5%]  mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[5%] tablet:w-[40vw] tablet:font-light'><span >Designed for secure purse-string suture placement.</span></p>
+                    <p className=' text-[1.25vw] text-[#FFFFFF] absolute bottom-[15%] left-[20%] aeonik  leading-[1.3]  font-light mobile:text-[5.5vw] mobile:w-[90%] mobile:font-light mobile:top-auto mobile:bottom-[10%] mobile:left-[5%]  mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[5%] tablet:w-[40vw] tablet:left-[8%] tablet:font-light'><span >Designed for secure purse-string suture placement.</span></p>
                 </div>
                
             </div>

@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ArrowLeft } from 'lucide-react';
@@ -15,7 +16,7 @@ export default function WoundCareMenu({ onBack }) {
     <>
       <div className="flex gap-5 items-start relative mobile:pt-[5vw]" ref={menuRef}>
         <div className='absolute left-[10%] top-[-2.6vw] mobile:top-[4vw] mobile:left-[20%]'> 
-          <NavLink href="/wound-care" linkText="Wound Care" />
+          <NavLink href="/products/wound-care" linkText="Wound Care" />
         </div>
         <button className="absolute top-[-2.9vw] mobile:top-[4vw] h-[2.5vw] w-[2.5vw] p-[0.5vw] tablet:w-8 tablet:h-8 tablet:p-1.5 mobile:h-8 mobile:w-8 mobile:p-1.5 flex items-center justify-center rounded-full border border-black/50 group hover:bg-black duration-300" onClick={onBack}>
           <ArrowLeft className='w-full h-full group-hover:text-white duration-300' />
@@ -24,33 +25,42 @@ export default function WoundCareMenu({ onBack }) {
           <div className='flex items-start gap-[1vw] pt-1 mobile:flex-col mobile:gap-[5vw] tablet:pt-7 mobile:pt-[10vw]'>
             <ul className='space-y-[0.2vw] w-[15vw] tablet:w-[28vw] mobile:w-full'>
               <li className='font-normal text-[1.3vw] tablet:text-[2.2vw] mobile:text-[5vw]'>Absorbable Sutures</li>
-              <li><NavLink className='uppercase' href="/advacryl" linkText="Advacryl" /></li>
-              <li><NavLink className='uppercase' href="/advacrylplus" linkText="Advacryl Plus" /></li>
-              <li><NavLink className='uppercase' href="/advacryl-rapid" linkText="Advacryl Rapid" /></li>
-              <li><NavLink className='uppercase' href="/advamryl" linkText="Advamryl" /></li>
-              <li><NavLink className='uppercase' href="/advapd" linkText="Advapd" /></li>
-              <li><NavLink className='uppercase' href="/advacat" linkText="Advacat" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advacryl-polyglactin-910-suture" linkText="Advacryl" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture" linkText="Advacryl Plus" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advacryl-rapid-polyglactin-910-suture" linkText="Advacryl Rapid" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advamryl-poliglecaprone-25-suture" linkText="Advamryl" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advapd-polydioxanone-suture" linkText="Advapd" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advacat-gut-suture-chromic-plain" linkText="Advacat" /></li>
             </ul>
             <ul className='space-y-[0.2vw]'>
               <li className='font-normal text-[1.3vw] tablet:text-[2.2vw] mobile:text-[5vw]'>Non Absorbable Sutures</li>
-              <li><NavLink className='uppercase' href="/advalene" linkText="Advalene" /></li>
-              <li><NavLink className='uppercase' href="/advabond" linkText="Advabond" /></li>
-              <li><NavLink className='uppercase' href="/advalon" linkText="Advalon" /></li>
-              <li><NavLink className='uppercase' href="/advasyl" linkText="Advasyl" /></li>
-              <li><NavLink href="/bondtape#umbilical-tape" linkText="Umbilical Cotton Tape" /></li>
-              <li><NavLink className='uppercase' href="/bondtape" linkText="Advabond tape" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advalene-polypropylene-suture" linkText="Advalene" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advabond-polyester-suture" linkText="Advabond" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advalon-polyamide-suture" linkText="Advalon" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/advasyl-silk-suture" linkText="Advasyl" /></li>
+              <li>
+              <a href="/wound-care/advabond-polyester-tape-suture#umbilical-tape" className={`text-[1.3vw] fade-in-0 leading-tight text-body tablet:text-[2.3vw] mobile:text-[5vw] overflow-hidden block relative group aeonik font-light `}>
+                <span
+                  data-attr="Umbilical Cotton Tape"
+                  className="inline-block transition-transform duration-500 ease-out after:absolute after:left-0 after:-bottom-0 after:translate-y-full after:content-[attr(data-attr)] group-hover:-translate-y-full"
+                >
+                  Umbilical Cotton Tape
+                </span>
+              </a>
+              </li>
+              <li><NavLink className='uppercase' href="/wound-care/advabond-polyester-tape-suture" linkText="Advabond tape" /></li>
             </ul>
           </div>
           <div className='flex items-start gap-[1vw] pt-2 tablet:pt-4 mobile:flex-col mobile:pt-[5vw]'>
             <ul className='space-y-[0.2vw] w-[15vw] tablet:w-[28vw] mobile:w-full'>
               <li className='font-normal text-[1.3vw] tablet:text-[2.2vw] mobile:text-[5vw]'>Knotless Sutures</li>
-              <li><NavLink className='uppercase' href="/knotless-tissue-control-device" linkText="Advagrip" /></li>
-              {/* <li><NavLink className='!text-[1.2vw] tablet:!text-[2.2vw] font-normal !mt-[1vw] tablet:!mt-[2vw] mobile:!text-[5vw] mobile:!mt-[5vw]' href="/advakit" linkText="ADVAKIT" /></li> */}
+              <li><NavLink className='uppercase' href="/wound-care/advagrip-knotless-barbed-suture" linkText="Advagrip" /></li>
+              {/* <li><NavLink className='!text-[1.2vw] tablet:!text-[2.2vw] font-normal !mt-[1vw] tablet:!mt-[2vw] mobile:!text-[5vw] mobile:!mt-[5vw]' href="/wound-care/surgical-kits" linkText="ADVAKIT" /></li> */}
             </ul>
             <ul className='space-y-[0.2vw] mobile:hidden'>
               <li className='font-normal text-[1.2vw] tablet:text-[2.2vw] mobile:text-[5vw]'>Others</li>
-              <li><NavLink className='uppercase' href="/advaspong" linkText="Advaspong" /></li>
-              <li><NavLink className='uppercase' href="/advakit" linkText="Advakit" /></li>
+              <li><NavLink className='uppercase' href="/haemostats-gelatin-sponge" linkText="Advaspong" /></li>
+              <li><NavLink className='uppercase' href="/wound-care/surgical-kits" linkText="Advakit" /></li>
             </ul>
           </div>
         </div>

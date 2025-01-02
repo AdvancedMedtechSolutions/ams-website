@@ -19,11 +19,11 @@ export default function WoundCareMenu({ onBack }) {
       </button>
         <div className='flex items-start gap-[3vw] pt-1'>
           <ul className='space-y-[0.2vw] mobile:space-y-1'>
-            <li><NavLink href="/interventional-cardiology" linkText="Interventional Cardiology" /></li>
-            <li><NavLink className='uppercase' href="/advaglide" linkText="Adva Glide" /></li>
-            <li><NavLink className='uppercase' href="/nc-advaglide" linkText="NC Adva Glide" /></li>
-            <li><NavLink className='uppercase' href="/advapro" linkText="Adva Pro" /></li>
-            <li><NavLink href="/accessories" linkText="Coronary Accessories" /></li>
+            <li><NavLink href="/products/interventional-cardiology" linkText="Interventional Cardiology" /></li>
+            <li><NavLink className='uppercase' href="/interventional-cardiology/adva-glide-ptca-coronary-balloon-semi-compliant" linkText="Adva Glide" /></li>
+            <li><NavLink className='uppercase' href="/interventional-cardiology/adva-glide-nc-ptca-coronary-balloon-non-compliant" linkText="NC Adva Glide" /></li>
+            <li><NavLink className='uppercase' href="/interventional-cardiology/adva-pro-coronary-sirolimus-stent" linkText="Adva Pro" /></li>
+            <li><NavLink href="/interventional-cardiology/coronary-accessories" linkText="Coronary Accessories" /></li>
           </ul>
         </div>
       </div>

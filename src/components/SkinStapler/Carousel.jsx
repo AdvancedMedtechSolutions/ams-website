@@ -68,7 +68,7 @@ const Carousel = () => {
                         className="object-cover mobile:object-contain rounded-[3vw] tablet:rounded-[5vw] mobile:rounded-[9vw] "
                       />
                     </div>
-                    <p className="w-[30%] text-[1.25vw] leading-[1.3] absolute top-[15%] right-[10%] font-light aeonik  text-[#2A2A2A] mobile:text-[5.5vw] mobile:w-[90%] mobile:top-auto mobile:bottom-[10%] mobile:font-light mobile:left-[5%] mobile:text-center  mobile:z-50 tablet:text-[2.5vw] tablet:top-[85%] tablet:font-light tablet:w-[40vw]">
+                    <p className="w-[30%] text-[1.25vw] leading-[1.3] absolute top-[15%] right-[10%] font-light aeonik  text-[#2A2A2A] mobile:text-[5.5vw] mobile:w-[90%] mobile:top-auto mobile:bottom-[10%] mobile:font-light mobile:left-[5%] mobile:text-center  mobile:z-50 tablet:text-[2.5vw] tablet:top-[15%] tablet:left-[25%] tablet:font-light tablet:w-[40vw]">
                       <span >
                         Smooth and effortless stapling performance
                       </span>
@@ -92,7 +92,7 @@ const Carousel = () => {
                         className="object-cover mobile:object-contain  rounded-[3vw] tablet:rounded-[5vw] mobile:rounded-[9vw]"
                       />
                     </div>
-                    <p className="w-[35%] text-[1.25vw] absolute bottom-[15%] right-[10%] aeonik  leading-[1.3] text-[#2A2A2A] font-light mobile:text-[5.5vw] mobile:w-[90%] mobile:font-light mobile:top-auto mobile:bottom-[10%] mobile:left-[5%]  mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[5%] tablet:w-[40vw] tablet:font-light">
+                    <p className="w-[35%] text-[1.25vw] absolute bottom-[15%] right-[10%] aeonik  leading-[1.3] text-[#2A2A2A] font-light mobile:text-[5.5vw] mobile:w-[90%] mobile:font-light mobile:top-auto mobile:bottom-[10%] mobile:left-[5%]  mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[5%] tablet:left-[20%] tablet:w-[40vw] tablet:font-light">
                       <span >
                         Innovative design for precise positioning accuracy
                       </span>
@@ -140,7 +140,7 @@ const Carousel = () => {
                         className="object-cover mobile:object-contain  rounded-[3vw]  mobile:rounded-[9vw] tablet:rounded-[5vw]"
                       />
                     </div>
-                    <p className="w-[40%] text-[1.25vw] absolute bottom-[15%] right-[10%] aeonik  text-[#2A2A2A]  leading-[1.3] font-light mobile:text-[5.5vw] mobile:font-light mobile:w-[90%] mobile:bottom-[10%] mobile:top-auto mobile:left-[5%] mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[10%] tablet:left-[7%] tablet:font-light tablet:w-[40vw]">
+                    <p className="w-[40%] text-[1.25vw] absolute bottom-[15%] right-[10%] aeonik  text-[#2A2A2A]  leading-[1.3] font-light mobile:text-[5.5vw] mobile:font-light mobile:w-[90%] mobile:bottom-[10%] mobile:top-auto mobile:left-[5%] mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:bottom-[10%] tablet:left-[20%] tablet:font-light tablet:w-[40vw]">
                       <span >
                       Effortless locking mechanism smartly locks next staple until the previous is deployed.
                       </span>
@@ -158,7 +158,7 @@ const Carousel = () => {
                   <div className="  h-[31vw] w-[48vw] pb-[2vw] flex flex-col gap-[4vw] overflow-hidden relative mobile:h-[100vw] mobile:w-[85vw]  tablet:h-[50vh] tablet:rounded-[5vw]">
                     <div className=" w-full h-full absolute   mobile:h-[55vw] mobile:w-[85vw] ">
                       <Image
-                        src="/assets/skinstapler/carousel-card5.png"
+                        src="/assets/skinstapler/carousle-card5.png"
                         fill
                         alt="specification 1"
                         className="object-cover mobile:object-contain  rounded-[3vw] mobile:rounded-[9vw] tablet:rounded-[5vw]"

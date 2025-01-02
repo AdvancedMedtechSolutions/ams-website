@@ -13,12 +13,12 @@ import { WebpageJsonLd } from "@/lib/json-ld";
 
 export default function career() {
   const metadata = {
-    title: "Careers – Join Advanced MedTech Solutions",
+    title: "Career – Join Advanced MedTech Solutions",
     description:
       "Grow with us! Explore exciting career opportunities at Advanced MedTech Solutions and make an impact in healthcare.",
     img: "career.png",
-    alt: "Careers – Join Advanced MedTech Solutions",
-    slug: "cardiovascular-solutions",
+    alt: "Career – Join Advanced MedTech Solutions",
+    slug: "career",
     date_published: "2020-01-01T00:00",
     date_modified: "2024-12-26T12:32",
   };

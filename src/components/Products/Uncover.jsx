@@ -2,22 +2,24 @@ import Image from "next/image";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import 'swiper/css/scrollbar';
+import { Scrollbar } from 'swiper/modules';
 import { useRouter } from "next/router";
 import { FreeMode } from "swiper/modules";
 
 
 const cards = [
-  { img: "/assets/advacryl/advacryl-rapid.png", txt: "Advacryl Rapid", src: "/advacryl-rapid" },
-  { img: "/assets/advacryl/advacryl.png", txt: "Advacryl", src: "/advacryl" },
-  { img: "/assets/advacryl/advacrylplus.png", txt: "Advacryl Plus", src: "/advacrylplus" },
-  { img: "/assets/advacryl/advamryl.png", txt: "Advamryl", src: "/advamryl" },
-  { img: "/assets/advacryl/advapd.png", txt: "Advapd", src: "/advapd" },
-  { img: "/assets/advacryl/advacat.png", txt: "Advacat", src: "/advacat" },
-  { img: "/assets/advacryl/advalene.png", txt: "Advalene", src: "/advalene" },
-  { img: "/assets/advacryl/advabond.png", txt: "Advabond", src: "/advabond" },
-  { img: "/assets/advacryl/advasyl.png", txt: "Advasyl", src: "/advasyl" },
-  { img: "/assets/advacryl/advacryl.png", txt: "Advacryl", src: "/advacryl" },
-  { img: "/assets/advacryl/bondtape.png", txt: "Advabond tape", src: "/bondtape" }, 
+  { img: "/assets/advacryl/advacryl-rapid.png", txt: "Advacryl Rapid", src: "/wound-care/advacryl-rapid-polyglactin-910-suture" },
+  { img: "/assets/advacryl/advacryl.png", txt: "Advacryl", src: "/wound-care/advacryl-polyglactin-910-suture" },
+  { img: "/assets/advacryl/advacrylplus.png", txt: "Advacryl Plus", src: "/wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture" },
+  { img: "/assets/advacryl/advamryl.png", txt: "Advamryl", src: "/wound-care/advamryl-poliglecaprone-25-suture" },
+  { img: "/assets/advacryl/advapd.png", txt: "Advapd", src: "/wound-care/advapd-polydioxanone-suture" },
+  { img: "/assets/advacryl/advacat.png", txt: "Advacat", src: "/wound-care/advacat-gut-suture-chromic-plain" },
+  { img: "/assets/advacryl/advalene.png", txt: "Advalene", src: "/wound-care/advalene-polypropylene-suture" },
+  { img: "/assets/advacryl/advabond.png", txt: "Advabond", src: "/wound-care/advabond-polyester-suture" },
+  { img: "/assets/advacryl/advasyl.png", txt: "Advasyl", src: "/wound-care/advasyl-silk-suture" },
+  { img: "/assets/advacryl/advacryl.png", txt: "Advacryl", src: "/wound-care/advacryl-polyglactin-910-suture" },
+  { img: "/assets/advacryl/bondtape.png", txt: "Advabond tape", src: "/wound-care/advabond-polyester-tape-suture" }, 
 ];
 
 
@@ -61,7 +63,8 @@ const Uncover = () => {
             slidesPerView={1.2}
             spaceBetween={20}
             freeMode={true}
-            modules={[FreeMode]}
+        scrollbar={true}
+            modules={[FreeMode, Scrollbar]}
             breakpoints={{
               540: { slidesPerView: 2.2 },
               768: { slidesPerView: 2 },

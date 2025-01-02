@@ -19,7 +19,7 @@ const Modal = ({ isOpen, onClose, children }) => {
   return (
     <div className="fixed w-screen h-screen top-0 left-0 flex items-center justify-center z-[999] bg-opacity-50 bg-black/80 fade-in ">
       
-      <div data-lenis-prevent className="bg-[#efefef] border border-white relative rounded-[2vw] p-[3vw] pt-[5vw] w-[80vw] max-h-[95vh] mobile:h-[120vw] tablet:h-[65vw] mobile:px-[5vw] mobile:py-[7vw] mobile:w-[90vw] mobile:rounded-[7vw] tablet:w-[90vw] tablet:max-w-[95vw] tablet:rounded-[3.5vw] tablet:p-[4vw] tablet:overflow-x-scroll mobile:overflow-y-scroll " id="hernia-table">
+      <div data-lenis-prevent className="bg-[#efefef] border border-white relative rounded-[2vw] p-[3vw] pt-[5vw] w-[80vw] max-h-[95vh] mobile:h-[120vw] tablet:h-[65vw] mobile:px-[5vw] mobile:py-[7vw] mobile:w-[90vw] mobile:rounded-[7vw] tablet:w-[90vw] tablet:max-w-[95vw] tablet:rounded-[3.5vw] tablet:p-[4vw] tablet:overflow-x-scroll  " id="hernia-table">
        {children}
        <div
         onClick={onClose}

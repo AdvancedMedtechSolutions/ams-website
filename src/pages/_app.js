@@ -31,8 +31,6 @@ export default function App({ Component, pageProps, router }) {
             crossOrigin: "",
           },
         ]}
-        // dangerouslySetAllPagesToNoFollow={true}
-        // dangerouslySetAllPagesToNoIndex={true}
       />
       <MediaContextProvider>
         <ReactLenis root>

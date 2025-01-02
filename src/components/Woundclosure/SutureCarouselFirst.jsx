@@ -13,37 +13,37 @@ const SutureCarouselFirst = () => {
       iconSrc: "/assets/woundclosure/advacryl-box.png",
       title: "Polyglactin 910",
       cardColor: "from-purple-500/30",
-      src: "/advacryl",
+      src: "/wound-care/advacryl-polyglactin-910-suture",
     },
     {
       iconSrc: "/assets/woundclosure/advacrylplus-box.png",
       title: "Antibacterial Polyglactin 910",
       cardColor: "from-purple-500/30",
-      src: "/advacrylplus",
+      src: "/wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture",
     },
     {
       iconSrc: "/assets/woundclosure/advacrylrapid-box.png",
       title: "Fast Absorbing Polyglactin 910",
       cardColor: "from-red-500/30",
-      src: "/advacryl-rapid",
+      src: "/wound-care/advacryl-rapid-polyglactin-910-suture",
     },
     {
       iconSrc: "/assets/woundclosure/advamryl-box.png",
       title: "Poliglecaprone 25",
       cardColor: "from-orange-500/30",
-      src: "/advamryl",
+      src: "/wound-care/advamryl-poliglecaprone-25-suture",
     },
     {
       iconSrc: "/assets/woundclosure/advapd-box.png",
       title: "Polydioxanone",
       cardColor: "from-gray-500/30",
-      src: "/advapd",
+      src: "/wound-care/advapd-polydioxanone-suture",
     },
     {
       iconSrc: "/assets/woundclosure/advacat-box.png",
       title: "Catgut - Chromic",
       cardColor: "from-yellow-500/30",
-      src: "/advacat",
+      src: "/wound-care/advacat-gut-suture-chromic-plain",
     },
   ];
 

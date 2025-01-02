@@ -159,7 +159,7 @@ export default function Footer() {
                     <Link
                       prefetch={false}
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/about"
+                      href="/about-us"
                     >
                       <span  data-attr="About">
                         About
@@ -189,7 +189,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/news"
+                      href="/newsroom"
                     >
                       <span  data-attr="Newsroom">
                         Newsroom
@@ -199,7 +199,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/ama"
+                      href="/advanced-medtech-academy-ama"
                     >
                       <span  data-attr="Advanced MedTech Academy">
                         Advanced MedTech Academy
@@ -219,7 +219,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/needle"
+                      href="/r&d/suture-needle-technology"
                     >
                       <span
                         
@@ -239,7 +239,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/wound-care"
+                      href="/products/wound-care"
                     >
                       <span  data-attr="Wound Care">
                         Wound Care
@@ -249,7 +249,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/endo"
+                      href="/products/endo-surgery"
                     >
                       <span  data-attr="Endo Surgery">
                         Endo Surgery
@@ -259,7 +259,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/hernia"
+                      href="/products/hernia-solutions"
                     >
                       <span  data-attr="Hernia Solutions">
                         Hernia Solutions
@@ -269,7 +269,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head text-nowrap w-[130%] font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/interventional-cardiology"
+                      href="/products/interventional-cardiology"
                     >
                       <span
                         
@@ -282,7 +282,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/cardiovascular-solutions"
+                      href="/products/cardiac-surgery"
                     >
                       <span  data-attr="Cardiac Surgery">
                         Cardiac Surgery
@@ -292,7 +292,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/oem"
+                      href="/products/oem"
                     >
                       <span  data-attr="OEM Solutions">
                         OEM Solutions

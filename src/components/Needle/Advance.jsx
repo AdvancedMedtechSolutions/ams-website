@@ -77,7 +77,7 @@ data-para-anim className="title-2 aeonik mobile:text-center tablet:text-center">
                         </h2>
                        
                         <div className="w-full flex justify-center mobile:justify-center fadeUp">
-                        <PrimaryButton className={""} link={"/wound-care"} text={"See More"}/>
+                        <PrimaryButton className={""} link={"/products/wound-care"} text={"See More"}/>
                         </div>
                     </div>
                     <div className="w-[30vw] h-[30vw] absolute top-[10%] right-[-30%] suture-right mobile:w-[60vw] mobile:h-[60vw] mobile:right-[-60%] mobile:rotate-6">

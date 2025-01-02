@@ -88,24 +88,24 @@ const content = [
     title: "Reimagining Health, Redefining Care Arab Health 2025",
     description: "Advanced MedTech Solutions is excited to showcase innovation at Arab Health 2025! Visit us to explore advanced solutions transforming healthcare.",
     image: "/assets/home/blog-image-1.png",
-    link: "/news/arab-health",
+    link: "/arab-health",
   },
   {
     title: "Shaping the Future of Healthcare Advanced Surgery & Cardiovascular",
     description: "AMS serves as a healthcare ecosystem focused on the MedTech fields of Advanced Surgery & Advanced Cardiovascular.",
     image: "/assets/home/blog-image-2.png",
-    link: "/news/shaping-the-future-of-healthcare",
+    link: "/shaping-the-future-of-healthcare",
   },
   {
     title: "The Next Leap in Endo Surgery 3-Row Series",
     description: "The ADVASTAP Staplers 3-row series is here, setting a new benchmark in endo surgery. Designed to enhance precision and improve patient outcomes, our innovative stapling technology is revolutionizing the surgical landscape..",
     image: "/assets/home/blog-image-3.png",
-    link: "/news/next-leap-in-endo-surgery",
+    link: "/next-leap-in-endo-surgery",
   },
   {
     title: "Building the Future of MedTech Expansion of The AMS Campus",
     description: "AMS Takes Center Stage at Arab Health in Dubai: Leading the Charge in Global MedTech with Industry leaders and partners Transforming Healthcare Worldwide.",
     image: "/assets/home/blog-image-4.png",
-    link: "/news/building-the-future-of-medtech",
+    link: "/building-the-future-of-medtech",
   },
 ]

@@ -18,7 +18,7 @@ export default function Discover() {
                 AMS offers specialized OEM solutions crafted to support medical device manufacturers in achieving excellence.
               </p>
               <div className="fadeUp mobile:w-full mobile:flex mobile:justify-center">
-                <PrimaryButton link={"/oem"} text={"AMS OEM"} className="!border-gray-200" />
+                <PrimaryButton link={"/products/oem"} text={"AMS OEM"} className="!border-gray-200" />
               </div>
             </div>
           </div>

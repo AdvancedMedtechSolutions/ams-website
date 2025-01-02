@@ -18,56 +18,56 @@ function useRouteColors() {
           color3: "#669FE5",
         });
         break;
-      case "/interventional-cardiology":
+      case "/products/interventional-cardiology":
         setColors({
           color1: "#F74141",
           color2: "#669FE5",
           color3: "#669FE5",
         });
         break;
-      case "/advamryl":
+      case "/wound-care/advamryl-poliglecaprone-25-suture":
         setColors({
           color1: "#F74141",
           color2: "#669FE5",
           color3: "#669FE5",
         });
         break;
-      case "/advacryl":
+      case "/wound-care/advacryl-polyglactin-910-suture":
         setColors({
           color1: "#D7B3E1",
           color2: "#669FE5",
           color3: "#D467D7",
         });
         break;
-      case "/advacrylplus":
+      case "/wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture":
         setColors({
           color1: "#D7B3E1",
           color2: "#669FE5",
           color3: "#D467D7",
         });
         break;
-      case "/endo":
+      case "/products/endo-surgery":
         setColors({
           color1: "#637DA2",
           color2: "#669FE5",
           color3: "#669FE5",
         });
         break;
-      case "/hernia":
+      case "/products/hernia-solutions":
         setColors({
           color1: "#637DA2",
           color2: "#669FE5",
           color3: "#669FE5",
         });
         break;
-      case "/ama":
+      case "/advanced-medtech-academy-ama":
         setColors({
           color1: "#637DA2",
           color2: "#669FE5",
           color3: "#669FE5",
         });
         break;
-      case "/needle":
+      case "/r&d/suture-needle-technology":
         setColors({
           color1: "#637DA2",
           color2: "#669FE5",
@@ -81,14 +81,14 @@ function useRouteColors() {
           color3: "#669FE5",
         });
         break;
-      case "/oem":
+      case "/products/oem":
         setColors({
           color1: "#637DA2",
           color2: "#669FE5",
           color3: "#669FE5",
         });
         break;
-      case "/advapd":
+      case "/wound-care/advapd-polydioxanone-suture":
         setColors({
           color1: "#A5BBCE",
           color2: "#A5BBCE",
@@ -102,91 +102,91 @@ function useRouteColors() {
           color3: "#CCCCCC",
         });
         break;
-      case "/advalene":
+      case "/wound-care/advalene-polypropylene-suture":
         setColors({
           color1: "#D5D6F3",
           color2: "#D5D6F3",
           color3: "#307FB2",
         });
         break;
-      case "/advabond":
+      case "/wound-care/advabond-polyester-suture":
         setColors({
           color1: "#669DE5",
           color2: "#669DE5",
           color3: "#FFCDBC",
         });
         break;
-      case "/advalon":
+      case "/wound-care/advalon-polyamide-suture":
         setColors({
           color1: "#DFD6F3",
           color2: "#DFD6F3",
           color3: "#307FB2",
         });
         break;
-      case "/advasyl":
+      case "/wound-care/advasyl-silk-suture":
         setColors({
           color1: "#DFD6F3",
           color2: "#DFD6F3",
           color3: "#307FB2",
         });
         break;
-      case "/bondtape":
+      case "/wound-care/advabond-polyester-tape-suture":
         setColors({
           color1: "#669DE5",
           color2: "#669DE5",
           color3: "#FFCDBC",
         });
         break;
-      case "/cardiovascular-solutions":
+      case "/products/cardiac-surgery":
         setColors({
           color1: "#669DE5",
           color2: "#669DE5",
           color3: "#F74141",
         });
         break;
-      case "/knotless-tissue-control-device":
+      case "/wound-care/advagrip-knotless-barbed-suture":
         setColors({
           color1: "#D7B3E1",
           color2: "#669DE5",
           color3: "#669DE5",
         });
         break;
-      case "/advastaplc":
+      case "/endo-surgery/advastap-linear-cutter-stapler":
         setColors({
           color1: "#669DE5",
           color2: "#669DE5",
           color3: "#ACBCFA",
         });
         break;
-      case "/advabond-cv":
+      case "/cardiac-surgery/advabond-polyester-cardiovascular-suture":
         setColors({
           color1: "#669DE5",
           color2: "#669DE5",
           color3: "#FFCDBC",
         });
         break;
-      case "/advalene-cv":
+      case "/cardiac-surgery/advalene-polypropylene-cardiovascular-suture":
         setColors({
           color1: "#DFD6F3",
           color2: "#DFD6F3",
           color3: "#307FB2",
         });
         break;
-      case "/advasteel-cv":
+      case "/cardiac-surgery/advasteel-sternotomy-cardiovascular-suture":
         setColors({
           color1: "#669DE5",
           color2: "#669DE5",
           color3: "#FFCDBC",
         });
         break;
-      case "/advapacer-and-wax":
+      case "/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture":
         setColors({
           color1: "#669DE5",
           color2: "#669DE5",
           color3: "#EED681",
         });
         break;
-      case "/advacryl-rapid":
+      case "/wound-care/advacryl-rapid-polyglactin-910-suture":
         setColors({
           color1: "#A5BBCE",
           color2: "#A5BBCE",

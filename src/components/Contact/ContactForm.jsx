@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea"
-import styles from "../Button/style.module.css"
 
 import {
   Form,
@@ -14,6 +13,8 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { useState } from "react";
+import Image from "next/image";
 
 
 const formSchema = z.object({
@@ -37,6 +38,7 @@ const formSchema = z.object({
 });
 
 export default function ContactForm() {
+  const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm({
     resolver: zodResolver(formSchema),
@@ -50,6 +52,7 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (data) => {
+    setIsLoading(true);
     console.log("Form Submitted:", data);
     const formData = {
       name: data.name,
@@ -79,6 +82,7 @@ export default function ContactForm() {
 
   return (
     <section className="pt-[7%] mobile:pt-[15%] tablet:pt-[10%]" id="formoem">
+      
       <div className="w-full h-full p-[4vw] pb-[25%] mobile:p-0 rounded-[3vw] border border-gray-200 bg-white/50 backdrop-blur-sm mobile:bg-transparent mobile:hover:bg-transparent mobile:hover:shadow-none mobile:border-none tablet:p-[5.5vw] fadeUp">
 
         <div className="w-full flex flex-col gap-[2vw] mobile:w-full mobile:bg-white/50 mobile:rounded-[6vw] mobile:px-[7vw] mobile:py-[12vw] mobile:border mobile:gap-[5vw] mobile:justify-center tablet:w-full">
@@ -148,21 +152,27 @@ export default function ContactForm() {
                   </FormItem>
                 )}
               />
-              <Button type="submit" className="w-full flex justify-end pt-[2vw] mobile:flex mobile:justify-center tablet:flex tablet:justify-center">
-                <div className={`${styles.btn} !border-gray-200`}>
-                  <div aria-hidden="true" className={styles.btnCircle}>
-                    <div className={styles.btnCircleText}>
-                      <svg viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.btnIcon}>
-                        <path data-v-f4363f2a fillRule="evenodd" clipRule="evenodd" d="M3.82475e-07 5.625L7.625 5.625L4.125 9.125L5 10L10 5L5 -4.37114e-07L4.125 0.874999L7.625 4.375L4.91753e-07 4.375L3.82475e-07 5.625Z" className={`${styles.btnPath}`} />
-                        <path data-v-f4363f2a fillRule="evenodd" clipRule="evenodd" d="M3.82475e-07 5.625L7.625 5.625L4.125 9.125L5 10L10 5L5 -4.37114e-07L4.125 0.874999L7.625 4.375L4.91753e-07 4.375L3.82475e-07 5.625Z" className={`${styles.btnPath}`} />
-                      </svg>
-                    </div>
-                  </div>
-                  <span className={styles.btnText}>
-                    Submit
-                  </span>
-                </div>
-              </Button>
+              <div className="mt-[2vw] w-full flex justify-end">
+                              <Button type="submit" className=" bg-purple-500 rounded-full w-[8vw] h-[3vw] relative mobile:w-[25vw] mobile:h-[10vw] tablet:w-[17vw] tablet:h-[7vw]">
+                              {!isLoading ? (
+                                    <span
+                                      className="text-[1.1vw] aeonik mobile:text-[4vw] tablet:text-[2.5vw]"
+                                    >
+                                     Submit
+                                    </span>
+                                  ) : (
+                                    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-[100]">
+                                      <Image
+                                        src="/button-loading.png"
+                                        alt="button-loading"
+                                        className="animate-spin invert "
+                                        width={20}
+                                        height={20}
+                                      />
+                                      </div>
+                                  )}
+                              </Button>
+                            </div>
             </form>
           </Form>
         </div>

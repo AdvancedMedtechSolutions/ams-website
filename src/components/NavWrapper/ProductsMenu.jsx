@@ -30,7 +30,7 @@ export default function ProductsMenu({ onBack, onSelectMenu }) {
             <li><NavButton className='' linkText="Cardiac Surgery" onClick={() => onSelectMenu('cardiac-surgery')} /></li>
           </ul>
         </div>
-        <NavLink className='!text-[1.2vw] tablet:!text-[2.2vw] font-normal !mt-[1vw] tablet:!mt-[2vw] mobile:!text-[5vw] mobile:!mt-[5vw]' href="/oem" linkText="OEM SOLUTIONS" />
+        <NavLink className='!text-[1.2vw] tablet:!text-[2.2vw] font-normal !mt-[1vw] tablet:!mt-[2vw] mobile:!text-[5vw] mobile:!mt-[5vw]' href="/products/oem" linkText="OEM SOLUTIONS" />
       </div>
     </div>
   );

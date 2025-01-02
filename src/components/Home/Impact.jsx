@@ -31,7 +31,7 @@ export default function Impact() {
                             Our unwavering commitment to global healthcare fuels our relentless pursuit of MedTech innovation, enhancing outcomes in every corner of the world. Our expanding footprint across 116+ countries, empowers us to forge powerful partnerships, creating solutions that make a profound difference in patients’&apos;lives.
                             </p>
                             <div className="w-full flex mobile:justify-center pt-[3vw] fadeUp">
-                            <PrimaryButton className={"secondary  !text-white"} link={"/about"} text={"Know More"} />
+                            <PrimaryButton className={"secondary  !text-white"} link={"/about-us"} text={"Know More"} />
                             </div>
                         </div>
                     </div>

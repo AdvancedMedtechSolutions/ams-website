@@ -71,7 +71,7 @@ const Work = () => {
             src={"/assets/career/career-work.webp"}
             para={"Innovative, collaborative, and Driven by a mission to improve lives."}
             btn={"See Our Initiatives"}
-            link={"news"}
+            link={"newsroom"}
           />
 
         </div>
@@ -84,7 +84,7 @@ const Work = () => {
               "Ensuring every voice is heard, valued, and empowered."
             }
             btn={"Learn More About Us"}
-            link={"about"}
+            link={"about-us"}
 
           />
 

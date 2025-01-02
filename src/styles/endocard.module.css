@@ -25,10 +25,19 @@
     height: 26vw;
     cursor: pointer;
   }
-  @media screen and (max-width: 1440px) {
+  @media screen  and (max-width:1380px){
+    .sliderSection {
+      height: 100%;
+      top: 67vw ;
+      position: absolute;
+      width: 100%;
+    }
+    
+  }
+  @media screen and (max-width: 1550px) {
     .sliderSection {
       height: 100vh;
-      top: 72vw;
+      top:65vw;
       position: absolute;
       width: 100%;
   }

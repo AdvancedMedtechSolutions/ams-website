@@ -8,21 +8,21 @@ const blogCardData = [
     para: "AMS serves as a healthcare ecosystem focused on the MedTech fields of Advanced Surgery & Advanced Cardiovascular.",
     title: "Advanced Surgery & Advanced Cardiovascular ",
     img: "/assets/blogs/therapies.jpg",
-    link:"/news/shaping-the-future-of-healthcare",
+    link:"/shaping-the-future-of-healthcare",
     innertitle:"Shaping the Future of Healthcare"
   },
   {
     para: "The Nurturing Nursing Skills Program is designed to upskill emerging nurses by enhancing their leadership, soft skills, and technical expertise. Experienced professionals share insights to empower nurses, fostering growth, excellence, and improved patient care.",
     title: "Under the initiative of Advanced MedTech Academy ",
     img: "/assets/blogs/nursing.jpg",
-    link:"/news/nurturing-nursing-skills",
+    link:"/nurturing-nursing-skills",
     innertitle:"Nurturing Nursing Skills Programs "
   },
   {
     para: "Thank you to all our visitors, partners, and organizers for an amazing event. Together, we’re innovating for a healthier future.  See you at MEDICA 2025! ",
     title: "A successful MEDICA 2024",
     img: "/assets/blogs/medica.jpg",
-    link:"/news/medica-2024",
+    link:"/medica-2024",
     innertitle:"It's a Wrap "
   },
   

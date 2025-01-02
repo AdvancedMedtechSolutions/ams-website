@@ -1,6 +1,6 @@
 {
   "name": "ams",
-  "homepage": "https://www.amsltd.com/",
+  "homepage": "https://amsdev01.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "scripts": {

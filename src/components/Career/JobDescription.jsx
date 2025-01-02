@@ -1,15 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import CareerForm from "./CareerForm";
 import styles from "../Button/style.module.css";
 
 const JobDescription = ({ onClose }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const handleBackgroundClick = (e) => {
-    if (e.target.id === "job-description" || !e.target.id == "jd-block") {
-      onClose();
-    }
-  };
+    const handleOutsideClick = (e) => {
+      if (e.target.classList.contains("background-overlay")) {
+        onClose();
+      }
+    };
+  
+    useEffect(() => {
+      document.addEventListener("mousedown", handleOutsideClick);
+      return () => {
+        document.removeEventListener("mousedown", handleOutsideClick);
+      };
+    }, []);
   const handleLinkClick = () => {
     setIsModalOpen(true);
   };
@@ -18,28 +25,26 @@ const JobDescription = ({ onClose }) => {
     <>
       <section
         id="job-description"
-        onClick={handleBackgroundClick}
-        className="w-screen h-screen fixed bg-black/60 z-[999] top-0 left-0 fade-in"
+       
+        className="w-screen h-screen fixed bg-black/60 z-[999] top-0 left-0 fade-in background-overlay"
         // Close modal on click outside the card
       >
         {" "}
-        <button
-          className="absolute flex right-[5%] top-[5%]  items-center gap-3 z-[999]"
-          onClick={onClose}
-        >
-        
-          <span className="w-[2.2vw] h-[2.2vw] flex justify-center items-center p-2 border border-head rounded-full tablet:w-[4vw] tablet:h-[4vw] mobile:w-[10vw] mobile:h-[10vw] mobile:p-[2.8vw]">
-            <Image
-              src="/assets/icons/close-icon.svg"
-              alt="Close Menu"
-              className="invert"
-              width={20}
-              height={20}
-            />
-          </span>
-        </button>
+        <div className="absolute right-[5%] top-[5%] z-[999]">
+                <button onClick={onClose} className="flex items-center gap-3 group ">
+                  <span className="w-[2.7vw] h-[2.7vw] bg-white group-hover:bg-black duration-300 flex justify-center items-center p-2 border border-head rounded-full tablet:w-[5vw] tablet:h-[5vw] mobile:w-[10vw] mobile:h-[10vw] mobile:p-[2.8vw]">
+                    <Image
+                      className="group-hover:invert duration-300 group-hover:rotate-180 transition-all"
+                      src="/assets/icons/close-icon.svg"
+                      alt="Close Menu"
+                      width={13}
+                      height={13}
+                    />
+                  </span>
+                </button>
+              </div>
         {!isModalOpen ? (
-          <div className="container-lg flex items-center justify-center h-full">
+          <div className=" flex items-center justify-center h-full">
             <div
               className="w-[70vw] h-[45vw]  rounded-[3vw] overflow-hidden relative px-[5vw] pt-[3vw] bg-white jd-card mobile:h-[70vh] mobile:w-[90vw] mobile:rounded-[7vw] mobile:py-[10vw] tablet:w-[85vw] tablet:h-[70vh]"
               id="jd-block"

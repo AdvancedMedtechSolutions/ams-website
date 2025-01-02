@@ -16,7 +16,7 @@ const ProductCarousel = () => {
       description1: "The enduring and comprehensive solution for valve replacement and valve repair procedures providing excellent tensile strength for permanent support.",
       description2:"Silicone coating designed for excellent handling enabling superior pliability and knotting characteristics.",
       description3 : "ADVAPLEDGET assures consistent performance providing smooth uniform construction for precise suture placement.",
-      src:"/advabond-cv"
+      src:"/cardiac-surgery/advabond-polyester-cardiovascular-suture"
     }   ,
     {
       title: "ADVALENE",
@@ -25,7 +25,7 @@ const ProductCarousel = () => {
       description1: "-The only Polypropylene with an advanced and unique dispensing system designed to deliver ease of suture dispensing with minimal memory in the suture strand.",
       description2: "Most inert monofilament structure makes ADVALENE Cardiovascular suture an ideal choice for anastomosis.",
       description3 : "ADVAPRIME needles are specially designed with an engineered tip to maintain shape and sharpness pass after pass for the most challenging calcified lesions & fibrotic blood vessels.",
-      src:"/advalene-cv"
+      src:"/cardiac-surgery/advalene-polypropylene-cardiovascular-suture"
     },
     {
       title: "ADVASTEEL",
@@ -34,7 +34,7 @@ const ProductCarousel = () => {
       description1: "Excellent compatibility with body tissues for minimal tissue reactivity.",
       description2:"Advanced design with superior pliability conforming closely to contour of sternum.",
       description3 : "High resistance to breakage during bend tightening by twisting with excellent knot security.",
-      src:"/advasteel-cv"
+      src:"/cardiac-surgery/advasteel-sternotomy-cardiovascular-suture"
     } ,
     {
       title: "ADVAWAX",
@@ -43,7 +43,7 @@ const ProductCarousel = () => {
       description1: "ADVAWAX acts as a mechanical (tamponade) barrier helping in achieving local hemostasis of bone.",
       description2:"ADVAWAX minimizes formation of any foreign body or inflammatory reaction and delays bone regeneration.",
       description3 : "ADVAWAX provides ease of application due to smooth consistency.",
-      src:"/advapacer-and-wax"
+      src:"/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture"
     }  ,
     {
       title: "ADVAPACER",
@@ -52,18 +52,17 @@ const ProductCarousel = () => {
       description1: "Twisted 316L stainless steel wire, with blue Low Densile Polyethylene coating (sheathed), double needle in suture size 2-0, having a length of 60 cm.",
       description2:" Lead conductor resistant (14.50Ω/M)",
       description3 : "",
-      src:"/advapacer-and-wax"
+      src:"/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture"
 
     } ,
     {
-      src: "/ligation-solutions",
       title: "ADVACLIP",
       para: "Titanium Ligation Clip",
       imageSrc: "/assets/cardioVascular/advaclip.png",
       description1: "Secure precision with ADVACLIP Titanium Clips, delivering reliable vascular and tissue occlusion with superior biocompatibility and minimal tissue reaction.",
       description2: "Designed for effective hemostasis, ADVACLIP is compatible with appliers tailored for Minimally Invasive Cardiac Surgery (MICS).",
       description3: "A color-coded system ensures easy size identification, enhancing efficiency and accuracy during procedures.",
-      src:"/ligation-solutions"
+      src:"/ligation-solutions/advaclip-ligation-clips"
 
     },
          

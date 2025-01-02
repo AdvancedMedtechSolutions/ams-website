@@ -13,7 +13,7 @@ const ProductCard = ({ img, heading, className, rotate, arrowColor,id }) => {
   return (
     <>
       <div className={`${rotate}`}>
-        <a  href={`/advamesh#${id}`}>
+        <a  href={`/hernia-solutions/advamesh-hernia-mesh#${id}`}>
           <div className={`bg-white w-[25vw] h-[27vw] relative flex justify-center items-center  text-center text-[#fff] group overflow-hidden rounded-[20px] mobile:w-[85vw] mobile:h-[100vw] tablet:w-[40vw] tablet:h-[50vw]`}>
             <Image
               src={img}
@@ -151,7 +151,7 @@ const Product = () => {
     <section
       id="products"
       ref={sliderContainer}
-      className={`relative h-[100vh] ${styles.sliderContainer} overflow-x-hidden mobile:h-full pb-[5%] mobile:py-[10%] tablet:h-full`}
+      className={`relative h-[110vh] ${styles.sliderContainer} overflow-x-hidden mobile:h-full pb-[5%] mobile:py-[10%] tablet:h-full`}
     >
       <Media greaterThan="tablet">
         <div className="flex flex-col w-full h-screen justify-between pb-[1%]">

@@ -223,7 +223,7 @@ export default function CareerForm({ onClose }) {
                 <Button type="submit" className=" bg-purple-500 rounded-full w-[8vw] h-[3vw] relative mobile:w-[25vw] mobile:h-[10vw] tablet:w-[17vw] tablet:h-[7vw]">
                 {!isLoading ? (
                       <span
-                        
+                        className="text-[1.1vw] aeonik mobile:text-[4vw] tablet:text-[2.5vw]"
                       >
                        Submit
                       </span>

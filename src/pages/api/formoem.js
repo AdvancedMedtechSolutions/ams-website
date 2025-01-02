@@ -1,7 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
+import OemDetails from "@/components/Emailtemplate/TemplateOemForm";
 import { Resend } from "resend";
-import ContactDetails from "@/components/Emailtemplate/TemplateOem";
-
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async (req, res) => {
@@ -12,7 +11,7 @@ export default async (req, res) => {
       from: "AMS <webforms@amsltd.com>",
       to: ["oemsolutions@amsltd.com"],
       subject: "OEM Form Submission - New Enquiry",
-      react: ContactDetails({
+      react: OemDetails({
         userName: name,
         userEmail: email,
         userMessage:message,

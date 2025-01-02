@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const slidesData = [
   {
-    src: "/advabond-cv",
+    src: "/cardiac-surgery/advabond-polyester-cardiovascular-suture",
     title: "ADVABOND",
     para: "Braided Coated Polyester Green & White",
     imageSrc: "/assets/cardioVascular/advabond-1.png",
@@ -19,7 +19,7 @@ const slidesData = [
     description3: "",
   },
   {
-    src: "/advalene-cv",
+    src: "/cardiac-surgery/advalene-polypropylene-cardiovascular-suture",
     title: "ADVALENE",
     para: "Monofilament Polypropylene Blue",
     imageSrc: "/assets/cardioVascular/advalene-1.png",
@@ -28,7 +28,7 @@ const slidesData = [
     description3: "",
   },
   {
-    src: "/advasteel-cv",
+    src: "/cardiac-surgery/advasteel-sternotomy-cardiovascular-suture",
     title: "ADVASTEEL",
     para: "Monofilament Stainless Steel 316 LVM",
     imageSrc: "/assets/cardioVascular/advasteel-1.png",
@@ -37,7 +37,7 @@ const slidesData = [
     description3: "High resistance to breakage during bend tightening by twisting with excellent knot security.",
   },
   {
-    src: "/advapacer-and-wax",
+    src: "/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture",
     title: "ADVAWAX",
     para: "Braided Coated Polyester Green & White",
     imageSrc: "/assets/cardioVascular/advawax-1.png",
@@ -46,7 +46,7 @@ const slidesData = [
     description3: "ADVAWAX provides ease of application due to smooth consistency.",
   },
   {
-    src: "/advapacer-and-wax",
+    src: "/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture",
     title: "ADVAPACER",
     para: "Multifilament 316L Stainless Steel",
     imageSrc: "/assets/cardioVascular/advapacer-1.png",
@@ -55,7 +55,7 @@ const slidesData = [
     description3: "",
   },
   {
-    src: "/ligation-solutions",
+    src: "/ligation-solutions/advaclip-ligation-clips",
     title: "ADVACLIP",
     para: "Titanium Clips",
     imageSrc: "/assets/cardioVascular/advaclip-1.png",

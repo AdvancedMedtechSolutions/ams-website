@@ -65,9 +65,9 @@ const Specifications = ({ children, heading, textclass, bgimg ,color, paddingBot
                   <path
                     d="M3.01701 48.0165L48.0168 3.01677M48.0168 3.01677L48.0795 46.9876M48.0168 3.01677L4.04596 2.95404"
                     stroke={color}
-                    stroke-width="5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </div>

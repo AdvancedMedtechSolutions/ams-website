@@ -139,7 +139,7 @@ export default function Insights() {
                   }
                   title={"3-Row Series"}
                   img={"/assets/blogs/3-row.jpg"}
-                  link={"/news/next-leap-in-endo-surgery"}
+                  link={"/next-leap-in-endo-surgery"}
                   innertitle={"Discover the Next Leap in Endo Surgery "}
                 />
               </SwiperSlide>
@@ -150,7 +150,7 @@ export default function Insights() {
                   }
                   title={"Arab Health 2025 "}
                   img={"/assets/blogs/arab-health.jpg"}
-                  link={"/news/arab-health"}
+                  link={"/arab-health"}
                   innertitle={"Reimagining Health, Redefining Care"}
                 />
               </SwiperSlide>
@@ -161,7 +161,7 @@ export default function Insights() {
                   }
                   title={"Expansion of The AMS Campus"}
                   img={"/assets/blogs/expansion.jpg"}
-                  link={"/news/building-the-future-of-medtech"}
+                  link={"/building-the-future-of-medtech"}
                   innertitle={"Building the Future of MedTech"}
                 />
               </SwiperSlide>

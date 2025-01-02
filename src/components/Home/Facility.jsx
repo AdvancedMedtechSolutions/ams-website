@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import PrimaryButton from "../Button/PrimaryButton";
-export default function Facility() {
+import Link from "next/link";
 
+export default function Facility() {
     return (
 
         <>
@@ -19,23 +20,24 @@ export default function Facility() {
                             <PrimaryButton className={""} link={"/360/index.html"} text={"Virtual Tour"} />
                         </div>
                     </div>
-                    <div className=" w-[49.5%] h-[26.2vw] rounded-[2.5vw] overflow-hidden fadeUp mobile:h-[100vw] mobile:w-[80vw] mobile:rounded-[6vw] tablet:w-[80vw] tablet:h-[30vh]">
-                        <Image data-speed="0.7"
-                            className="w-full object-cover h-full "
-                            src="/assets/home/virtual.jpg"
-                            alt="facility"
-                            width={741}
-                            height={503}
-                        />
-                        <Image
-                            src="/assets/icons/360.svg"
-                            alt="360 icon"
-                            className="absolute w-[15%] bottom-8 right-8"
-                            width={100}
-                            height={100}
-                        />
+                    <div className="group w-[49.5%] h-[26.2vw] rounded-[2.5vw] overflow-hidden fadeUp mobile:h-[100vw] mobile:w-[80vw] mobile:rounded-[6vw] tablet:w-[80vw] tablet:h-[30vh]">
+                        <Link href={"/360/index.html"}>
+                            <Image
+                                className="w-full object-cover h-full scale-105 group-hover:scale-100 duration-500"
+                                src="/assets/home/virtual.jpg"
+                                alt="facility"
+                                width={741}
+                                height={503}
+                            />
+                            <Image
+                                src="/assets/icons/360.svg"
+                                alt="360 icon"
+                                className="absolute w-[15%] bottom-8 right-8"
+                                width={100}
+                                height={100}
+                            />
+                        </Link>
                     </div>
-                    
                 </div>
             </section>
         </>

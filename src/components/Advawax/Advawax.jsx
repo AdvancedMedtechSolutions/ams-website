@@ -3,12 +3,12 @@ import Image from "next/image";
 const Advawax = () => {
   return (
     <>
-      <section className="hero tablet:mb-0 tablet:pr-[3%] w-screen overflow-hidden  shadow-md drop-shdow-md mobile:bg-white/30 mobile:pt-[10%]" id="hero">
+      <section className="hero tablet:mb-0 tablet:pr-[3%] w-screen overflow-hidden  shadow-md drop-shdow-md mobile:bg-white/30 mobile:pt-[10%]" id="advawax">
         <div className="px-[10%] relative hero-container tablet:px-[5%] mobile:px-[8%]">
           <div className="flex h-dvh w-full justify-start items-center mobile:h-[90vh] mobile:flex-col mobile:justify-start mobile:text-center mobile:gap-[2vw] tablet:h-[60vh]">
             <div className="gap-[4vw] mobile:w-full mobile:h-fit mobile:flex mobile:flex-col mobile:gap-0">
               <div className="mobile:w-full mobile:h-full mobile:flex  mobile:flex-col mobile:gap-[2vw] mobile:items-center">
-                <h2 className="title-1 aeonik  leading-[1]">
+                <h2 className="title-1 aeonik  leading-[1] overflow-hidden">
                   <span data-para-anim
                     className={`leading-[1.2] overflow-hidden uppercase text-[5.75vw] mobile:text-[13.2vw] text-[#CBA82A] tablet:text-[9vw]`}
                   >

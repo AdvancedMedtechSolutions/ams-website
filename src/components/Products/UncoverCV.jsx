@@ -2,19 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import 'swiper/css/scrollbar';
+import { Scrollbar } from 'swiper/modules';
 import { useRouter } from "next/router";
 import { FreeMode } from "swiper/modules";
 
 
 const cards = [
-    { img: "/assets/advalene-cv/advalenecv.png", txt: "Advalene", src: "/advalene-cv" },
-    { img: "/assets/advalene-cv/advabondcv.png", txt: "Advabond", src: "/advabond-cv" },
-    { img: "/assets/advalene-cv/advasteelcv.png", txt: "Advasteel", src: "/advasteel-cv" },
-    { img: "/assets/advalene-cv/advapacercv.png", txt: "Advapacer", src: "/advapacer-and-wax" },
-    { img: "/assets/advalene-cv/advawaxcv.png", txt: "Advawax", src: "/advapacer-and-wax" },
-    { img: "/assets/advalene-cv/advaclipcv.png", txt: "Advaclip", src: "/#" }
+    { img: "/assets/advalene-cv/advalenecv.png", txt: "Advalene", src: "/cardiac-surgery/advalene-polypropylene-cardiovascular-suture" },
+    { img: "/assets/advalene-cv/advabondcv.png", txt: "Advabond", src: "/cardiac-surgery/advabond-polyester-cardiovascular-suture" },
+    { img: "/assets/advalene-cv/advasteelcv.png", txt: "Advasteel", src: "/cardiac-surgery/advasteel-sternotomy-cardiovascular-suture" },
+    { img: "/assets/advalene-cv/advapacercv.png", txt: "Advapacer", src: "/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture" },
+    { img: "/assets/advalene-cv/advawaxcv.png", txt: "Advawax", src: "/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture" },
+    { img: "/assets/advalene-cv/advaclipcv.png", txt: "Advaclip", src: "/ligation-solutions/advaclip-ligation-clips" }
 ];
-
 
 const UncoverCard = ({ img, txt, src }) => {
   return (
@@ -58,7 +59,8 @@ const UncoverCV = () => {
             slidesPerView={1.2}
             spaceBetween={20}
             freeMode={true}
-            modules={[FreeMode]}
+        scrollbar={true}
+            modules={[FreeMode, Scrollbar]}
             breakpoints={{
               540: { slidesPerView: 2.2 },
               768: { slidesPerView: 2 },

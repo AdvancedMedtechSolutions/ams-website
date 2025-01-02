@@ -14,14 +14,14 @@ const productContent = [
     title: "ADVA GLIDE",
     src: "/assets/ic/adva-glide.png",
     para: "AMS has advanced the science of flow restoration to provide minimally invasive products for use in Percutaneous Transluminal Coronary Angioplasty procedures for revascularisation of coronary arteries.",
-    link:'/advaglide'
+    link:'/interventional-cardiology/adva-glide-ptca-coronary-balloon-semi-compliant'
    
   },
   {
     title: "ADVA PRO",
     src: "/assets/ic/adva-pro.png",
     para: "AMS has redefined the science of vascular restoration with ADVA PRO, a Sirolimus Eluting Coronary Stent System engineered for safety and precision",
-    link:'/advapro'
+    link:'/interventional-cardiology/adva-pro-coronary-sirolimus-stent'
 
 
   },
@@ -29,7 +29,7 @@ const productContent = [
     title: "Coronary Accessories",
     src: "/assets/ic/coronary-accessories.png",
     para: "At AMS, we understand that every detail matters in achieving optimal patient outcomes in interventional cardiology. Our comprehensive range of coronary accessories is designed to complement our primary devices, providing healthcare professionals with the tools they need for precision and efficiency in every procedure.",
-    link:'/accessories'
+    link:'/interventional-cardiology/coronary-accessories'
 
     
   },
@@ -37,7 +37,7 @@ const productContent = [
     title: "NC ADVA GLIDE",
     src: "/assets/ic/adva-glide.png",
     para: "AMS has advanced the science of flow restoration to provide minimally invasive products for use in Percutaneous Transluminal Coronary Angioplasty procedures for revascularisation of coronary arteries.",
-    link:'/advaglide'
+    link:'/interventional-cardiology/adva-glide-nc-ptca-coronary-balloon-non-compliant'
 
    
   },
@@ -193,7 +193,7 @@ export default function IcCards() {
               <div className="w-full  mobile:mt-[5vw] mobile:fadeUp mobile:block hidden fadeUp tablet:overflow-scroll mobile:fadeUp tablet:block tablet:px-[5%] overflow-visible tablet:mt-0 ">
                 <div className=" mobile:flex mobile:flex-col mobile:w-full mobile:items-center mobile:gap-[10vw] mobile:h-fit tablet:flex tablet:flex-nowrap tablet:w-fit tablet:gap-[2vw] tablet:h-fit ">
                   <Link
-                    href={"/advapro"}
+                    href={"/interventional-cardiology/adva-pro-coronary-sirolimus-stent"}
                     className="w-[85vw] h-[100vw] tablet:w-[45vw] tablet:h-[50vw] relative  overflow-hidden"
                   >
                     <div
@@ -216,7 +216,7 @@ export default function IcCards() {
                     </div>
                   </Link>
                   <Link
-                    href={"/advaglide"}
+                    href={"/interventional-cardiology/adva-glide-ptca-coronary-balloon-semi-compliant"}
                     className="w-[85vw] h-[100vw] tablet:w-[45vw] tablet:h-[50vw] relative  overflow-hidden"
                   >
                     <div
@@ -239,7 +239,7 @@ export default function IcCards() {
                     </div>
                   </Link>
                   <Link
-                    href={"/accessories"}
+                    href={"/interventional-cardiology/coronary-accessories"}
                     className="w-[85vw] h-[100vw] tablet:w-[45vw] tablet:h-[50vw] relative  overflow-hidden"
                   >
                     <div
@@ -262,7 +262,7 @@ export default function IcCards() {
                     </div>
                   </Link>
                   <Link
-                    href={"/nc-advaglide"}
+                    href={"/interventional-cardiology/adva-glide-nc-ptca-coronary-balloon-non-compliant"}
                     className="w-[85vw] h-[100vw] tablet:w-[45vw] tablet:h-[50vw] relative  overflow-hidden"
                   >
                     <div

@@ -131,7 +131,7 @@ export default function Product() {
                         </p>
                         <LinkButton
                           btnText={"Learn More"}
-                          link={"/advaglide"}
+                          link={"/interventional-cardiology/adva-glide-ptca-coronary-balloon-semi-compliant"}
                           className={"tablet:text-[2vw] tablet:mt-[-0.8vw]"}
                         />
                       </div>
@@ -185,7 +185,7 @@ export default function Product() {
                         </p>
                         <LinkButton
                           btnText={"Learn More"}
-                          link={"/knotless-tissue-control-device"}
+                          link={"/wound-care/advagrip-knotless-barbed-suture"}
                           className={"tablet:text-[2vw] tablet:mt-[-0.8vw]"}
                         />
                       </div>
@@ -237,7 +237,7 @@ export default function Product() {
                         </p>
                         <LinkButton
                           btnText={"Learn More"}
-                          link={"/advapro"}
+                          link={"/interventional-cardiology/adva-pro-coronary-sirolimus-stent"}
                           className={"tablet:text-[2vw] tablet:mt-[-0.8vw]"}
                         />
                       </div>
@@ -289,7 +289,7 @@ export default function Product() {
                         </p>
                         <LinkButton
                           btnText={"Learn More"}
-                          link={"/advacryl"}
+                          link={"/wound-care/advacryl-polyglactin-910-suture"}
                           className={"tablet:text-[2vw] tablet:mt-[-0.8vw]"}
                         />
                       </div>
@@ -343,7 +343,7 @@ export default function Product() {
                         </p>
                         <LinkButton
                           btnText={"Learn More"}
-                          link={"/poweredlc"}
+                          link={"/endo-surgery/advastap-powered-linear-cutter-stapler"}
                           className={"tablet:text-[2vw] tablet:mt-[-0.8vw]"}
                         />
                       </div>

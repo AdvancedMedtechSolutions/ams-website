@@ -20,7 +20,7 @@ export default function ManufacturingMenu({ onBack }) {
         <ul className='space-y-[0.2vw] tablet:space-y-1 mobile:space-y-2'>
           <li><NavLink href="/manufacturing" linkText="Manufacturing" /></li>
           <li><NavLink href="/research-and-development" linkText="Research and Development" /></li>
-          <li><NavLink href="/needle" linkText="Advanced Needle Technology" /></li>
+          <li><NavLink href="/r&d/suture-needle-technology" linkText="Advanced Needle Technology" /></li>
         </ul>
       </div>
     </div>
