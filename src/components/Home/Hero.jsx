@@ -86,13 +86,14 @@ export default function Hero() {
         </div>
 
         <div className="absolute top-0 left-0 bottom-0 right-0 h-full w-full z-[1] mobile:relative mobile:h-[75vw] mobile:w-[100vw] mobile:ml-[-5vw]">
+          <span className="block z-[1] absolute bg-gradient-to-b from-white/25 to-transparent w-full h-full"/>
           <video
             poster="/assets/home/hero-video-poster.webp"
             autoPlay
             loop
             muted
             src={videoSrc}
-            className="w-full h-full object-cover object-left brightness-[0.8]"
+            className="w-full h-full object-cover object-left brightness-[1]"
             playsInline
           />
         </div>

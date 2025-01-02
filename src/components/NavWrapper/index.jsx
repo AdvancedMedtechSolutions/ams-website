@@ -78,7 +78,7 @@ function MainNav({ onSelectMenu }) {
                 <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/"} linkText="Home" />
             </li>
             <li>
-                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/about"} linkText="About" prefetch={false} />
+                <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[5.5vw]' href={"/about"} linkText="About" />
             </li>
             <li>
                 <button onClick={() => onSelectMenu('products')} className={`text-[1.5vw] fade-in-0 leading-tight text-body tablet:text-[2.5vw] mobile:text-[5.5vw] overflow-hidden block relative group aeonik font-light`}>

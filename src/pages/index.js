@@ -20,10 +20,10 @@ const Blog = dynamic(() => import("@/components/Home/Blog"), {
 
 export default function Home() {
   const metadata = {
-    title: "Home – Advanced MedTech Solutions",
+    title: "Home - Advanced MedTech Solutions",
     description: "Transforming global healthcare with advanced, affordable medical solutions. Explore our innovative product range.",
     img: "homepage.png",
-    alt:"Home – Advanced MedTech Solutions",
+    alt:"Home - Advanced MedTech Solutions",
     slug: "",
     date_published: "2020-01-01T00:00",
     date_modified: "2024-12-26T12:32",

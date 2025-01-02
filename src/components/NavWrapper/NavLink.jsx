@@ -1,4 +1,3 @@
-import { ArrowRight, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 export function NavLink ({ href, linkText, className=""}) {

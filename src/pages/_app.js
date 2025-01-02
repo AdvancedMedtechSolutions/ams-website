@@ -6,6 +6,7 @@ import { ReactLenis } from "lenis/react";
 import { AnimatePresence } from "framer-motion";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleTagManager } from '@next/third-parties/google';
 
 export default function App({ Component, pageProps, router }) {
 
@@ -40,6 +41,7 @@ export default function App({ Component, pageProps, router }) {
           </AnimatePresence>
         </ReactLenis>
       </MediaContextProvider>
+      <GoogleTagManager gtmId="GTM-KSL3Q9F6" />
       <Analytics/>
       <SpeedInsights/>
     </>
