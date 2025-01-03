@@ -67,7 +67,7 @@ function useRouteColors() {
           color3: "#669FE5",
         });
         break;
-      case "/r&d/suture-needle-technology":
+      case "/r-and-d/suture-needle-technology":
         setColors({
           color1: "#637DA2",
           color2: "#669FE5",

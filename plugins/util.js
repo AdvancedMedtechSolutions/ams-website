@@ -231,7 +231,7 @@ function generateSitemap({ posts = [] }, nextConfig = {}) {
     { slug: "newsroom" },
     { slug: "contact-us" },
     { slug: "research-and-development" },
-    { slug: "r&d/suture-needle-technology" },
+    { slug: "r-and-d/suture-needle-technology" },
     { slug: "products/wound-care" },
     { slug: "products/endo-surgery" },
     { slug: "products/hernia-solutions" },
@@ -285,7 +285,7 @@ function generateSitemap({ posts = [] }, nextConfig = {}) {
           return `<url>
                   <loc>${homepage}/${page.slug}</loc>
                   <priority>0.9</priority>
-                 <lastmod>${new Date().toISOString()}</lastmod>
+                  <lastmod>${new Date().toISOString()}</lastmod>
                 </url>
               `;
         })

@@ -46,7 +46,7 @@ export default function needle() {
       "Discover precision-engineered surgical needles for enhanced performance and reliability.",
     img: "needle.png",
     alt: "Suture Needle Technology – High-Performance Surgical Needles",
-    slug: "r&d/suture-needle-technology",
+    slug: "r-and-d/suture-needle-technology",
     date_published: "2020-01-01T00:00",
     date_modified: "2024-12-26T12:32",
   };

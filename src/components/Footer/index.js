@@ -218,7 +218,7 @@ export default function Footer() {
                   <li className="footer-link">
                     <Link
                       className="content-p text-head font-light mobile:text-[5vw] mobile:mx-auto mobile:w-fit"
-                      href="/r&d/suture-needle-technology"
+                      href="/r-and-d/suture-needle-technology"
                     >
                       <span
                         

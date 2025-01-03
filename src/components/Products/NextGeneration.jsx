@@ -25,7 +25,7 @@ data-para-anim className="title-2 aeonik text-center z-10 tablet:text-[5vw] ">
             </h2>
           </div>
           <div className='fadeUp z-10'>
-            <PrimaryButton link="/r&d/suture-needle-technology" text="See More" />
+            <PrimaryButton link="/r-and-d/suture-needle-technology" text="See More" />
           </div>
         </div>
 
