@@ -17,7 +17,11 @@ const privacypolicy = () => {
 <main>
   <section id='hero' className='relative'>
     <div className='h-[30vw] w-screen container-sm flex items-center  mobile:h-[50vh] tablet:h-[50vh]'>
-    <h2 data-para-anim className='title-1 aeonik z-[10] overflow-hidden'>Privacy Policy</h2>
+      <h2 data-para-anim className='title-1 aeonik z-[10] overflow-hidden'>
+        <span className='leading-[1.2]'>
+          Privacy Policy
+        </span>
+      </h2>
     </div>
     <div className='absolute w-screen h-[30vw] top-0 left-0 z-[1]  mobile:h-[50vh] tablet:h-[50vh]'>
       <Image src="/assets/advaglide/advaglide-bg.png" fill alt="background"/>

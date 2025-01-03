@@ -271,6 +271,11 @@ function generateSitemap({ posts = [] }, nextConfig = {}) {
     { slug: "cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture" },
     { slug: "legal-pages/privacy-policy" },
     { slug: "legal-pages/terms-and-conditions" },
+    { slug: "infographics/needle-brochure.pdf" },
+    { slug: "infographics/advakit-csection.pdf" },
+    { slug: "infographics/advakit-hernia.pdf" },
+    { slug: "infographics/advakit-ortho.pdf" },
+    { slug: "infographics/advastap-reloads.pdf" },
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
