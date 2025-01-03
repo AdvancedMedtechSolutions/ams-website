@@ -5,6 +5,7 @@ import { Media } from "../media";
 import Transition from "../Transition";
 import {
   ImageObjectJsonLd,
+  LocalBusiness,
   OrganizationJsonLd,
   WebsiteJsonLd,
 } from "@/lib/json-ld";
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <OrganizationJsonLd />
       <WebsiteJsonLd />
       <ImageObjectJsonLd />
+      <LocalBusiness />
       <Header />
       {children}
       <Footer />

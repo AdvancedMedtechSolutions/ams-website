@@ -4,7 +4,6 @@ const LinkButton = ( { link, btnText,className } ) => {
     return (
         <Link href={link} className="link-btn">
             <span className={`btn-text ${className}`}>{btnText}</span>
-            {/* <span className="screen-reader-text">About This</span> */}
             <span className="btn-images">
                 <div>
                     <svg viewBox="0 0 22 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

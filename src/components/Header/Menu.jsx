@@ -193,7 +193,7 @@ const Menu = ({ isMenuOpen, toggleMenu }) => {
                   </Link>
                   <Link
                     target="_blank"
-                    href="https://www.linkedin.com/company/13193029/admin/dashboard/"
+                    href="https://www.linkedin.com/company/advanced-medtech-solutions"
                     className="opacity-60 hover:opacity-100 duration-300"
                   >
                     <Image

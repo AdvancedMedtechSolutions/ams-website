@@ -1,0 +1,36 @@
+.job{
+    font-size: 1.3vw;
+    color: var(--text-color);
+    font-weight: 300;
+    margin-bottom: 3vw;
+}
+
+.job ul, .job ol{
+    margin-top: 0.5vw !important;
+    padding-left: 2vw;
+}
+.job li{
+    list-style: disc;
+}
+
+@media screen and (max-width: 1024px){
+    .job{
+        font-size: 3vw;
+        margin-bottom: 6vw;
+    }
+    .job ul, .job ol{
+        margin-top: 1vw !important;
+        padding-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .job{
+        font-size: 4.2vw;
+        margin-bottom: 10vw;
+    }
+    .job ul, .job ol{
+        margin-top: 1vw !important;
+        padding-left: 4vw;
+    }
+}

@@ -1,264 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>https://www.amsltd.com/</loc>
-  <lastmod>2025-01-02T11:22:56+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/about-us</loc>
-  <lastmod>2025-01-02T11:22:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/interventional-cardiology/adva-glide-ptca-coronary-balloon-semi-compliant</loc>
-  <lastmod>2025-01-02T11:22:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advagrip-knotless-barbed-suture</loc>
-  <lastmod>2025-01-02T11:22:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/interventional-cardiology/adva-pro-coronary-sirolimus-stent</loc>
-  <lastmod>2025-01-02T11:22:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advacryl-polyglactin-910-suture</loc>
-  <lastmod>2025-01-02T11:22:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/endo-surgery/advastap-powered-linear-cutter-stapler</loc>
-  <lastmod>2025-01-02T11:22:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/career</loc>
-  <lastmod>2025-01-02T11:22:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/arab-health</loc>
-  <lastmod>2025-01-02T11:22:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/shaping-the-future-of-healthcare</loc>
-  <lastmod>2025-01-02T11:22:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/next-leap-in-endo-surgery</loc>
-  <lastmod>2025-01-02T11:22:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/building-the-future-of-medtech</loc>
-  <lastmod>2025-01-02T11:22:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/manufacturing</loc>
-  <lastmod>2025-01-02T11:22:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/contact-us</loc>
-  <lastmod>2025-01-02T11:22:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/newsroom</loc>
-  <lastmod>2025-01-02T11:22:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/advanced-medtech-academy-ama</loc>
-  <lastmod>2025-01-02T11:22:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/research-and-development</loc>
-  <lastmod>2025-01-02T11:22:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/r&amp;d/suture-needle-technology</loc>
-  <lastmod>2025-01-02T11:23:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/products/wound-care</loc>
-  <lastmod>2025-01-02T11:23:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/products/endo-surgery</loc>
-  <lastmod>2025-01-02T11:23:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/products/hernia-solutions</loc>
-  <lastmod>2025-01-02T11:23:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/products/interventional-cardiology</loc>
-  <lastmod>2025-01-02T11:23:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/products/cardiac-surgery</loc>
-  <lastmod>2025-01-02T11:23:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/products/oem</loc>
-  <lastmod>2025-01-02T11:23:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advacryl-rapid-polyglactin-910-suture</loc>
-  <lastmod>2025-01-02T11:23:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture</loc>
-  <lastmod>2025-01-02T11:23:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advamryl-poliglecaprone-25-suture</loc>
-  <lastmod>2025-01-02T11:23:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advapd-polydioxanone-suture</loc>
-  <lastmod>2025-01-02T11:23:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advacat-gut-suture-chromic-plain</loc>
-  <lastmod>2025-01-02T11:23:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advalene-polypropylene-suture</loc>
-  <lastmod>2025-01-02T11:23:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advabond-polyester-suture</loc>
-  <lastmod>2025-01-02T11:23:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advasyl-silk-suture</loc>
-  <lastmod>2025-01-02T11:23:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advabond-polyester-tape-suture</loc>
-  <lastmod>2025-01-02T11:23:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/nurturing-nursing-skills</loc>
-  <lastmod>2025-01-02T11:23:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/medica-2024</loc>
-  <lastmod>2025-01-02T11:23:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture</loc>
-  <lastmod>2025-01-02T11:23:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/wound-care/advalon-polyamide-suture</loc>
-  <lastmod>2025-01-02T11:23:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/endo-surgery/advastap-hemorrhoid-stapler</loc>
-  <lastmod>2025-01-02T11:23:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/endo-surgery/advastap-endoscopic-linear-cutter-stapler</loc>
-  <lastmod>2025-01-02T11:23:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/endo-surgery/advastap-endoscopic-reloads</loc>
-  <lastmod>2025-01-02T11:23:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/endo-surgery/advastap-linear-cutter-stapler</loc>
-  <lastmod>2025-01-02T11:23:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/endo-surgery/advastap-circular-stapler</loc>
-  <lastmod>2025-01-02T11:23:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/endo-surgery/advastap-skin-stapler</loc>
-  <lastmod>2025-01-02T11:23:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/ligation-solutions/advaclip-ligation-clips</loc>
-  <lastmod>2025-01-02T11:23:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/interventional-cardiology/coronary-accessories</loc>
-  <lastmod>2025-01-02T11:23:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/interventional-cardiology/adva-glide-nc-ptca-coronary-balloon-non-compliant</loc>
-  <lastmod>2025-01-02T11:23:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/cardiac-surgery/advabond-polyester-cardiovascular-suture</loc>
-  <lastmod>2025-01-02T11:23:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/needle-brochure.pdf</loc>
-  <lastmod>2025-01-02T11:23:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/cardiac-surgery/advalene-polypropylene-cardiovascular-suture</loc>
-  <lastmod>2025-01-02T11:23:06+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/cardiac-surgery/advasteel-sternotomy-cardiovascular-suture</loc>
-  <lastmod>2025-01-02T11:23:06+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.amsltd.com/advastap-reloads.pdf</loc>
-  <lastmod>2025-01-02T11:23:06+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.amsltd.com</loc>
+    <priority>1</priority>
+    <lastmod>2025-01-03T09:24:51.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/about-us</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/manufacturing</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/advanced-medtech-academy-ama</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/career</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/newsroom</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/contact-us</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/research-and-development</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/r&d/suture-needle-technology</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/products/wound-care</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/products/endo-surgery</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/products/hernia-solutions</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/products/interventional-cardiology</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/products/cardiac-surgery</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/products/oem</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advacryl-polyglcatin-910-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advacryl-rapid-polyglactin-910-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advamryl-poliglecaprone-25-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advapd-polydioxanone-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advacat-gut-suture-chromic-plain</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advalene-polypropylene-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advabond-polyester-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advalon-polyamide-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advasyl-silk-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advabond-polyester-tape-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/advagrip-knotless-barbed-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/haemostats-gelatin-sponge</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/wound-care/surgical-kits</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/endo-surgery/advastap-hemorrhoid-stapler</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/endo-surgery/advastap-linear-cutter-stapler</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/endo-surgery/advastap-circular-stapler</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/endo-surgery/advastap-skin-stapler</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/endo-surgery/advastap-endoscopic-linear-cutter-stapler</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/endo-surgery/advastap-powered-linear-cutter-stapler</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/endo-surgery/advastap-endoscopic-reloads</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/ligation-solutions/advaclip-ligation-clips</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/hernia-solutions/advamesh-hernia-mesh</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/interventional-cardiology/adva-glide-ptca-coronary-balloon-semi-compliant</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/interventional-cardiology/adva-glide-nc-ptca-coronary-balloon-non-compliant</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/interventional-cardiology/adva-pro-coronary-sirolimus-stent</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/interventional-cardiology/coronary-accessories</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/cardiac-surgery/advabond-polyester-cardiovascular-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/cardiac-surgery/advalene-polypropylene-cardiovascular-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/cardiac-surgery/advasteel-sternotomy-cardiovascular-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/legal-pages/privacy-policy</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/legal-pages/terms-and-conditions</loc>
+    <priority>0.9</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
 
-
+  <url>
+    <loc>https://www.amsltd.com/discover-the-next-leap-in-endo-surgery-advastap-3-row-series</loc>
+    <priority>0.7</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/ams-at-arab-health-2025</loc>
+    <priority>0.7</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/building-for-future-of-medtech-expansion-of-the-ams-campus</loc>
+    <priority>0.7</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/shaping-the-future-of-healthcare-in-advanced-surgery</loc>
+    <priority>0.7</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/nurturing-the-future-of-healthcare</loc>
+    <priority>0.7</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.amsltd.com/a-successful-medica-2024</loc>
+    <priority>0.7</priority>
+    <lastmod>2025-01-03T09:24:51.544Z</lastmod>
+  </url>
 </urlset>

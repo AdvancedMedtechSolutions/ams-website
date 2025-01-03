@@ -60,7 +60,6 @@ export default function Footer() {
                     className="content-p block text-head fadeUp mobile:text-[5vw]"
                   >
                     <span
-                      
                       data-v="info@amsltd.com"
                       className="font-[400]"
                     >
@@ -83,7 +82,7 @@ export default function Footer() {
                     />
                   </Link>
                   <Link
-                    href="https://www.linkedin.com/company/13193029/admin/dashboard/"
+                    href="https://www.linkedin.com/company/advanced-medtech-solutions"
                     target="_blank"
                     className="opacity-60 hover:opacity-100 duration-300 mobile:opacity-100"
                   >

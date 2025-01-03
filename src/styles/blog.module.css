@@ -1,0 +1,83 @@
+.blog p{
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    font-family: 'Sofia Pro', sans-serif;
+    padding-bottom: 0.8vw;
+}
+
+.blog strong {
+    font-weight: 400;
+}
+
+.blog h2 {
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Aeonik', sans-serif;
+    color: var(--p-text-color);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.blog :global(.wp-block-list) {
+    padding-bottom: 0.8vw;
+    padding-left: 4vw;
+}
+.blog ul {
+    list-style-type: disc;
+}
+.blog ol {
+    list-style-type: decimal;
+}
+.blog li {
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+.blog a {
+    color: var(--button-primary);
+    text-decoration: underline;
+}
+.blog :global(.wp-block-image) {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.blog img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 2.5vw;
+}
+
+@media screen and (max-width: 1023px) {
+    .blog p {
+        font-size: 2.5vw;
+        padding-bottom: 3%;
+    }
+    .blog h2 {
+        font-size: 4vw;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .blog :global(.wp-block-list) {
+        padding-left: 5vw;
+        padding-bottom: 3%;
+    }
+    .blog li {
+        font-size: 2.5vw;
+        padding-bottom: 1%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .blog p {
+        font-size: 4.5vw;
+    }
+    .blog h2 {
+        font-size: 6.5vw;
+    }
+    .blog li {
+        font-size: 4.5vw;
+    }
+}

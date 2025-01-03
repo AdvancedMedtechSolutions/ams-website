@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import PrimaryButton from "../Button/PrimaryButton";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import LinkButton from "../Button/LinkButton";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,7 +42,7 @@ export default function Blog() {
           </div>
           <div className="blog-right w-1/2 flex flex-col gap-[4vw] items-end tablet:items-center tablet:gap-[6vw] mobile:w-[100%] mobile:space-y-[15vw] tablet:w-full tablet:mt-[7vw]">
             {content.map((item, index) => (
-              <Card 
+              <Card
                 key={index}
                 title={item.title}
                 description={item.description}
@@ -60,7 +60,7 @@ export default function Blog() {
 const Card = ({ title, description, image, link }) => {
   return (
     <div className="w-[87%] flex items-start flex-col space-y-[2vw] mobile:w-full mobile:space-y-[4vw] mobile:text-center">
-      <div className="h-[18.5vw] w-full fadeUp rounded-[1.1vw] overflow-hidden mobile:rounded-[5vw] mobile:h-[60vw] tablet:h-[35vw] tablet:rounded-[2vw]">
+      <Link href={link} className="h-[18.5vw] w-full block fadeUp rounded-[1.1vw] overflow-hidden mobile:rounded-[5vw] mobile:h-[60vw] tablet:h-[35vw] tablet:rounded-[2vw]">
         <Image
           className="w-full h-full object-cover"
           src={image}
@@ -68,15 +68,17 @@ const Card = ({ title, description, image, link }) => {
           height={360}
           width={640}
         />
-      </div>
-      <h5  className="text-[2.2vw] font-extralight leading-[1.2] mobile:text-[8vw] mobile:mb-[8vw] tablet:text-[3.5vw]">
-        {title}
-      </h5>
-      <p  className="text-[0.94vw] font-light mobile:text-[4.2vw] tablet:text-[2vw]" >
-        {description}
-      </p>
+      </Link>
+      <Link href={link} className="space-y-[2vw] mobile:space-y-[4vw]">
+        <h5 className="text-[2.2vw] font-extralight leading-[1.2] mobile:text-[8vw] mobile:mb-[8vw] tablet:text-[3.5vw]">
+          {title}
+        </h5>
+        <p className="text-[0.94vw] font-light mobile:text-[4.2vw] tablet:text-[2vw]" >
+          {description}
+        </p>
+      </Link>
       <div className=" !mb-[2vw] tablet:!mb-[4vw] mobile:!mb-[8vw] mobile:w-full mobile:text-center mobile:flex mobile:justify-center">
-        <LinkButton link={link} btnText="Read More"/>
+        <LinkButton link={link} btnText="Read More" />
       </div>
       <span className="block h-[1px] w-full bg-[#444444] lineDraw tablet:h-[0.5px]" />
     </div>
@@ -88,24 +90,24 @@ const content = [
     title: "Reimagining Health, Redefining Care Arab Health 2025",
     description: "Advanced MedTech Solutions is excited to showcase innovation at Arab Health 2025! Visit us to explore advanced solutions transforming healthcare.",
     image: "/assets/home/blog-image-1.png",
-    link: "/arab-health",
+    link: "/ams-at-arab-health-2025",
   },
   {
     title: "Shaping the Future of Healthcare Advanced Surgery & Cardiovascular",
     description: "AMS serves as a healthcare ecosystem focused on the MedTech fields of Advanced Surgery & Advanced Cardiovascular.",
     image: "/assets/home/blog-image-2.png",
-    link: "/shaping-the-future-of-healthcare",
+    link: "/shaping-the-future-of-healthcare-in-advanced-surgery",
   },
   {
     title: "The Next Leap in Endo Surgery 3-Row Series",
     description: "The ADVASTAP Staplers 3-row series is here, setting a new benchmark in endo surgery. Designed to enhance precision and improve patient outcomes, our innovative stapling technology is revolutionizing the surgical landscape..",
     image: "/assets/home/blog-image-3.png",
-    link: "/next-leap-in-endo-surgery",
+    link: "/discover-the-next-leap-in-endo-surgery-advastap-3-row-series",
   },
   {
     title: "Building the Future of MedTech Expansion of The AMS Campus",
     description: "AMS Takes Center Stage at Arab Health in Dubai: Leading the Charge in Global MedTech with Industry leaders and partners Transforming Healthcare Worldwide.",
     image: "/assets/home/blog-image-4.png",
-    link: "/building-the-future-of-medtech",
+    link: "/building-for-future-of-medtech-expansion-of-the-ams-campus",
   },
 ]

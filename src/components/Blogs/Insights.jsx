@@ -1,5 +1,4 @@
 import gsap from "gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,36 +6,30 @@ import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper/modules";
 import styles from "./styles.module.css";
 import Link from "next/link";
-
-gsap.registerPlugin(ScrollTrigger);
+import { postPathBySlug } from "@/lib/posts";
 
 const NewsCard = ({ title, para, img, link, innertitle }) => {
   return (
     <>
-      <Link href={link}>
+      <Link href={link} className="fadeUp">
         <div className="h-full w-full rounded-[2vw] newsCard relative transition-all duration-500 ease group">
           <div className="relative h-full w-full">
             <Image
               src={img}
-              fill
+              width={1000}
+              height={1000}
               alt="news-img"
-              className="rounded-[2.5vw] object-cover"
+              className="rounded-[2.5vw] object-cover h-full w-full"
             />
           </div>
           <div className="absolute inset-0 flex flex-col justify-center z-[5] text-white transition-all rounded-[2.5vw] duration-500 ease opacity-0 group-hover:opacity-100 group-hover:bg-black/80 mobile:hidden tablet:hidden">
-            <p
-              data-para-anim
-              className="text-[1.65vw] font-light py-[0.5vw]  px-[2vw]"
-            >
+            <p className="text-[1.65vw] font-light py-[0.5vw] px-[2vw]">
               {innertitle}
             </p>
-            <p data-para-anim className="text-[1.25vw] font-light px-[2vw] ">
-              {para}
-            </p>
+            <div className="text-[1.25vw] font-light px-[2vw]" dangerouslySetInnerHTML={{__html: para}} />
           </div>
-
           <div>
-            <p className="font-light text-[2vw] px-[2vw] py-[1vw] aeonik leading-[1.2] fadeUp mobile:text-[6.5vw] tablet:text-[4vw]">
+            <p className="font-light text-[2vw] px-[2vw] py-[1vw] aeonik leading-[1.2] mobile:text-[6.5vw] tablet:text-[4vw]">
               {title}
               <span className="inline-block">
                 <Image
@@ -55,7 +48,10 @@ const NewsCard = ({ title, para, img, link, innertitle }) => {
   );
 };
 
-export default function Insights() {
+export default function Insights({ posts }) {
+
+  const news = posts.slice(0, 4);
+
   const handleSlideChange = (swiper) => {
     if (globalThis.innerWidth > 1024) {
       gsap.to(".swiper-slide", {
@@ -91,25 +87,21 @@ export default function Insights() {
             <h2 data-para-anim className="title-2 aeonik leading-[1.3]">
               Insights and Innovations in Healthcare
             </h2>
-            <p
-              data-para-anim
-              className="content-p my-6 w-[50%] mobile:w-[90%] mobile:my-10 tablet:w-[70%]"
-            >
+            <p data-para-anim className="content-p my-6 w-[50%] mobile:w-[90%] mobile:my-10 tablet:w-[75%]">
               Welcome to the AMS Blog, your go-to resource for cutting-edge
               advancements and expert insights in the medical and healthcare
               industry.
             </p>
-            <p
-              data-para-anim
-              className="aeonik font-light text-[2.5vw]  mt-[2vw] mobile:text-[8vw] tablet:text-[5vw]"
-            >
+            <p className="aeonik font-light text-[2.5vw]  mt-[2vw] mobile:text-[8vw] tablet:text-[5vw]">
               What&apos;s Trending News
             </p>
           </div>
+
           <div className="w-full h-[48vw] pt-[3vw] pb-[2vw] cursor-grab fadeUp mobile:pt-[10vw]">
             <Swiper
               scrollbar={{
                 hide: false,
+                draggable: true,
               }}
               initialSlide={1}
               centeredSlides={true}
@@ -132,39 +124,17 @@ export default function Insights() {
               modules={[Scrollbar]}
               className={`h-full w-full ${styles.newsSwiper} mobile:h-[100vw] tablet:h-[65vw]`}
             >
-              <SwiperSlide className="pb-[7vw] mobile:px-[5vw]">
-                <NewsCard
-                  para={
-                    "The ADVASTAP Staplers 3-row series is here, setting a new benchmark in endo surgery. Designed to enhance precision and improve patient outcomes, our innovative stapling technology is transforming the surgical landscape.   "
-                  }
-                  title={"3-Row Series"}
-                  img={"/assets/blogs/3-row.jpg"}
-                  link={"/next-leap-in-endo-surgery"}
-                  innertitle={"Discover the Next Leap in Endo Surgery "}
-                />
-              </SwiperSlide>
-              <SwiperSlide className="pb-[7vw] mobile:px-[5vw]">
-                <NewsCard
-                  para={
-                    "Advanced MedTech Solutions is excited to showcase innovation at Arab Health 2025! Visit us to explore advanced solutions transforming healthcare."
-                  }
-                  title={"Arab Health 2025 "}
-                  img={"/assets/blogs/arab-health.jpg"}
-                  link={"/arab-health"}
-                  innertitle={"Reimagining Health, Redefining Care"}
-                />
-              </SwiperSlide>
-              <SwiperSlide className="pb-[7vw] mobile:px-[5vw]">
-                <NewsCard
-                  para={
-                    "AMS is expanding the campus with the launch of its 60,000 sq. ft. Phase 2 facility, enhancing capabilities in medical device manufacturing, sustainability, and innovation. Featuring the Advanced MedTech Academy and advanced cleanroom spaces, this expansion sets new standards in global healthcare and patient care. "
-                  }
-                  title={"Expansion of The AMS Campus"}
-                  img={"/assets/blogs/expansion.jpg"}
-                  link={"/building-the-future-of-medtech"}
-                  innertitle={"Building the Future of MedTech"}
-                />
-              </SwiperSlide>
+              {news.map((post, index) => (
+                <SwiperSlide key={index} className="pb-[7vw] mobile:px-[5vw]">
+                  <NewsCard
+                    para={post.excerpt}
+                    title={post.title}
+                    img={post.featuredImage.sourceUrl}
+                    link={postPathBySlug(post.slug)}
+                    innertitle={post.postsFields.listingSubheading}
+                  />
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>
