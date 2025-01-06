@@ -238,7 +238,7 @@ function generateSitemap({ posts = [] }, nextConfig = {}) {
     { slug: "products/interventional-cardiology" },
     { slug: "products/cardiac-surgery" },
     { slug: "products/oem" },
-    { slug: "wound-care/advacryl-polyglcatin-910-suture" },
+    { slug: "wound-care/advacryl-polyglactin-910-suture" },
     { slug: "wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture" },
     { slug: "wound-care/advacryl-rapid-polyglactin-910-suture" },
     { slug: "wound-care/advamryl-poliglecaprone-25-suture" },

@@ -95,6 +95,71 @@ const nextConfig = {
         destination: '/',
         permanent: true,
       },
+      {
+        source: '/product',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/advabond-cv',
+        destination: '/cardiac-surgery/advabond-polyester-cardiovascular-suture',
+        permanent: true,
+      },
+      {
+        source: '/assets/frontend/:slug',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/app/webroot/:slug',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/products/advalene',
+        destination: '/wound-care/advalene-polypropylene-suture',
+        permanent: true,
+      },
+      {
+        source: '/advamesh',
+        destination: '/hernia-solutions/advamesh-hernia-mesh',
+        permanent: true,
+      },
+      {
+        source: '/advamesh',
+        destination: '/hernia-solutions/advamesh-hernia-mesh',
+        permanent: true,
+      },
+      {
+        source: '/advacrylplus',
+        destination: '/wound-care/coated-advacryl-plus-antibacterial-polyglactin-910-suture',
+        permanent: true,
+      },
+      {
+        source: '/ligation-solutions',
+        destination: '/ligation-solutions/advaclip-ligation-clips',
+        permanent: true,
+      },
+      {
+        source: '/products/adva-wax',
+        destination: '/cardiac-surgery/advapacer-316L-stainless-steel-sternotomy-suture',
+        permanent: true,
+      },
+      {
+        source: '/files/catalog/:slug',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/products/advalon',
+        destination: '/wound-care/advalon-polyamide-suture',
+        permanent: true,
+      },
+      {
+        source: '/Pro',
+        destination: '/interventional-cardiology/adva-pro-coronary-sirolimus-stent',
+        permanent: true,
+      },
     ]
   },
   env: {
