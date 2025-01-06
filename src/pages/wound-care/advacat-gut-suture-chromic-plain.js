@@ -97,14 +97,14 @@ const advacat = () => {
             para1={
               "  Consistent performance for confidence in episiotomy repair"
             }
-            imgWidth={"w-[60vw] h-[40vw] !right-0"}
+            imgWidth={"w-[60vw] h-[40vw] !right-0 tablet:!w-[90vw] tablet:!h-[60vw] mobile:!w-[100vw] mobile:!h-[120vw]"}
             src={"/assets/advacat/advacat-hero.png"}
             bgimg={"/assets/advacat/advacat-hero-bg.png"}
             para2={"Steady performance for superior confidence"}
             overlay={"hidden"}
 
           />
-          <Information info={"ADVACAT suture is absorbable, sterile surgical suture composed of purified connective tissue (mostly collagen) derived from submucosal fibrous layer of sheep intestines. ADVACAT suture is available in plain and chromic. Chromic gut suture is treated with chromic salt solution to provide greater resistance to absorption & change the color to brown for improved visibility."} />
+          <Information info={"ADVACAT suture is absorbable, sterile surgical suture composed of purified connective tissue (mostly collagen) derived from submucosal fibrous layer of sheep intestines. ADVACAT suture is available in plain and chromic. Chromic gut suture is treated with chromic salt solution to provide greater resistance to absorption & change the color to brown for improved visibility."} />
           <Edge3
             sectionheading={"The ADVACAT Edge"}
             card1={EdgeCard.card1}
