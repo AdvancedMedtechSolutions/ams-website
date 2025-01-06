@@ -9,7 +9,6 @@ import { fadeUp, paraAnim } from "@/components/gsapAnimations";
 import { Media } from "@/components/media";
 import Hero from "@/components/Manufacturing/Hero";
 import BgVideo from "@/components/Layout/BgVideo";
-
 import MetaData from "@/components/Metadata";
 import { WebpageJsonLd } from "@/lib/json-ld";
 

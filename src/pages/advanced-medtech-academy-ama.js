@@ -1,7 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import Genesis from "@/components/layoutComponents/Genesis";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import PortfolioSwiper from "@/components/layoutComponents/PortfolioSwiper";
 import Discover from "@/components/Ama/Discover";
 import CardsCarousel from "@/components/Ama/CardsCarousel";
@@ -13,8 +11,6 @@ import BgVideo from "@/components/Layout/BgVideo";
 import MetaData from "@/components/Metadata";
 import { WebpageJsonLd } from "@/lib/json-ld";
 import Hero from "@/components/Ama/Hero";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function ama() {
   const metadata = {
@@ -37,7 +33,7 @@ export default function ama() {
   const hero = {
     title: "Advanced MedTech Academy",
     src: "/assets/ama/ama-bg-hero.png",
-    content: "AMA’s globally recognized for its industry experts and initiatives, centered on empowering healthcare professionals to achieve superior patient outcomes worldwide. By offering access to meticulously designed courses and workshops, AMA fosters a culture of learning that combines the science of medicine with the art of compassionate care.",
+    content: "AMA's globally recognized for its industry experts and initiatives, centered on empowering healthcare professionals to achieve superior patient outcomes worldwide. By offering access to meticulously designed courses and workshops, AMA fosters a culture of learning that combines the science of medicine with the art of compassionate care.",
   };
   const slidesData = [
     {
@@ -45,7 +41,7 @@ export default function ama() {
       src: "/assets/ama/ama-carousel-1.png",
       srcsmall: "/assets/ama/small1.png",
       heading: "Personalized & Insightful Training:",
-      para: "AMA’s structured courses span basic to advanced levels, covering cognitive skill development, advanced minimally invasive surgery, complex interventional cardiology and optimizing revascularization techniques.",
+      para: "AMA's structured courses span basic to advanced levels, covering cognitive skill development, advanced minimally invasive surgery, complex interventional cardiology and optimizing revascularization techniques.",
     },
     {
       src: "/assets/ama/ama-carousel-3.png",
@@ -66,15 +62,15 @@ export default function ama() {
 
   return (
     <>
-     <MetaData metadata={metadata}/>
-     <WebpageJsonLd metadata={metadata}/>
+      <MetaData metadata={metadata} />
+      <WebpageJsonLd metadata={metadata} />
 
       <Layout>
         <main>
           <Hero
             title={hero.title}
             src={hero.src}
-            content={hero.content}     
+            content={hero.content}
           />
           <Genesis content={content} />
           <CardiacCare />

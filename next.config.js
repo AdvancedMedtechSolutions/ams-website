@@ -90,6 +90,11 @@ const nextConfig = {
         destination: '/newsroom',
         permanent: true,
       },
+      {
+        source: '/products',
+        destination: '/',
+        permanent: true,
+      },
     ]
   },
   env: {

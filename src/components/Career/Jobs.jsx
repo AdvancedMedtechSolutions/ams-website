@@ -2,8 +2,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import { useLenis } from 'lenis/react'
 import styles from "@/styles/careerSwiper.module.css";
 import JobDescription from "./JobDescription";
@@ -85,7 +84,7 @@ const Jobs = ({ jobs }) => {
                 spaceBetween: 200,
               }
             }}
-            modules={[Pagination, Autoplay]}
+            modules={[Pagination]}
             className="MySwiper !px-[5vw]"
           >
             {jobs.map((job, index) => (

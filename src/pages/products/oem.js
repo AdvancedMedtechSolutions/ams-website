@@ -38,7 +38,6 @@ export default function oem() {
       <Layout>
         <main>
           <Hero/>
-          
           <Genesis content={content} />
           <Offerings />
           <FormOem />

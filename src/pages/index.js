@@ -8,6 +8,7 @@ import { Media } from "@/components/media";
 import BgVideo from "@/components/Layout/BgVideo";
 import { fadeUp, paraAnim } from "@/components/gsapAnimations";
 import { WebpageJsonLd } from "@/lib/json-ld";
+import MetaData from "@/components/Metadata";
 
 const Product = dynamic(() => import("@/components/Home/Product"), {
   loading: () => <p>Loading products...</p>
@@ -32,6 +33,7 @@ export default function Home() {
 
   return (
     <>
+      <MetaData metadata={metadata} />
       <WebpageJsonLd metadata={metadata} />
       <Layout>
         <main>

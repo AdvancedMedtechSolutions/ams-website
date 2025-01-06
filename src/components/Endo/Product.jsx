@@ -3,9 +3,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-
 import styles from "@/styles/endocard.module.css"; // Import the module CSS
-import Link from "next/link";
 import Image from "next/image";
 import { Media } from "../media";
 
@@ -13,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const ProductCard = ({ img, heading, link, text }) => {
   return (
-    <a href={link}  className="block w-full h-full group">
+    <a href={link} className="block w-full h-full group">
       <div className={`h-full w-full bg-white rounded-[1.5vw] flex flex-col-reverse  items-center justify-between single relative bg-white/70 group-hover:bg-white group-hover:shadow-xl duration-500 mobile:w-[85vw] mobile:h-[100vw] tablet:w-[40vw] tablet:h-[50vw] mobile:rounded-[5vw]`}>
         <div className="w-[43vw] absolute top-[-6vw] mobile:w-[120vw] tablet:top-[10%] mobile:top-[0%]">
           <Image src={img} alt={heading} className="object-contain group-hover:scale-[1.2] group-hover:-translate-y-[5%] transition-all duration-500 pointer-events-none w-full" width={600} height={500} priority={false} />
@@ -25,21 +23,19 @@ const ProductCard = ({ img, heading, link, text }) => {
           <p className="text-[1.15vw]  mobile:text-lg font-extralight mb-[2vw]">{text}</p>
           <div href={link} className="link-btn">
             <span className={`btn-text tablet:text-[2.5vw]`}>See More</span>
-          
             <span className="btn-images">
-                <div>
-                    <svg viewBox="0 0 22 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.6437 15.9303C13.4217 15.9303 13.1998 15.8485 13.0246 15.6733C12.6858 15.3345 12.6858 14.7738 13.0246 14.4351L19.496 7.96366L13.0246 1.49228C12.6858 1.15352 12.6858 0.592823 13.0246 0.254067C13.3633 -0.0846889 13.924 -0.0846889 14.2628 0.254067L21.3533 7.34455C21.6921 7.68331 21.6921 8.24401 21.3533 8.58277L14.2628 15.6733C14.0876 15.8485 13.8656 15.9303 13.6437 15.9303Z"/>
-                        <path d="M20.5356 8.83812L0.876093 8.83812C0.397162 8.83812 0 8.44096 0 7.96203C0 7.4831 0.397162 7.08594 0.876093 7.08594L20.5356 7.08594C21.0145 7.08594 21.4117 7.4831 21.4117 7.96203C21.4117 8.44096 21.0145 8.83812 20.5356 8.83812Z" />
-                    </svg>
-                    <svg viewBox="0 0 22 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.6437 15.9303C13.4217 15.9303 13.1998 15.8485 13.0246 15.6733C12.6858 15.3345 12.6858 14.7738 13.0246 14.4351L19.496 7.96366L13.0246 1.49228C12.6858 1.15352 12.6858 0.592823 13.0246 0.254067C13.3633 -0.0846889 13.924 -0.0846889 14.2628 0.254067L21.3533 7.34455C21.6921 7.68331 21.6921 8.24401 21.3533 8.58277L14.2628 15.6733C14.0876 15.8485 13.8656 15.9303 13.6437 15.9303Z"/>
-                        <path d="M20.5356 8.83812L0.876093 8.83812C0.397162 8.83812 0 8.44096 0 7.96203C0 7.4831 0.397162 7.08594 0.876093 7.08594L20.5356 7.08594C21.0145 7.08594 21.4117 7.4831 21.4117 7.96203C21.4117 8.44096 21.0145 8.83812 20.5356 8.83812Z" />
-                    </svg>
-                </div>
+              <div>
+                <svg viewBox="0 0 22 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.6437 15.9303C13.4217 15.9303 13.1998 15.8485 13.0246 15.6733C12.6858 15.3345 12.6858 14.7738 13.0246 14.4351L19.496 7.96366L13.0246 1.49228C12.6858 1.15352 12.6858 0.592823 13.0246 0.254067C13.3633 -0.0846889 13.924 -0.0846889 14.2628 0.254067L21.3533 7.34455C21.6921 7.68331 21.6921 8.24401 21.3533 8.58277L14.2628 15.6733C14.0876 15.8485 13.8656 15.9303 13.6437 15.9303Z" />
+                  <path d="M20.5356 8.83812L0.876093 8.83812C0.397162 8.83812 0 8.44096 0 7.96203C0 7.4831 0.397162 7.08594 0.876093 7.08594L20.5356 7.08594C21.0145 7.08594 21.4117 7.4831 21.4117 7.96203C21.4117 8.44096 21.0145 8.83812 20.5356 8.83812Z" />
+                </svg>
+                <svg viewBox="0 0 22 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.6437 15.9303C13.4217 15.9303 13.1998 15.8485 13.0246 15.6733C12.6858 15.3345 12.6858 14.7738 13.0246 14.4351L19.496 7.96366L13.0246 1.49228C12.6858 1.15352 12.6858 0.592823 13.0246 0.254067C13.3633 -0.0846889 13.924 -0.0846889 14.2628 0.254067L21.3533 7.34455C21.6921 7.68331 21.6921 8.24401 21.3533 8.58277L14.2628 15.6733C14.0876 15.8485 13.8656 15.9303 13.6437 15.9303Z" />
+                  <path d="M20.5356 8.83812L0.876093 8.83812C0.397162 8.83812 0 8.44096 0 7.96203C0 7.4831 0.397162 7.08594 0.876093 7.08594L20.5356 7.08594C21.0145 7.08594 21.4117 7.4831 21.4117 7.96203C21.4117 8.44096 21.0145 8.83812 20.5356 8.83812Z" />
+                </svg>
+              </div>
             </span>
-        </div>
-
+          </div>
         </div>
       </div>
     </a>

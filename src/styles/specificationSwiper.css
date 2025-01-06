@@ -1,24 +1,23 @@
-.specificationSwiper{
-    overflow: visible !important;
+.specificationSwiper {
+  overflow: visible !important;
 }
- .specificationSwiper  .swiper-wrapper{
-    padding-bottom: 5vw !important;
- }
-.specificationSwiper  .swiper-scrollbar{
-    width: 50% !important;
-    position: absolute;
-    left: 50% !important;
-    transform: translateX(-50%);
+.specificationSwiper .swiper-wrapper {
+  padding-bottom: 5vw !important;
 }
-@media screen  and (max-width:541px){
-.specificationSwiper   .swiper-scrollbar{
+.specificationSwiper .swiper-scrollbar {
+  width: 50% !important;
+  position: absolute;
+  left: 50% !important;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 541px) {
+  .specificationSwiper .swiper-scrollbar {
     display: none;
-}
-} 
-
-@media screen and (min-width: 540px) and (max-width: 1023px){
-.specificationSwiper .swiper-scrollbar{
-    display: none;
-}
+  }
 }
 
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+  .specificationSwiper .swiper-scrollbar {
+    display: none;
+  }
+}

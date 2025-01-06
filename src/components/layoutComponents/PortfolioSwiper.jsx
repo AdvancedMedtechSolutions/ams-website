@@ -19,7 +19,7 @@ import styles from './styles.module.css'
 const PortfolioCard = ({ src, heading, para, textclass, className }) => {
   return (
     <div className="w-[85vw] h-[50vw] relative rounded-[10px] mobile:h-full mobile:w-full mobile:rounded-2xl mobile:overflow-hidden mobile:border-none tablet:w-[90vw] tablet:h-[70vw]">
-      <Image src={src} width={1800} height={900} alt="Hernia Slider" className={`object-cover w-full h-full mobile:static mobile:h-[60vw] mobile:left-0 mobile:top-0 mobile:z-[-1] mobile:rounded-[5vw] ${className}`} />
+      <Image src={src} width={1300} height={800} alt="portfolio Slider" className={`object-cover w-full h-full mobile:static mobile:h-[60vw] mobile:left-0 mobile:top-0 mobile:z-[-1] mobile:rounded-[5vw] ${className}`} />
       <div className="absolute top-[15%] left-[10%] flex flex-col gap-[2vw] w-[60%] tablet:w-[70%] tablet:top-[10%] mobile:w-full mobile:px-0 mobile:static mobile:z-[5] mobile:mt-[5vw] mobile:text-center" >
         <h2 
           className={`${textclass} text-[2.8vw] !font-light mobile:text-[8vw] tablet:text-[4vw] mobile:leading-[1.25] mobile:mb-[3vw] aeonik mobile:text-[#111111]`}

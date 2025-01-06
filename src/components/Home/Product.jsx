@@ -1,16 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
 import LinkButton from "../Button/LinkButton";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import { useRef } from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import { Media } from "../media";
-
-import "swiper/css/navigation";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Product() {
   const swiperRef = useRef(null);
@@ -73,12 +66,10 @@ export default function Product() {
               loop={true}
               breakpoints={{
                 1024: {
-                  spaceBetween: 160
+                  spaceBetween: 160,
                 }
               }}
               speed={1000}
-              navigation={false}
-              modules={[Navigation]}
               onSwiper={(swiper) => (swiperRef.current = swiper)}
               className="homeCarousel !px-[10vw] mobile:!px-[5%]"
             >
@@ -272,7 +263,7 @@ export default function Product() {
                           src="/assets/home/advacryl-hero.png"
                           alt="Product Image"
                           fill
-                      />
+                        />
                       </div>
                       <div className="flex flex-col w-full pr-[3vw] mobile:justify-center mobile:items-center mobile:pr-[0vw] tablet:pr-0 mobile:w-[95%] mobile:text-center">
                         <h3 className="title-2 aeonik mb-[0.5vw] mobile:mb-[2vw] !text-[#9263A5] tablet:text-[6vw] tablet:leading-[1.1]">

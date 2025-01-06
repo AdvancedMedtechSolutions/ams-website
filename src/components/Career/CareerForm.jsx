@@ -15,7 +15,6 @@ import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-
 const formSchema = z.object({
   name: z.string().min(3, {
     message: "Name must be at least 3 characters.",
@@ -188,7 +187,7 @@ export default function CareerForm({ onClose }) {
                           ""
                         )}
                       </div>
-                      <p className="text-lg text-black/50 font-medium mobile:text-xl tablet:text-2xl">
+                      <p className="text-lg text-black/50 font-regular mobile:text-xl tablet:text-2xl">
                         {fileName || ""}
                       </p>
                     </div>

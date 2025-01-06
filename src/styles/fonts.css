@@ -13,7 +13,6 @@
     font-display: swap;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Sofia Pro';
     src: url('/assets/fonts/sofia-pro/Sofia-Pro-Regular.woff2') format('woff2');
@@ -21,30 +20,7 @@
     font-display: swap;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Sofia Pro';
-    src: url('/assets/fonts/sofia-pro/Sofia-Pro-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sofia Pro';
-    src: url('/assets/fonts/sofia-pro/Sofia-Pro-Semi-Bold.woff2') format('woff2');
-    font-weight: 600;
-    font-display: swap;
-    font-style: normal;
-}
 /* Fonts Import Aeonik*/
-@font-face {
-    font-family: 'Aeonik';
-    src: url('/assets/fonts/aeonik/Aeonik-Thin.woff2') format('woff2');
-    font-weight: 200;
-    font-display: swap;
-    font-style: normal;
-}
 @font-face {
     font-family: 'Aeonik';
     src: url('/assets/fonts/aeonik/Aeonik-Light.woff2') format('woff2');
@@ -56,20 +32,6 @@
     font-family: 'Aeonik';
     src: url('/assets/fonts/aeonik/Aeonik-Regular.woff2') format('woff2');
     font-weight: 400;
-    font-display: swap;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Aeonik';
-    src: url('/assets/fonts/aeonik/Aeonik-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-display: swap;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Aeonik';
-    src: url('/assets/fonts/aeonik/Aeonik-Bold.woff2') format('woff2');
-    font-weight: 700;
     font-display: swap;
     font-style: normal;
 }

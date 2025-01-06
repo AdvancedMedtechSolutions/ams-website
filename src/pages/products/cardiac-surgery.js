@@ -1,7 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import Genesis from "@/components/layoutComponents/Genesis";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Layout from "@/components/Layout";
 import { fadeUp, paraAnim } from "@/components/gsapAnimations";
 import Portfolio from "@/components/Endo/Portfolio";
@@ -12,8 +10,6 @@ import Hero from "@/components/CardioVascular/Hero";
 import BgVideo from "@/components/Layout/BgVideo";
 import MetaData from "@/components/Metadata";
 import { WebpageJsonLd } from "@/lib/json-ld";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function cardiacsurgery() {
   const content = {
@@ -53,10 +49,7 @@ export default function cardiacsurgery() {
           <Media at="desktop">
             <Products />
           </Media>
-          <Media at="mobile">
-            <ProductCarousel />
-          </Media>
-          <Media at="tablet">
+          <Media lessThan="desktop">
             <ProductCarousel />
           </Media>
           <Portfolio

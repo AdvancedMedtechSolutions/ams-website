@@ -1,8 +1,5 @@
 import PrimaryButton from "../Button/PrimaryButton";
-import gsap from "gsap";
 import LazyVideo from "../layoutComponents/LazyVideo";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Impact() {
 

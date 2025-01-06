@@ -18,7 +18,6 @@ import {
 } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "../ui/textarea";
-import styles from "../Button/style.module.css";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
@@ -117,7 +116,7 @@ export default function ContactListForm({ onClose, title }) {
   };
 
   return (
-    <section className="w-screen h-screen flex justify-center items-center fixed top-0 left-0 overflow-hidden bg-black/60 z-[999] background-overlay">
+    <section className="w-screen h-screen flex justify-center items-center fixed top-0 left-0 overflow-hidden bg-black/60 z-[999] background-overlay fade-in">
       <div
         className="w-[50vw] h-[95%] bg-white relative py-[4vw] px-[2vw] rounded-[2.5vw] overflow-hidden mobile:w-[90vw] mobile:h-[75%] mobile:rounded-[5vw] tablet:w-[90vw] tablet:h-[70%] mobile:px-[4vw] mobile:py-[10vw]"
         ref={formref}

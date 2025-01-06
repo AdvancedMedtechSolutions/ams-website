@@ -1,7 +1,6 @@
 import React from 'react'
 import PrimaryButton from "../Button/PrimaryButton"
 
-
 const Connecting = () => {
 
   return (

@@ -22,7 +22,7 @@ const Hero = () => {
                         loop
                         muted
                         className="w-full h-full object-cover"
-                        poster="/assets/ic/ic-hero-video-frame.png"
+                        poster="/assets/ic/ic-hero-video-frame.webp"
                     />
                 </div>
                 <div className="px-[12%] relative mobile:px-[5%] ">

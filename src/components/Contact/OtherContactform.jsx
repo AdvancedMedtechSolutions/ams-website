@@ -126,7 +126,7 @@ export default function ContactOemform({ onClose, title }) {
               Form Submitted Successfully!
             </div>
           )}
-          <h2 className="text-[3vw] font-light mb-[2vw] mobile:text-[7vw] mobile:mb-[8vw] tablet:text-[5vw]">
+          <h2 className="text-[3vw] font-light mb-[2vw] mobile:text-[7vw] mobile:mb-[8vw] tablet:text-[5vw] aeonik">
             {title || "Other Enquiries"}
           </h2>
           <Form {...form}>

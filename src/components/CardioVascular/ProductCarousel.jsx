@@ -1,11 +1,10 @@
 import Image from "next/image";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import gsap from "gsap";
 import styles from './styles.module.css'
 import PrimaryButton from '../Button/PrimaryButton';
-
 
 const ProductCarousel = () => {
   const slidesData = [

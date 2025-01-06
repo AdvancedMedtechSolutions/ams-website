@@ -68,7 +68,7 @@ const ProductDescription = ({ data }) => {
                 <div className="absolute bottom-[10%] left-[4%] px-[1vw] flex flex-col justify-start gap-[1vw] mobile:static mobile:w-full mobile:h-full mobile:justify-end mobile:pb-[10vw] mobile:px-[5vw] mobile:text-center">
                   <p
 
-                    className="text-[1.65vw] font-medium mobile:text-[6vw] tablet:text-[3vw]"
+                    className="text-[1.65vw] font-normal mobile:text-[6vw] tablet:text-[3vw]"
                   >
                     {card.title}
                   </p>

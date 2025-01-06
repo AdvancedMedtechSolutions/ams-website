@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
-import { Pagination } from "swiper/modules";
 
 const SutureCarouselSecond = () => {
   const slidesData = [
@@ -94,15 +93,9 @@ const SutureCarouselSecond = () => {
           loop={true}
           centeredSlides={true}
           roundLengths={true}
-          pagination={{
-            clickable: true,
-            el: ".swiper-pagination-second",
-          }}
-          modules={[Pagination]}
           breakpoints={{
             320: { slidesPerView: 1, spaceBetween: 0 },
             640: { slidesPerView: 1, spaceBetween: 0 },
-
             1280: { slidesPerView: 2.7, spaceBetween: 150 },
           }}
         >
@@ -153,7 +146,7 @@ const SutureCarouselSecond = () => {
         </Swiper>
       </div>
       <div
-        className={`px-[1.2vw] py-[1.2vw] absolute z-[200] bottom-0 left-[53%] mobile:bottom-0 mobile:top-auto mobile:right-auto mobile:left-[62%] tablet:bottom-[3%] translate-x-[-65%] tablet:translate-y-[-70%] overflow-hidden mobile:p-[5vw] tablet:p-[2vw] rounded-full next-button cursor-pointer  mobile:block group hover:text-white bg-white/50`}
+        className={`px-[1.2vw] py-[1.2vw] absolute z-[200] bottom-0 left-[53%] mobile:bottom-0 mobile:top-auto mobile:right-auto mobile:left-[62%] tablet:bottom-[3%] translate-x-[-65%] tablet:left-[55%] tablet:translate-y-[-70%] overflow-hidden mobile:p-[5vw] tablet:p-[2vw] rounded-full next-button cursor-pointer mobile:block group hover:text-white bg-white/50`}
         onClick={handleNext}
       >
         <span
@@ -169,7 +162,7 @@ const SutureCarouselSecond = () => {
         </div>
       </div>
       <div
-        className={`px-[1.2vw] py-[1.2vw] bottom-0 left-[45%] absolute z-[200] mobile:bottom-0 mobile:top-auto mobile:left-[37%] mobile:right-auto translate-x-[-38%] tablet:right-[13%] tablet:bottom-[3%] tablet:translate-y-[-70%] bg-white/50 overflow-hidden  mobile:p-[5vw] tablet:p-[2vw] rounded-full prev-button cursor-pointer  mobile:block group hover:text-white`}
+        className={`px-[1.2vw] py-[1.2vw] bottom-0 left-[45%] absolute z-[200] mobile:bottom-0 mobile:top-auto mobile:left-[37%] mobile:right-auto translate-x-[-38%] tablet:left-[45%] tablet:bottom-[3%] tablet:translate-y-[-70%] bg-white/50 overflow-hidden mobile:p-[5vw] tablet:p-[2vw] rounded-full prev-button cursor-pointer mobile:block group hover:text-white`}
         onClick={handlePrev}
       >
         <span
