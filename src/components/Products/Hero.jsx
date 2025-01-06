@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Hero = ({heading, tagline, para1, src,bgimg, para2, className = ""}) => {
+const Hero = ({heading, tagline, para1, src,bgimg, para2, className = "" ,imgWidth}) => {
   return (
     <>
       <section className="w-screen h-screen relative overflow-hidden" id="product-hero">
@@ -25,7 +25,7 @@ const Hero = ({heading, tagline, para1, src,bgimg, para2, className = ""}) => {
               {para2}
             </div>
             <div >
-              <div className="absolute z-[2] right-[7%] top-[20%] w-[40vw] h-[30vw] fadeUp mobile:bottom-0 mobile:top-auto mobile:w-[85vw] mobile:h-[100vw] mobile:right-[8%] tablet:w-[70vw] tablet:h-[50vw] tablet:top-auto tablet:bottom-[20%]">
+              <div className={`absolute z-[2] right-[7%] top-[20%] w-[40vw] h-[30vw] fadeUp mobile:bottom-0 mobile:top-auto mobile:w-[85vw] mobile:h-[100vw] mobile:right-[8%] tablet:w-[70vw] tablet:h-[50vw] tablet:top-auto tablet:bottom-[20%] ${imgWidth}`}>
                 <Image
                   src={src}
                   alt="products-image"

@@ -1,18 +1,16 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import Features from "@/components/Products/Features";
 import Hero from "@/components/Products/Hero";
 import NextGeneration from "@/components/Products/NextGeneration";
 import ProductDescription from "@/components/Products/ProductDescription";
 import Uncover from "@/components/Products/Uncover";
 import { fadeUp } from "@/components/gsapAnimations";
-import Edge2 from "@/components/Products/Edge2";
 import Layout from "@/components/Layout";
 import { Media } from "@/components/media";
 import Information from "@/components/Products/Information";
 import BgVideo from "@/components/Layout/BgVideo";
-
 import MetaData from "@/components/Metadata";
 import { WebpageJsonLd } from "@/lib/json-ld";
+import Edge3 from "@/components/Products/Edge3";
 
 const EdgeCard = {
   card1: {
@@ -23,6 +21,7 @@ const EdgeCard = {
   card2: {
     title: "Nucrel pack for superior pliability & knotting characteristics",
     src: "/assets/advacat/advacat-edge2.png",
+    imgWidth:"",
     list1: "Minimal suture memory & coiling",
     list2: "Excellent handling & flexibility",
     list3: "Excellent knot security"
@@ -98,6 +97,7 @@ const advacat = () => {
             para1={
               "  Consistent performance for confidence in episiotomy repair"
             }
+            imgWidth={"w-[60vw] h-[40vw] !right-0"}
             src={"/assets/advacat/advacat-hero.png"}
             bgimg={"/assets/advacat/advacat-hero-bg.png"}
             para2={"Steady performance for superior confidence"}
@@ -105,11 +105,12 @@ const advacat = () => {
 
           />
           <Information info={"ADVACAT suture is absorbable, sterile surgical suture composed of purified connective tissue (mostly collagen) derived from submucosal fibrous layer of sheep intestines. ADVACAT suture is available in plain and chromic. Chromic gut suture is treated with chromic salt solution to provide greater resistance to absorption & change the color to brown for improved visibility."} />
-          <Edge2
+          <Edge3
             sectionheading={"The ADVACAT Edge"}
             card1={EdgeCard.card1}
             card2={EdgeCard.card2}
             card3={EdgeCard.card3}
+            imgWidth={EdgeCard.imgWidth}
           />
 
           <ProductDescription data={cardData} />

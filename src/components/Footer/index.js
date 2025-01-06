@@ -42,7 +42,7 @@ export default function Footer() {
                   <p className="w-[50%] content-p mb-[1vw] fadeUp mobile:w-[90%] mobile:text-center tablet:mb-[2vw] tablet:w-[90%]">
                     <span className="text-head">
                       Advanced MedTech Solutions<br/> P-21-22, 25-26 & 34-35, GIDC
-                      Manjusar, Tal – Savli, Dist. – Vadodara -391775 Gujarat,
+                      Manjusar, Tal - Savli, Dist. - Vadodara -391775 Gujarat,
                       India
                     </span>
                   </p>
