@@ -41,6 +41,16 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/about/careers',
+        destination: '/career',
+        permanent: true,
+      },
+      {
+        source: '/about/manufacturing',
+        destination: '/manufacturing',
+        permanent: true,
+      },
+      {
         source: '/ama',
         destination: '/advanced-medtech-academy-ama',
         permanent: true,
@@ -151,6 +161,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/plugins',
+        destination: '/',
+        permanent: true,
+      },
+      {
         source: '/products/advalon',
         destination: '/wound-care/advalon-polyamide-suture',
         permanent: true,
@@ -160,6 +175,81 @@ const nextConfig = {
         destination: '/interventional-cardiology/adva-pro-coronary-sirolimus-stent',
         permanent: true,
       },
+      {
+        source: '/products/advasyl',
+        destination: '/wound-care/advasyl-silk-suture',
+        permanent: true,
+      },
+      {
+        source: '/Hernia',
+        destination: '/products/hernia-solutions',
+        permanent: true,
+      },
+      {
+        source: '/products/advapd',
+        destination: '/wound-care/advapd-polydioxanone-suture',
+        permanent: true,
+      },
+      {
+        source: '/products/advabond',
+        destination: '/wound-care/advabond-polyester-suture',
+        permanent: true,
+      },
+      {
+        source: '/sub-category/advakit',
+        destination: '/wound-care/surgical-kits',
+        permanent: true,
+      },
+      {
+        source: '/interventional-cardiology',
+        destination: '/products/interventional-cardiology',
+        permanent: true,
+      },
+      {
+        source: '/content/nc-adva-glide',
+        destination: '/interventional-cardiology/adva-glide-nc-ptca-coronary-balloon-non-compliant',
+        permanent: true,
+      },
+      {
+        source: '/interventional-cardiology',
+        destination: '/products/interventional-cardiology',
+        permanent: true,
+      },
+      {
+        source: '/products/advalene-2',
+        destination: '/cardiac-surgery/advalene-polypropylene-cardiovascular-suture',
+        permanent: true,
+      },
+      {
+        source: '/sub-category/cv-solutions',
+        destination: '/products/cardiac-surgery',
+        permanent: true,
+      },
+      {
+        source: '/wound-care/advacryl-polyglcatin-910-suture',
+        destination: '/wound-care/advacryl-polyglactin-910-suture',
+        permanent: true,
+      },
+      {
+        source: '/products/advabond-2',
+        destination: '/cardiac-surgery/advabond-polyester-cardiovascular-suture',
+        permanent: true,
+      },
+      {
+        source: '/products/advacryl-rapid',
+        destination: '/wound-care/advacryl-rapid-polyglactin-910-suture',
+        permanent: true,
+      },
+      {
+        source: '/blog',
+        destination: '/newsroom',
+        permanent: true,
+      },
+      {
+        source: '/product/wound-closure',
+        destination: '/products/wound-care',
+        permanent: true,
+      }
     ]
   },
   env: {
