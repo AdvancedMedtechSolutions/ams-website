@@ -4,7 +4,7 @@ import React from "react";
 const locationsData = [
   {
     title: "Corporate HQ",
-    address: "Somerset Road, #07-08 Triple One Somerset, Singapore - 238164",
+    address: "Corporate: 111 Somerset Road, #07-08 111 Somerset, Singapore - 238164  |  T: (65) 91020778",
     contact: "T: (65) 63691080/ 891",
   },
   {

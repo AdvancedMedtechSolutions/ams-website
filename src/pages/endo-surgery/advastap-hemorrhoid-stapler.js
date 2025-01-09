@@ -16,11 +16,11 @@ const advastap = () => {
   fadeUp();
   paraAnim();
   const metadata = {
-    title: "Advastap – Surgical Stapler for Efficient Closure",
+    title: "Advastap - Surgical Stapler for Efficient Closure",
     description:
       "Advastap provides reliable and efficient wound closure with precise surgical stapling solutions.",
     img: "advastap.png",
-    alt: "Advastap – Surgical Stapler for Efficient Closure",
+    alt: "Advastap - Surgical Stapler for Efficient Closure",
     slug: "endo-surgery/advastap-hemorrhoid-stapler",
     date_published: "2020-01-01T00:00",
     date_modified: "2024-12-26T12:32",

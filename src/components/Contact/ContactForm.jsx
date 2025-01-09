@@ -45,8 +45,8 @@ export default function ContactForm() {
     defaultValues: {
       name: "",
       email: "",
-      mobile:"",
-      companyName:"",
+      mobile: "",
+      companyName: "",
       message: "",
     },
   });
@@ -57,11 +57,11 @@ export default function ContactForm() {
     const formData = {
       name: data.name,
       email: data.email,
-     number: data.number,
-     message: data.message,
-     companyName:data.companyName
+      number: data.number,
+      message: data.message,
+      companyName: data.companyName
     };
-    
+
     try {
       const res = await fetch("/api/contactform", {
         method: "POST",
@@ -82,9 +82,7 @@ export default function ContactForm() {
 
   return (
     <section className="pt-[7%] mobile:pt-[15%] tablet:pt-[10%]" id="formoem">
-      
-      <div className="w-full h-full p-[4vw] pb-[25%] mobile:p-0 rounded-[3vw] border border-gray-200 bg-white/50 backdrop-blur-sm mobile:bg-transparent mobile:hover:bg-transparent mobile:hover:shadow-none mobile:border-none tablet:p-[5.5vw] fadeUp">
-
+      <div className="w-full h-full p-[4vw] pb-[30%] mobile:p-0 rounded-[3vw] border border-gray-200 bg-white/50 backdrop-blur-sm mobile:bg-transparent mobile:hover:bg-transparent mobile:hover:shadow-none mobile:border-none tablet:p-[5.5vw] fadeUp">
         <div className="w-full flex flex-col gap-[2vw] mobile:w-full mobile:bg-white/50 mobile:rounded-[6vw] mobile:px-[7vw] mobile:py-[12vw] mobile:border mobile:gap-[5vw] mobile:justify-center tablet:w-full">
           <h3 data-para-anim className="aeonik text-[2.8vw] mobile:text-[8vw] mobile:text-center tablet:text-[4.5vw] font-light">Send a Message</h3>
           <Form {...form}>
@@ -153,26 +151,26 @@ export default function ContactForm() {
                 )}
               />
               <div className="mt-[2vw] w-full flex justify-end">
-                              <Button type="submit" className=" bg-purple-500 rounded-full w-[8vw] h-[3vw] relative mobile:w-[25vw] mobile:h-[10vw] tablet:w-[17vw] tablet:h-[7vw]">
-                              {!isLoading ? (
-                                    <span
-                                      className="text-[1.1vw] aeonik mobile:text-[4vw] tablet:text-[2.5vw]"
-                                    >
-                                     Submit
-                                    </span>
-                                  ) : (
-                                    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-[100]">
-                                      <Image
-                                        src="/button-loading.png"
-                                        alt="button-loading"
-                                        className="animate-spin invert "
-                                        width={20}
-                                        height={20}
-                                      />
-                                      </div>
-                                  )}
-                              </Button>
-                            </div>
+                <Button type="submit" className=" bg-purple-500 rounded-full w-[8vw] h-[3vw] relative mobile:w-[25vw] mobile:h-[10vw] tablet:w-[17vw] tablet:h-[7vw]">
+                  {!isLoading ? (
+                    <span
+                      className="text-[1.1vw] aeonik mobile:text-[4vw] tablet:text-[2.5vw]"
+                    >
+                      Submit
+                    </span>
+                  ) : (
+                    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-[100]">
+                      <Image
+                        src="/button-loading.png"
+                        alt="button-loading"
+                        className="animate-spin invert "
+                        width={20}
+                        height={20}
+                      />
+                    </div>
+                  )}
+                </Button>
+              </div>
             </form>
           </Form>
         </div>

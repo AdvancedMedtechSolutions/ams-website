@@ -7,6 +7,7 @@ import React from "react";
 import { paraAnim, fadeUp } from "@/components/gsapAnimations";
 import MetaData from "@/components/Metadata";
 import { WebpageJsonLd } from "@/lib/json-ld";
+import LigationSpecifications from "@/components/LigationSolutions/LigationSpecification";
 
 const ligationSolutions = () => {
   const metadata = {
@@ -23,14 +24,21 @@ const ligationSolutions = () => {
   fadeUp();
   return (
     <>
-      <MetaData metadata={metadata}/>
-      <WebpageJsonLd metadata={metadata}/>
+      <MetaData metadata={metadata} />
+      <WebpageJsonLd metadata={metadata} />
       <Layout>
         <main>
           <Hero />
           <Unique />
           <Security />
           <AdvaclipCarousel />
+          <LigationSpecifications
+            textclass={"reloads-text"}
+            bgimg={"/assets/endolc/specifications-bg.png"}
+            heading={"Specification"}
+            color={"#FB4BCC"}
+            link={"/infographics/ligation-advaclip.pdf"}
+          />
         </main>
       </Layout>
     </>

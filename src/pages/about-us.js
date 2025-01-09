@@ -21,10 +21,10 @@ export default function about() {
     src: "/assets/about/genesis.png"
   }
   const metadata = {
-    title: "About Us – Advanced MedTech Solutions",
+    title: "About Us - Advanced MedTech Solutions",
     description: "Learn about Advanced MedTech Solutions mission to make quality healthcare affordable and accessible globally.",
     img: "about.png",
-    alt:"About Us – Advanced MedTech Solutions",
+    alt: "About Us - Advanced MedTech Solutions",
     slug: "about-us",
     date_published: "2020-01-01T00:00",
     date_modified: "2024-12-26T12:32",
@@ -35,8 +35,8 @@ export default function about() {
 
   return (
     <>
-   <MetaData metadata={metadata}/>
-   <WebpageJsonLd metadata={metadata}/>
+      <MetaData metadata={metadata} />
+      <WebpageJsonLd metadata={metadata} />
       <Layout>
         <main>
           <Hero />
@@ -48,8 +48,8 @@ export default function about() {
         </main>
       </Layout>
       <Media greaterThan='tablet'>
-        <BgVideo videoSrc={"/assets/bg-videos/original-bg.mp4"} />
-      </Media>
+          <BgVideo videoSrc={"/assets/bg-videos/original-bg.mp4"} />
+        </Media>
     </>
   )
 }

@@ -162,12 +162,13 @@ const content = [
     },
     {
         name: "Sameer Ramani",
-        title: "Executive Director",
+        title: "Executive Director, Advanced MedTech Solutions",
         description: [
-            "Sameer Ramani serves as the Executive Director at Advanced MedTech Solutions bringing  over 25 years of distinguished experience in global manufacturing, real estate, entrepreneurship, and strategic business growth.Sameer began his career in textile and apparel production, establishing a robust presence in the U.S. market while honing expertise across Europe, Asia, and Africa. .",
-            " Throughout his journey, Sameer has spearheaded quality improvements, streamlined operations, and developed scalable manufacturing models, delivering consistent growth and operational excellence.Recognized for his ingenuity in driving sales growth and cultivating enduring partnerships, Sameer has played a pivotal role in accelerating business expansion.",
-            "His innovative approach to marketing has shaped AMS’s trajectory, advanced its global brand positioning, and opened new market avenues. As an engaging public speaker and motivational leader, he effectively inspires teams and aligns stakeholders with organizational goals.A motivational leader and engaging public speaker, Sameer inspires teams and aligns stakeholders with organizational objectives.",
-            "Holding a Bachelor’s degree in Economics from New York University, Sameer combines analytical acumen with visionary leadership. His deep understanding of market dynamics and customer engagement has been instrumental in propelling AMS’s success and fostering innovation on a global scale."
+            "Sameer Ramani serves as the Executive Director at Advanced MedTech Solutions, bringing over 25 years of distinguished experience in global manufacturing, real estate, entrepreneurship, and strategic business growth.",
+            " He began his career in textile and apparel production, establishing a robust presence in the U.S. market while gaining expertise across Europe, Asia, and Africa. Throughout his journey, Sameer has spearheaded quality improvements, streamlined operations, and developed scalable manufacturing models, consistently delivering growth and operational excellence.",
+            "Recognized for his ingenuity in driving sales growth and cultivating enduring partnerships, Sameer has played a pivotal role in accelerating business expansion. His innovative marketing strategies have enhanced the company's global brand positioning and unlocked new market opportunities.",
+            "A motivational leader and engaging public speaker, Sameer inspires teams and aligns stakeholders with organizational objectives.",
+            "With a Bachelor's degree in Economics from New York University, Sameer combines analytical expertise with visionary leadership. His deep understanding of market dynamics and customer engagement has been instrumental in propelling AMS’s success and fostering innovation on a global scale."
         ],
         slideImage: "/assets/about/leadership/Sameer-Ramani-small.png",
         slideImageBg: "/assets/about/leadership/Sameer-Ramani.png",
@@ -179,7 +180,7 @@ const content = [
             "Davendra Kumar Dhama is a distinguished leader with over 30 years of experience in the medical devices and pharmaceutical industries. As the Director of Operations at AMS, he brings a profound understanding of manufacturing excellence, regulatory compliance, and strategic execution, driving the company’s mission to deliver innovative, high-quality healthcare solutions.",
             "Throughout his career, Davendra has spearheaded the establishment of advanced manufacturing facilities for a diverse range of medical devices. His expertise lies in streamlining complex operations, optimizing manufacturing processes, and ensuring seamless regulatory compliance with international standards such as FDA, CE, and 510(k) certifications. These efforts have consistently enabled the successful entry of high-quality medical devices into competitive global markets.",
             "A visionary leader, Davendra excels in fostering operational efficiency, cultivating high-performing teams, and driving initiatives that align with organizational goals. His comprehensive knowledge of regulatory frameworks and quality assurance ensures that all products meet the stringent requirements of the medical industry, while his strategic mindset supports innovation and scalability.",
-            "Davendra’s approach to leadership is defined by a focus on continuous improvement, operational innovation, and cross-functional collaboration. His ability to navigate complex challenges and implement sustainable solutions has significantly contributed to AMS's reputation as a trusted partner in advancing healthcare technologies." ,
+            "Davendra's approach to leadership is defined by a focus on continuous improvement, operational innovation, and cross-functional collaboration. His ability to navigate complex challenges and implement sustainable solutions has significantly contributed to AMS's reputation as a trusted partner in advancing healthcare technologies." ,
             "He holds a graduate degree in Science, Certification in Pharmaceutical Quality Control and Assurance Management, Lead Auditor for quality Management system and an MBA in Operations Management."
         ],
         slideImage: "/assets/about/leadership/Davendra-Dhama-small.png",
@@ -201,7 +202,7 @@ const content = [
     },
     {
         name: "Bhavin Chauhan",
-        title: "ASSOCIATE DIRECTOR, FINANCE",
+        title: "DIRECTOR, FINANCE",
         description: [
             "Bhavin Chauhan is a highly accomplished finance professional with over two decades of experience spanning multiple industries, including real estate, retail, manufacturing, aviation, and healthcare. Demonstrated exceptional capabilities in managing complex financial environments and driving organizational growth.",
             "A dynamic and consummate professional, Mr. Chauhan is responsible for the financial, legal and regulatory compliance and has been instrumental in setting up business processes to meet the organisational needs. ",

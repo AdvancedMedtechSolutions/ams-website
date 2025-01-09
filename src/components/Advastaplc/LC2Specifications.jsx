@@ -69,12 +69,12 @@ const LC2Specifications = () => {
           <div className="flex w-full border-b border-[#DADADA] tablet:w-[180vw] mobile:w-[280vw]">
             <div className=" p-[1vw] pb-0  w-[20vw] tablet:w-[40vw] mobile:w-[60vw]">Color</div>
             <div className=" flex justify-start gap-[0.8vw]   tablet:gap-[8vw] mobile:gap-[7vw]">
-              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"><Image src="/assets/advastaplc/blue-cartridge.png" height={50} width={60} alt="blue-cartridge"/></div>
-              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"><Image src="/assets/advastaplc/green-cartridge.png" height={50} width={60} alt="green-cartridge"/></div>
-              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/blue-cartridge.png" height={50} width={60} alt="blue-cartridge"/></div>
-              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/green-cartridge.png" height={50} width={60} alt="green-cartridge"/></div>
-              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/blue-cartridge.png" height={50} width={60} alt="blue-cartridge"/></div>
-              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/green-cartridge.png" height={50} width={60} alt="green-cartridge"/></div>
+              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"><Image src="/assets/advastaplc/blue-cartridge.png" height={80} width={80} alt="blue-cartridge"/></div>
+              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"><Image src="/assets/advastaplc/green-cartridge.png" height={80} width={80} alt="green-cartridge"/></div>
+              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/blue-cartridge.png" height={80} width={80} alt="blue-cartridge"/></div>
+              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/green-cartridge.png" height={80} width={80} alt="green-cartridge"/></div>
+              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/blue-cartridge.png" height={80} width={80} alt="blue-cartridge"/></div>
+              <div className="p-[1vw] pb-0   w-[8vw] tablet:w-[15vw] mobile:w-[30vw]"> <Image src="/assets/advastaplc/green-cartridge.png" height={80} width={80} alt="green-cartridge"/></div>
             </div>
           </div>
 

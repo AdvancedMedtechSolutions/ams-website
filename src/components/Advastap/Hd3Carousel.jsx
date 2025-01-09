@@ -24,7 +24,7 @@ const Hd3Carousel = () => {
     <>
       <section
         id="skinstapler-carousel"
-        className="overflow-hidden tablet:h-[70vh] pb-[5%] mobile:h-[170vw] bg-[#020912]"
+        className="overflow-hidden tablet:h-[70vh] pb-[5%] mobile:h-[170vw] bg-[#020912] dark"
       >
         <div
           className={`w-screen h-full  py-[5vw] swiper-container cursor-grab relative mobile:items-start`}

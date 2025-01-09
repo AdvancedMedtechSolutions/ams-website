@@ -114,7 +114,7 @@ const advapd = () => {
           />
           <Information
             info={
-              "ADVAPD suture is a monofilament synthetic absorbable sterile surgical suture composed of a copolymer made from the Polyester and Polydioxanone. ADVAPD suture is available in both dyed and undyed form. These sutures are particularly useful where the combination of an absorbable suture and extended wound support (up to six weeks) is desirable."
+              "ADVAPD suture is a monofilament synthetic absorbable sterile surgical suture composed of a copolymer made from the Polyester and Polydioxanone. ADVAPD suture is available in violet form. These sutures are particularly useful where the combination of an absorbable suture and extended wound support (up to six weeks) is desirable."
             }
           />
           <Edge

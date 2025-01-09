@@ -131,7 +131,7 @@ const Ergonomic = () => {
          Proprietary Shaft Design
           </p>
           <p className="text-[1.05vw] mobile:leading-[1.2]  mobile:text-[3.5vw] mobile:w-[70%] mobile:mt-[1.5vw] tablet:text-[2.5vw]">
-          Balanced Pus & track performance
+          Balanced Push & track performance
           </p>
         </div>
         <div className="absolute w-full h-full top-0 left-0">

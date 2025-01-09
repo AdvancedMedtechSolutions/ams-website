@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
@@ -67,10 +67,11 @@ const AdvaclipCarousel = () => {
                         className="object-cover mobile:object-contain rounded-[3vw] tablet:rounded-[5vw] mobile:rounded-[9vw] "
                       />
                     </div>
-                    <p className=" w-[40%] text-[1.25vw] leading-[1.3] absolute top-[15%] right-[10%] font-light aeonik  text-[#2A2A2A] mobile:text-[5.5vw] mobile:w-[90%] mobile:top-auto mobile:bottom-[10%] mobile:font-light mobile:left-[5%] mobile:text-center  mobile:z-50 tablet:text-[2.5vw] tablet:top-[10%] tablet:font-light tablet:w-[40vw]">
+                    <p className=" w-[50%] text-[1.25vw] leading-[1.3] absolute top-[15%] right-[10%] font-light aeonik  text-[#2A2A2A] mobile:text-[5.5vw] mobile:w-[90%] mobile:top-auto mobile:bottom-[10%] mobile:font-light mobile:left-[5%] mobile:text-center  mobile:z-50 tablet:text-[2.5vw] tablet:top-[10%] tablet:font-light tablet:w-[40vw]">
                       <span >
-                        Inner cross-serration Innovative pull-tab adhesive
-                        mechanism Single mold design
+                        Inner cross-serration <br/>
+                        Innovative pull-tab adhesive
+                        mechanism  <br/> Single mold design
                       </span>
                     </p>
                   </div>
@@ -95,6 +96,7 @@ const AdvaclipCarousel = () => {
                     <p className="w-[38%] text-[1.25vw] absolute top-[15%] right-[10%] aeonik  leading-[1.3] text-[#2A2A2A] font-light mobile:text-[5.5vw] mobile:w-[90%] mobile:font-light mobile:top-auto mobile:bottom-[10%] mobile:left-[5%]  mobile:z-50 mobile:text-center  tablet:text-[2.5vw] tablet:top-[10%] tablet:w-[40vw] tablet:font-light">
                       <span >
                       Novel knurling surface
+                      <br/>
                       Distinctive heart-shaped profile
                       </span>
                     </p>

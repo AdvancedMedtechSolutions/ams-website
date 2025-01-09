@@ -99,7 +99,7 @@ const LC2Carousel = () => {
               <div className="py-[2vw] flex justify-center fadeUp">
                 <div className="w-full h-full flex flex-col justify-center gap-[2vw]  mobile:w-[85vw] mobile:h-[150vw] mobile:justify-center mobile:gap-0 tablet:h-[50vh]">
                   <p className="text-[2.5vw] font-light ml-[1.5vw] mobile:text-[8vw] mobile:text-center tablet:text-[3vw] mobile:h-[25vw] tablet:h-[8vw]">
-                    <span>Innovative B-form staple technology 2</span>
+                    <span>Innovative B-form staple technology </span>
                   </p>
                   <div className=" h-[31vw] w-[48vw] pb-[2vw] flex flex-col gap-[4vw] overflow-hidden relative mobile:h-[100vw] mobile:w-[85vw]  tablet:h-[50vh] t">
                     <div className="w-full h-full absolute mobile:h-[55vw] mobile:w-[85vw]">
@@ -137,7 +137,8 @@ const LC2Carousel = () => {
                     </div>
                     <p className="w-[60%] text-[1.25vw] absolute bottom-[15%] left-[10%] aeonik  text-[#2A2A2A]  leading-[1.3] font-light mobile:text-[5.5vw]  mobile:font-light mobile:w-[90%] mobile:bottom-[10%] mobile:left-[5%] mobile:z-50 mobile:text-center tablet:text-[2.5vw] tablet:bottom-[5%] tablet:w-[40vw] tablet:font-light">
                       <span>
-                        Enclose the blades pre and post firing Avoids accidental
+                        Enclose the blades pre and post firing <br/>
+                        Avoids accidental
                         operational misfiring before clamping
                       </span>
                     </p>

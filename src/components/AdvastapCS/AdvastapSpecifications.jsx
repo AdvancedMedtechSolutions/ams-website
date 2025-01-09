@@ -5,13 +5,13 @@ const AdvastapSpecifications = () => {
   return (
     <>
       <Specifications
-       paddingBottom={"!pb-[7vw]"}
+        paddingBottom={"!pb-[7vw]"}
         textclass={"advastap-text"}
         bgimg={"/assets/endolc/specifications-bg.png"}
         heading={"Technical Specification"}
         color={"#A883D7"}
       >
-        <div data-lenis-prevent  className="w-full text-[1.25vw] font-light py-[2vw]  text-[#4A4A4A] overflow-y-auto mobile:py-[5vw] mobile:text-[4.5vw] tablet:text-[2.5vw]  mobile:overflow-x-scroll  mobile:overflow-scroll mobile:mt-[7vw] ">
+        <div data-lenis-prevent className="w-full text-[1.25vw] font-light py-[2vw]  text-[#4A4A4A] overflow-y-auto mobile:py-[5vw] mobile:text-[4.5vw] tablet:text-[2.5vw]  mobile:overflow-x-scroll  mobile:overflow-scroll mobile:mt-[7vw] ">
           <div className="flex w-full border-b border-[#DADADA] mobile:w-[180vw] ">
             <div className="flex-[0.5] p-[1vw] pb-0 font-light tablet:w-[20vw]">Product Code</div>
             <div className="flex-1 flex justify-between mobile:w-[100vw]">
@@ -63,8 +63,8 @@ const AdvastapSpecifications = () => {
           <div className="flex w-full border-b border-[#DADADA] mobile:w-[180vw]">
             <div className="flex-[0.5] p-[1vw] pb-0">Closed Stapler Height</div>
             <div className="flex-1 flex justify-between mobile:w-[100vw] ">
-              <div className="p-[1vw] pb-0   mobile:w-[80vw]">2.15÷0.2mm</div>
-              <div className="p-[1vw] pb-0   w-[20vw] mobile:w-[80vw]">2.25£0.2mm</div>
+              <div className="p-[1vw] pb-0   mobile:w-[80vw]">2.15±0.2mm</div>
+              <div className="p-[1vw] pb-0   w-[20vw] mobile:w-[80vw]">2.25±0.2mm</div>
             </div>
           </div>
 

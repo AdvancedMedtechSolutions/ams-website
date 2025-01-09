@@ -70,7 +70,7 @@ export default function Hero() {
             <p className="font-light max-w-[50vw] text-[1.25vw] text-white mt-[3vw] mb-[7vw] mobile:text-[4.5vw] mobile:max-w-[90vw] mobile:text-center mobile:mt-[10vw] mobile:mb-[15vw]  tablet:text-[2.5vw] tablet:max-w-[50vw] mobile:text-[#111111] ">
               <span data-para-anim className="mobile:leading-[1.8] text-shadow-para mobile:!drop-shadow-none">
                 AMS is dedicated to advancing healthcare by providing meaningful
-                MedTech solutions, improving lives for patients around the
+                MedTech solutions and improving lives for patients around the
                 world.
               </span>
             </p>

@@ -398,7 +398,7 @@ export default function Offerings() {
             <div className="card-item w-screen shadow-sm" id="card-item-4">
               <div className="w-[90%] mx-auto h-full">
                 <div className={`${styles.cardHead}`}>
-                  <h4 className="">Stent Delivery Systems</h4>
+                  <h4 className="">Stent Delivery System</h4>
                   <p className="mobile:!text-[3.8vw]">
                     Rapid Exchange Catheter
                   </p>
@@ -614,7 +614,7 @@ const smallContent = [
     image: "/assets/oem/hernia-solutions.png",
   },
   {
-    title: "Stent Delivery Systems",
+    title: "Stent Delivery System",
     image: "/assets/oem/stent-delivery.png",
   },
   {
@@ -706,23 +706,15 @@ const modalContent = [
 
           <div className="flex w-full border-b border-[#DADADA] gap-[5vw]  tablet:gap-[8vw] mobile:gap-[15vw]">
             <div className=" p-[1vw] pb-0  w-[20vw] tablet:w-[30vw] text-[#4564AC] mobile:w-[40vw]">
-              Needle
+              Needle Availability
             </div>
 
             <div className="p-[1vw] pb-0   w-[30vw] tablet:w-[55vw] mobile:w-[90vw]">
-              Taper Cut, Cutting, Reverse Cutting &
+              Taper Cut, Cutting, Reverse Cutting & Blunt Point.
             </div>
           </div>
 
-          <div className="flex w-full border-b border-[#DADADA] gap-[5vw]  tablet:gap-[8vw] mobile:gap-[15vw]">
-            <div className=" p-[1vw] pb-0  w-[20vw] tablet:w-[30vw] text-[#4564AC] mobile:w-[40vw]">
-              Availability
-            </div>
-
-            <div className="p-[1vw] pb-0  w-[30vw] tablet:w-[55vw] mobile:w-[70vw]">
-              Blunt Point.
-            </div>
-          </div>
+          
           <div className="flex w-full border-b border-[#DADADA] gap-[5vw]  tablet:gap-[8vw] mobile:gap-[15vw]">
             <div className=" p-[1vw] pb-0  w-[20vw] tablet:w-[30vw] text-[#4564AC] mobile:w-[40vw]">
               Length
@@ -968,6 +960,14 @@ const modalContent = [
 
           <div className="flex w-full border-b border-[#DADADA] gap-[5vw]  tablet:gap-[15vw] mobile:gap-[15vw]">
             <div className=" p-[1vw] pb-0  w-[30vw] tablet:w-[30vw] text-[#4564AC] mobile:w-[60vw]">
+              Balloon Rated Burst Pressure
+            </div>
+            <div className="p-[1vw] pb-0  w-[30vw] tablet:w-[40vw] mobile:w-[70vw]">
+              14-18 ATM*
+            </div>
+          </div>
+          <div className="flex w-full border-b border-[#DADADA] gap-[5vw]  tablet:gap-[15vw] mobile:gap-[15vw]">
+            <div className=" p-[1vw] pb-0  w-[30vw] tablet:w-[30vw] text-[#4564AC] mobile:w-[60vw]">
               Coating (Except Balloon)
             </div>
             <div className="p-[1vw] pb-0  w-[30vw] tablet:w-[40vw] mobile:w-[70vw]">
@@ -976,7 +976,7 @@ const modalContent = [
           </div>
 
           <div className="flex w-full border-b border-[#DADADA] gap-[5vw]  tablet:gap-[16vw] mobile:gap-[15vw]">
-            <div className=" p-[1vw] pb-0  w-[30vw] tablet:w-[80vw] text-[#4564AC] mobile:w-[90vw]">
+            <div className=" p-[1vw] pb-0  w-[30vw] tablet:w-[80vw] text-[#4564AC] mobile:w-[90vw] ">
               * Depending on diameters & Stent Length
             </div>
           </div>

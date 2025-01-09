@@ -71,7 +71,7 @@ const cardData = [
   },
   {
     title: "Tensile Strength",
-    description: "Permanent",
+    description: "May result in gradual loss over time",
     svg: "/assets/advalon/tensile.svg"
 
   },

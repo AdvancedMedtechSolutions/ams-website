@@ -59,7 +59,7 @@ const Molecular = () => {
 
   return (
     <>
-      <section className="molecular h-[100vh] overflow-hidden tablet:h-[100vh] mobile:h-full mt-[8%] tablet:mt-[15%] mobile:py-[20%] relative" id="molecular" ref={molecularContainer}>
+      <section className="molecular h-[100vh] overflow-hidden tablet:h-[100vh] mobile:h-full tablet:mt-[15%] mobile:py-[20%] relative" id="molecular" ref={molecularContainer}>
         <div className="w-screen h-screen absolute z-[1] overflow-hidden mobile:h-[355vw] mobile:w-screen realative">
           <span className="absolute bg-white/25 top-0 left-0 right-0 bottom-0" />
           <LazyVideo

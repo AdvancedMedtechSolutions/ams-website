@@ -39,12 +39,12 @@ const LC3Specifications = () => {
           <div className=" p-[1vw] pb-0  font-light text-[#4564AC] w-[25vw] tablet:w-[40vw] mobile:w-[55vw]">Linear Cutter Reload</div> 
         </div>
         <div className="flex w-full border-b border-[#DADADA]  tablet:w-[130vw] mobile:w-[180vw]">
-          <div className=" p-[1vw] pb-0  w-[25vw]  tablet:w-[40vw] mobile:w-[60vw]">Reference Code
+          <div className=" p-[1vw] pb-0  w-[25vw]  tablet:w-[40vw] mobile:w-[60vw] ">Reference Code
           </div>
           <div className=" flex justify-start  gap-[10vw]">
-            <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">ADVALC55R3
+            <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">ADVALCR55R3
             </div>
-            <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]"> ADVALC75R3
+            <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]"> ADVALCR75R3
             </div>
           </div>
         </div>
@@ -58,33 +58,33 @@ const LC3Specifications = () => {
         </div>
 
         <div className="flex w-full border-b border-[#DADADA]  tablet:w-[130vw] mobile:w-[180vw]">
-          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw] mobile:pr-[2vw]">Staple length before closure</div>
+          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw] mobile:pr-[2vw] capitalize">Staple length before closure</div>
           <div className=" flex justify-start gap-[10vw] ">
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">4.3 mm</div>
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">4.3 mm</div>
           </div>
         </div>
         <div className="flex w-full border-b border-[#DADADA]  tablet:w-[130vw] mobile:w-[180vw]">
-          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw]">Approx. staple height closed</div>
+          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw] capitalize">Approx. staple height closed</div>
           <div className=" flex justify-start  gap-[8vw] ">
             <div className="p-[1vw] pb-0  ">
                 <ul>
-                    <li className='flex items-center w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[10px] w-[10px] rounded-full bg-[#5391C8] block mr-[0.5vw]'></span>Regular, 1.5 mm</li>
-                    <li className='flex items-center w-[15vw] tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[10px] w-[10px] rounded-full bg-[#D7B56E] block mr-[0.5vw] '></span>Regular - Thick, 1.8 mm</li>
-                    <li className='flex items-center w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[10px] w-[10px] rounded-full bg-[#52B173] block mr-[0.5vw]'></span>Thick, 2.0 mm</li>
+                    <li className='flex items-center w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[0.9vw] w-[0.9vw] rounded-full bg-[#5391C8] block mr-[0.5vw]'></span>Regular, 1.5 mm</li>
+                    <li className='flex items-center w-[15vw] tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[0.9vw] w-[0.9vw] rounded-full bg-[#D7B56E] block mr-[0.5vw] '></span>Regular - Thick, 1.8 mm</li>
+                    <li className='flex items-center w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[0.9vw] w-[0.9vw] rounded-full bg-[#52B173] block mr-[0.5vw]'></span>Thick, 2.0 mm</li>
                 </ul>
             </div>
             <div className="p-[1vw] pb-0    ">
                 <ul >
-                    <li className='flex items-center w-[15vw] tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[10px] w-[10px] rounded-full bg-[#5391C8] block mr-[0.5vw]'></span>Regular, 1.5 mm</li>
-                    <li className='flex items-center w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[10px] w-[10px] rounded-full bg-[#D7B56E] block mr-[0.5vw]'></span>Regular - Thick, 1.8 mm</li>
-                    <li className='flex items-center  w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[10px] w-[10px] rounded-full bg-[#52B173] block mr-[0.5vw]'></span>Thick, 2.0 mm</li>
+                    <li className='flex items-center w-[15vw] tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[0.9vw] w-[0.9vw] rounded-full bg-[#5391C8] block mr-[0.5vw]'></span>Regular, 1.5 mm</li>
+                    <li className='flex items-center w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[0.9vw] w-[0.9vw] rounded-full bg-[#D7B56E] block mr-[0.5vw]'></span>Regular - Thick, 1.8 mm</li>
+                    <li className='flex items-center  w-[15vw]  tablet:w-[40vw] mobile:w-[55vw]'><span className='h-[0.9vw] w-[0.9vw] rounded-full bg-[#52B173] block mr-[0.5vw]'></span>Thick, 2.0 mm</li>
                 </ul></div>
           </div>
         </div>
 
         <div className="flex w-full border-b border-[#DADADA]  tablet:w-[130vw] mobile:w-[180vw]">
-          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw]">No. of pins</div>
+          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw] capitalize">No. of pins</div>
           <div className=" flex justify-start gap-[10vw] ">
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">88</div>
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">118</div>
@@ -95,23 +95,23 @@ const LC3Specifications = () => {
           <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]   tablet:w-[40vw] mobile:w-[60vw]">
            Closed Staple Shape</div>
           <div className=" flex justify-start gap-[6vw] ">
-            <div className="p-[1vw] pb-0  w-[19vw] flex items-start justify-start gap-[1vw] pb-0  tablet:w-[40vw] mobile:w-[55vw] "> <div className='relative h-[3vw] w-[3vw] '>
+            <div className="p-[1vw] pb-0  w-[19vw] flex items-start justify-start gap-[1vw]  tablet:w-[40vw] mobile:w-[55vw] "> <div className='relative h-[3vw] w-[3vw] '>
               <Image src="/assets/advastaplc/x-shaped.png" fill alt="x-shaped" className='object-contain'/>
               </div>X-Shaped Technology</div>
-              <div className="p-[1vw] pb-0  w-[19vw] flex items-start justify-start gap-[1vw] pb-0  tablet:w-[40vw] mobile:w-[55vw] "> <div className='relative h-[3vw] w-[3vw] '>
+              <div className="p-[1vw] pb-0  w-[19vw] flex items-start justify-start gap-[1vw]  tablet:w-[40vw] mobile:w-[55vw] "> <div className='relative h-[3vw] w-[3vw] '>
               <Image src="/assets/advastaplc/x-shaped.png" fill alt="x-shaped" className='object-contain'/>
               </div>X-Shaped Technology</div>
           </div>
         </div>
         <div className="flex w-full border-b border-[#DADADA]  tablet:w-[130vw] mobile:w-[180vw]">
-          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw]">Rows of staples</div>
+          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw] capitalize">Rows of staples</div>
           <div className=" flex justify-start gap-[10vw]">
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">6</div>
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">6</div>
           </div>
         </div>
         <div className="flex w-full border-b border-[#DADADA]  tablet:w-[130vw] mobile:w-[180vw]">
-          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw]">Length of staple line</div>
+          <div className=" p-[1vw] pb-0  text-[#4564AC] w-[25vw]  tablet:w-[40vw] mobile:w-[60vw] capitalize">Length of staple line</div>
           <div className=" flex justify-start gap-[10vw]">
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">60 mm</div>
             <div className="p-[1vw] pb-0  w-[15vw] tablet:w-[40vw] mobile:w-[55vw]">80 mm</div>

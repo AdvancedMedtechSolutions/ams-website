@@ -87,25 +87,25 @@ const Card = ({ title, description, image, link }) => {
 
 const content = [
   {
-    title: "Reimagining Health, Redefining Care Arab Health 2025",
+    title: "Reimagining Health, Redefining Care : Arab Health 2025",
     description: "Advanced MedTech Solutions is excited to showcase innovation at Arab Health 2025! Visit us to explore advanced solutions transforming healthcare.",
     image: "/assets/home/blog-image-1.png",
     link: "/ams-at-arab-health-2025",
   },
   {
-    title: "Shaping the Future of Healthcare Advanced Surgery & Cardiovascular",
+    title: "Shaping the Future of Healthcare : Advanced Surgery & Cardiovascular",
     description: "AMS serves as a healthcare ecosystem focused on the MedTech fields of Advanced Surgery & Advanced Cardiovascular.",
     image: "/assets/home/blog-image-2.png",
     link: "/shaping-the-future-of-healthcare-in-advanced-surgery",
   },
   {
-    title: "The Next Leap in Endo Surgery 3-Row Series",
+    title: "The Next Leap in Endo Surgery : 3-Row Series",
     description: "The ADVASTAP Staplers 3-row series is here, setting a new benchmark in endo surgery. Designed to enhance precision and improve patient outcomes, our innovative stapling technology is revolutionizing the surgical landscape..",
     image: "/assets/home/blog-image-3.png",
     link: "/discover-the-next-leap-in-endo-surgery-advastap-3-row-series",
   },
   {
-    title: "Building the Future of MedTech Expansion of The AMS Campus",
+    title: "Building the Future of MedTech : Expansion of the AMS Campus",
     description: "AMS Takes Center Stage at Arab Health in Dubai: Leading the Charge in Global MedTech with Industry leaders and partners Transforming Healthcare Worldwide.",
     image: "/assets/home/blog-image-4.png",
     link: "/building-for-future-of-medtech-expansion-of-the-ams-campus",

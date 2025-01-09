@@ -70,7 +70,7 @@ const Work = () => {
             no={1}
             heading={"Our Work Environment"}
             src={"/assets/career/career-work.webp"}
-            para={"Innovative, collaborative, and Driven by a mission to improve lives."}
+            para={"Innovative, collaborative and driven by a mission to improve lives."}
             btn={"See Our Initiatives"}
             link={"newsroom"}
           />
@@ -82,7 +82,7 @@ const Work = () => {
             heading={"Inclusivity & Equality"}
             src={"/assets/career/career-employees.webp"}
             para={
-              "Ensuring every voice is heard, valued, and empowered."
+              "Ensuring every voice is heard, valued and empowered."
             }
             btn={"Learn More About Us"}
             link={"about-us"}

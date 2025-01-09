@@ -38,7 +38,7 @@ const SkinStaplerSpecification = () => {
 
         <div className="p-[1vw] pb-0 w-[30vw] tablet:w-[55vw] mobile:w-[70vw]">
           <Image src="/assets/skinstapler/closed.png" alt="closed"
-          height={60} width={100}/>
+          height={70} width={130} className=''/>
         </div>
       </div>
 

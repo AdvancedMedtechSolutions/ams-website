@@ -18,6 +18,7 @@ const JobDescription = ({ onClose, job }) => {
       document.removeEventListener("mousedown", handleOutsideClick);
     };
   }, []);
+
   const handleLinkClick = () => {
     setIsModalOpen(true);
   };
@@ -41,7 +42,7 @@ const JobDescription = ({ onClose, job }) => {
         {!isModalOpen ? (
           <div className=" flex items-center justify-center h-full">
             <div
-              className="w-[70vw] h-[45vw] rounded-[3vw] overflow-hidden relative px-[5vw] pt-[3vw] bg-white jd-card mobile:h-[70vh] mobile:w-[90vw] mobile:rounded-[7vw] mobile:py-[10vw] tablet:w-[85vw] tablet:h-[70vh]"
+              className="w-[70vw] h-[45vw] rounded-[3vw] overflow-hidden relative px-[5vw] pt-[5vw] bg-white jd-card mobile:h-[70vh] mobile:w-[90vw] mobile:rounded-[7vw] mobile:py-[10vw] tablet:w-[85vw] tablet:h-[70vh]"
               id="jd-block"
             >
               <div className="w-full h-full absolute top-0 left-0">
@@ -57,8 +58,9 @@ const JobDescription = ({ onClose, job }) => {
                 className="overflow-y-auto overflow-visible h-full w-full"
               >
                 <div className="w-full h-full relative z-[10] mobile:gap-[7vw] tablet:gap-[4vw] tablet:pt-[4vw]">
+                  <h3 className="text-[2.5vw] tablet:text-[5vw] mobile:text-3xl mobile:mb-4 aeonik mb-6 text-[#2a2a2a]">{job.title}</h3>
                   <div
-                    className={`${style.job} space-y-[1.5vw] tablet:space-y-[3vw] mobile:space-y-[5vw]`}
+                    className={`${style.job} space-y-[2vw] tablet:space-y-[3vw] mobile:space-y-[5vw]`}
                     dangerouslySetInnerHTML={{ __html: job.content }} />
                   <div className={`${styles.btn} cursor-pointer mobile:min-h-[15vw]`} onClick={handleLinkClick}>
                     <div aria-hidden="true" className={styles.btnCircle}>
