@@ -24,18 +24,18 @@ const ContactDetail = () => {
                 <div className="flex flex-col gap-[0.5vw] text-[1.25vw] mobile:text-[5.5vw] mobile:w-full mobile:text-center mobile:gap-[4vw] tablet:text-[2.5vw]">
                   <h4>Manufacturing:</h4>
                   <p className="w-[65%] font-light mobile:w-full tablet:w-full">
-                  Advanced MedTech Solutions<br/> P-21-22, 25-26 & 34-35, GIDC
-                      Manjusar, Tal – Savli, Dist. – Vadodara -391775 Gujarat,
-                      India
+                    Advanced MedTech Solutions<br /> P-21-22, 25-26 & 34-35, GIDC
+                    Manjusar, Tal - Savli, Dist. - Vadodara -391775 Gujarat,
+                    India
                   </p>
                 </div>
                 <div className="flex flex-col gap-[0.5vw] text-[1.25vw] mobile:text-[5.5vw] mobile:w-full mobile:text-center mobile:gap-[1vw] tablet:text-[2.5vw]">
                   <h4>Phone:</h4>
-                  <a href="tel:+91 2667671302" className="font-light">+91 2667671302</a>
+                  <a href="tel:+91 2667671302" className="font-light hover:underline">+91 2667671302</a>
                 </div>
                 <div className="flex flex-col gap-[0.5vw] text-[1.25vw] mobile:text-[5.5vw] mobile:w-full mobile:text-center mobile:gap-[1vw] tablet:text-[2.5vw]" >
                   <h4>Email:</h4>
-                  <a href="mailto:info@amsltd.com" className="font-light">info@amsltd.com</a>
+                  <a href="mailto:info@amsltd.com" className="font-light hover:underline">info@amsltd.com</a>
                 </div>
                 <div className="flex flex-col gap-[0.5vw] text-[1.25vw] mobile:text-[5.5vw] mobile:w-full mobile:text-center mobile:gap-[1vw] tablet:text-[2.5vw] tablet:gap-[1.5vw]">
                   <p>Socials:</p>
@@ -115,7 +115,8 @@ const ContactDetail = () => {
           </div>
 
           <div className="relative mt-[-5%] tablet:mt-[10%] z-0 w-full h-[36vw] mobile:mt-[15%] rounded-[2vw] overflow-hidden fadeUp mobile:h-[160vw] mobile:w-[90vw] mobile:ml-0 mobile:rounded-[7vw] tablet:h-[60vw] tablet:w-[90vw] tablet:ml-0">
-            <iframe
+            <iframe src="https://snazzymaps.com/embed/672758" width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            {/* <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.271775312155!2d73.1982016!3d22.4416587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcd55d94a2c7b%3A0x15b70110ad06dd8d!2sAdvanced%20MedTech%20Solutions!5e0!3m2!1sen!2sin!4v1699342803289!5m2!1sen!2sin"
               width="100%"
               height="100%"
@@ -123,7 +124,7 @@ const ContactDetail = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </section>
