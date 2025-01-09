@@ -276,6 +276,7 @@ function generateSitemap({ posts = [] }, nextConfig = {}) {
     { slug: "infographics/advakit-hernia.pdf" },
     { slug: "infographics/advakit-ortho.pdf" },
     { slug: "infographics/advastap-reloads.pdf" },
+    { slug: "infographics/ligation-advaclip.pdf" },
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

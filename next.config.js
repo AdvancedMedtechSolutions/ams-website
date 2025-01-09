@@ -106,12 +106,12 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/assets/frontend/:slug',
+        source: '/assets/frontend/:slug*',
         destination: '/',
         permanent: true,
       },
       {
-        source: '/app/webroot/:slug',
+        source: '/app/webroot/:slug*',
         destination: '/',
         permanent: true,
       },
@@ -146,7 +146,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/files/catalog/:slug',
+        source: '/files/catalog/:slug*',
         destination: '/',
         permanent: true,
       },
