@@ -901,7 +901,6 @@ background-color: #ffffff !important;
 .submenu h2 {
   margin: 0;
 }
-
 .bgFadeIn{
   opacity: 0;
   animation: fadeIn 1s forwards;
