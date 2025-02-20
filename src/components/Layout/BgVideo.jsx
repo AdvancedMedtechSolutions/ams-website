@@ -12,7 +12,7 @@ const BgVideo = ({ videoSrc }) => {
 
     return (
         <>
-            <div className="fixed z-[-1] top-0 left-0 h-screen w-screen pointer-events-none">
+            <div className="fixed z-[-1] top-0 left-0 h-screen w-screen pointer-events-none bgFadeIn">
                 <video ref={videoRef} loop autoPlay playsInline muted className="w-full h-full object-cover"/>
             </div>
         </>

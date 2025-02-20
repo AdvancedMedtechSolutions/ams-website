@@ -18,7 +18,7 @@ const locationsData = [
   },
   {
     title: "Regional Office",
-    address: "31, Ground Floor, 10th main, 5th Cross Rd, 2nd Block, Banashankari 1st Stage, Bengaluru, Karataka - 560050, India",
+    address: " P-21-22, 25-26 & 34-35, GIDC Manjusar, Tal - Savli, Dist. - Vadodara -391775 Gujarat, India",
   },
 ];
 
