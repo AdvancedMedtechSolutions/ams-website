@@ -104,7 +104,7 @@ const Menu = ({ isMenuOpen, toggleMenu }) => {
         ref={mainMenu}
         className={`w-screen h-screen fixed left-0 z-[100] top-[-100%] mobile:h-full mobile:w-full`}
       >
-        <div className="bg-white h-[70%] w-full relative tablet:h-1/2 mobile:h-full menu" ref={mainMenuRef}>
+        <div className="bg-white h-[75%] w-full relative tablet:h-1/2 mobile:h-full menu" ref={mainMenuRef}>
           <Media greaterThan="mobile">
             <div className="w-[25%] tablet:w-[28%] h-full absolute">
               <video

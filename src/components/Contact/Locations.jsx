@@ -3,6 +3,11 @@ import React from "react";
 
 const locationsData = [
   {
+    title: "Manufacturing",
+    address: "Advanced MedTech Solutions, P-21-22, 25-26 & 34-35, GIDC Manjusar, Tal - Savli, Dist. - Vadodara -391775 Gujarat, India",
+    contact: "T: +91 2667671302"
+  },
+  {
     title: "Corporate HQ",
     address: "Corporate: 111 Somerset Road, #07-08 111 Somerset, Singapore - 238164  |  T: (65) 91020778",
     contact: "T: (65) 63691080/ 891",
@@ -15,11 +20,7 @@ const locationsData = [
   {
     title: "Regional Office",
     address: "SM0132, 18 Floor, DLF Star Mall, Sector 30, NH-48, Opp: 32\" Avenue, Gurugram, 122001, Delhi - India",
-  },
-  {
-    title: "Regional Office",
-    address: " P-21-22, 25-26 & 34-35, GIDC Manjusar, Tal - Savli, Dist. - Vadodara -391775 Gujarat, India",
-  },
+  }
 ];
 
 const Locations = () => {

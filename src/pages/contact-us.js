@@ -12,11 +12,11 @@ import React from 'react'
 
 const contact = () => {
   const metadata = {
-    title: "Contact Us – Advanced MedTech Solutions",
+    title: "Contact Us - Advanced MedTech Solutions",
     description:
       "Reach out to Advanced MedTech Solutions for inquiries, support, or collaborations. We are here to assist.",
     img: "contact-us.png",
-    alt: "Contact Us – Advanced MedTech Solutions",
+    alt: "Contact Us - Advanced MedTech Solutions",
     slug: "contact-us",
     date_published: "2020-01-01T00:00",
     date_modified: "2024-12-26T12:32",

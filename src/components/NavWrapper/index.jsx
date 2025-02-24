@@ -70,7 +70,7 @@ export default function NavWrapper({ isMenuOpen }) {
 }
 function MainNav({ onSelectMenu }) {
     return (
-        <ul className='space-y-[0.5vw] mobile:space-y-[2vw] border-r pr-[3vw] border-[#d8d8d8] py-5 main-nav tablet:border-none mobile:border-none tablet:pl-[3vw] mobile:pt-[20vw]'>
+        <ul className='space-y-[0.2vw] mobile:space-y-[2vw] border-r pr-[3vw] border-[#d8d8d8] py-5 main-nav tablet:border-none mobile:border-none tablet:pl-[3vw] mobile:pt-[20vw]'>
             <li>
                 <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[6vw]' href={"/"} linkText="Home" />
             </li>
@@ -107,7 +107,6 @@ function MainNav({ onSelectMenu }) {
             <li>
                 <NavLink className='text-[1.5vw] tablet:!text-[2.5vw] mobile:!text-[6vw]' href={"/contact-us"} linkText="Contact" />
             </li>
-           
         </ul>
     );
 }
