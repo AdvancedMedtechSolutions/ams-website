@@ -17,7 +17,7 @@ export default function Career() {
                     <div className="w-[58%] h-[35vw] relative z-10 space-y-[1vw] tablet:w-[80%] tablet:h-[60vw] mobile:w-[100%] mobile:h-full mobile:space-y-[5vw] mobile:text-center mobile:flex-col mobile:mt-[70vw] " >
                         <h2 className="title-2 aeonik mobile:w-full">
                             <span data-para-anim className=" 1">
-                                Join Our Mission to
+                                Join Our Mission to{" "}
                             </span>
                             <span data-para-anim className=" 1">
                                 Create a Healthier World
